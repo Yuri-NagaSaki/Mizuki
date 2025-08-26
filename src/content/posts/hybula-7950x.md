@@ -1,11 +1,7 @@
 ---
+tags: [eu, eu-server]
 title: "Hybula 7950x 荷兰24欧"
 published: 2023-04-08
-categories: 
-  - "vps"
-  - "eu-server"
-tags: 
-  - "eu"
 ---
 
 <picture>

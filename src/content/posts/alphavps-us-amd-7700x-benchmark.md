@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "AlphaVPS US AMD 7700X 测试"
 published: 2023-09-17
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 > ## 套餐

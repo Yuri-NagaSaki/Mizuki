@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "Crunchbits Special 促销"
 published: 2023-08-07
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 ## 配置

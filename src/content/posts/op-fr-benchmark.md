@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "op法国杜甫 测评"
 published: 2023-06-18
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ```shell

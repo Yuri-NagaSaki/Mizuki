@@ -1,10 +1,7 @@
 ---
+tags: [sg-server, jp-server]
 title: "Sharon JP SG Standard 测评"
 published: 2024-06-29
-categories: 
-  - "sg-server"
-  - "jp-server"
-  - "vps"
 ---
 
 - 蚌，老板滞销，推出了首月 1 折优惠，买来图一乐，顺便记录一下。

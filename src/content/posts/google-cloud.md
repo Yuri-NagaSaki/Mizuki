@@ -1,12 +1,7 @@
 ---
+tags: [tw-server, sg-server, jp-server, hk-server]
 title: "Google Cloud 测评"
 published: 2023-07-10
-categories: 
-  - "tw-server"
-  - "sg-server"
-  - "jp-server"
-  - "vps"
-  - "hk-server"
 ---
 
 ## GCP 台湾

@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Scaleway 荷兰 年付30元"
 published: 2023-07-09
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## Yabs

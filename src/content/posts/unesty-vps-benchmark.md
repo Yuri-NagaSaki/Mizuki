@@ -1,11 +1,7 @@
 ---
+tags: [eu, eu-server]
 title: "Unesty 春季促销 高配德国vps"
 published: 2023-04-02
-categories: 
-  - "vps"
-  - "eu-server"
-tags: 
-  - "eu"
 ---
 
 1.价格

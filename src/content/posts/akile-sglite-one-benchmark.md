@@ -1,9 +1,7 @@
 ---
+tags: [sg-server]
 title: "Akile SGLite-One 测评"
 published: 2023-10-03
-categories: 
-  - "sg-server"
-  - "vps"
 ---
 
 ## 套餐配置

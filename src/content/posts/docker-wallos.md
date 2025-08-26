@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Docker 部署 wallos 管理你的订阅"
 published: 2024-02-12
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 ## 1\. 前言

@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "HostBrr 德国 AMD 9950X 测评"
 published: 2024-09-08
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 HostBrr于今天也开启了9950X的销售，这次机房不在Hetzner，网络相比ntt和hz有了不小的进步。目前提供VPS，VDS两种产品销售，作为新发售的CPU，性价比不错，想尝鲜的可以玩玩。

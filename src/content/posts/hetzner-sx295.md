@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Hetzner SX295 存储机测评"
 published: 2024-06-03
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 coverImage: "image.png"
 ---
 

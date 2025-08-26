@@ -1,8 +1,7 @@
 ---
+tags: [laboratory]
 title: "OP杜甫 Raid1改Raid0 折腾记录"
 published: 2023-06-19
-categories: 
-  - "laboratory"
 ---
 
 <picture>

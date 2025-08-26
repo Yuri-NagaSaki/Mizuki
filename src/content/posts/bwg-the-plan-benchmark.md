@@ -1,12 +1,7 @@
 ---
+tags: [jp-server, eu-server, us-server, hk-server]
 title: "搬瓦工The Plan 机房系列测评"
 published: 2023-06-30
-categories: 
-  - "jp-server"
-  - "vps"
-  - "eu-server"
-  - "us-server"
-  - "hk-server"
 ---
 
 ## 香港HK 三网CMI

@@ -1,8 +1,7 @@
 ---
+tags: [knowledge]
 title: "ChatGPT增加对sentry.io的规则"
 published: 2023-05-28
-categories: 
-  - "knowledge"
 ---
 
 ## ChatGPT封禁可能的原因

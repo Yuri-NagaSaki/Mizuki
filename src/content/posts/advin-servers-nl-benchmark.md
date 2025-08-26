@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Advin Servers 荷兰测评"
 published: 2023-05-12
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 官网

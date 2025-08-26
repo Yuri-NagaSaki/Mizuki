@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Oracel 保活脚本"
 published: 2023-03-14
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 甲骨文官现在要收回闲置实例资源，使用率不高的免费实例可能会被清理。如果七天内符合以下条件，则 Oracle 会将免费实例视为空闲，并被回收。

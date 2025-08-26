@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Zgocloud 荷兰AMD 7402P测评"
 published: 2023-09-08
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 总结：没啥性价比，流量过小，性能一般。欧洲荷兰只给2T流量真挺莫名其妙的。

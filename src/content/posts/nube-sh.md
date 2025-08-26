@@ -1,12 +1,7 @@
 ---
+tags: [sg-server, jp-server, us-server, hk-server]
 title: "Nube.sh 弹性云折扣"
 published: 2025-02-25
-categories: 
-  - "sg-server"
-  - "jp-server"
-  - "vps"
-  - "us-server"
-  - "hk-server"
 ---
 
 牛老板也开启了促销，不过规则还是有些复杂的。

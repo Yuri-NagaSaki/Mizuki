@@ -1,12 +1,7 @@
 ---
+tags: [eu, strong-server, us-server]
 title: "InterServer 大盘鸡测评"
 published: 2023-03-08
-categories: 
-  - "strong-server"
-  - "vps"
-  - "us-server"
-tags: 
-  - "eu"
 ---
 
 ## 1.官网

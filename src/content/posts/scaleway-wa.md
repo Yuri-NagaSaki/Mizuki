@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Scaleway 波兰测评"
 published: 2023-09-16
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ### 融合怪脚本测试

@@ -1,12 +1,7 @@
 ---
+tags: [eu, strong-server, eu-server]
 title: "荷兰 liteserver 测评"
 published: 2023-03-11
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
-tags: 
-  - "eu"
 ---
 
 > 2007年的佬商家，自有ASN AS60404，主机托管于荷兰Serverius DC1资料中心，有NVMe及HDD可选，均提供1Gbps网络线路，流量会使用完成后会限速10Mbps

@@ -1,9 +1,7 @@
 ---
+tags: [ru-server]
 title: "Aeza Moscow AMD 7950X 测评"
 published: 2023-09-12
-categories: 
-  - "ru-server"
-  - "vps"
 ---
 
 > ## 套餐

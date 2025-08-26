@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hetzner EX43 Intel i5 12500 测评"
 published: 2024-07-19
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 日常捡垃圾 发现拍卖鸡好东西。通电平均2000小时，读写总计20T。

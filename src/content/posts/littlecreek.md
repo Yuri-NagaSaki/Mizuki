@@ -1,11 +1,7 @@
 ---
+tags: [usa, us-server]
 title: "Little Creek 评测"
 published: 2023-03-02
-categories: 
-  - "vps"
-  - "us-server"
-tags: 
-  - "usa"
 ---
 
 ## 1.官方网站

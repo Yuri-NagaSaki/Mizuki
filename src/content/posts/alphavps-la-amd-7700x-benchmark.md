@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "AlphaVPS 洛杉矶 AMD 7700X 测评"
 published: 2023-09-07
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 > ## 套餐

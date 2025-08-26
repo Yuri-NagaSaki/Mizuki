@@ -1,9 +1,7 @@
 ---
+tags: [jp-server]
 title: "ZgoCloud 大阪 AMD 9004 测评"
 published: 2023-06-23
-categories: 
-  - "jp-server"
-  - "vps"
 ---
 
 此版本中的线路商家已经不在提供，仅做参考

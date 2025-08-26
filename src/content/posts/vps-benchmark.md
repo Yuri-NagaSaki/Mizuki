@@ -1,9 +1,7 @@
 ---
+tags: [server-guide]
 title: "VPS 常用测试脚本"
 published: 2023-02-28
-categories: 
-  - "server-guide"
-  - "vps"
 ---
 
 ## 1.体检脚本

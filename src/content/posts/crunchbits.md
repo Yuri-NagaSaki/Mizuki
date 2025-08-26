@@ -1,11 +1,7 @@
 ---
+tags: [usa, us-server]
 title: "Crunchbits AMD 5950X 测评"
 published: 2023-02-22
-categories: 
-  - "vps"
-  - "us-server"
-tags: 
-  - "usa"
 ---
 
 # 商家介绍

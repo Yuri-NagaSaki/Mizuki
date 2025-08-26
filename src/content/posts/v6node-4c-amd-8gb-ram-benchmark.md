@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "v6Node 4 核 AMD 8GB RAM 10g口测评"
 published: 2023-06-07
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐价格

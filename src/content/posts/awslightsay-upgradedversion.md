@@ -1,9 +1,7 @@
 ---
+tags: [sg-server]
 title: "AWS Lightsail 新加坡 东京升级款"
 published: 2023-07-03
-categories: 
-  - "sg-server"
-  - "vps"
 ---
 
 ## 新加坡

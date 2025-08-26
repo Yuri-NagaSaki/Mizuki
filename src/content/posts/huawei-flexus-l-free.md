@@ -1,8 +1,7 @@
 ---
+tags: [knowledge]
 title: "华为云白嫖 9 个月Flexus应用服务器L"
 published: 2024-11-20
-categories: 
-  - "knowledge"
 coverImage: "huaweicloud.png"
 ---
 

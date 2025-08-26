@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hetzner Dedicated 测评"
 published: 2023-08-23
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐价格

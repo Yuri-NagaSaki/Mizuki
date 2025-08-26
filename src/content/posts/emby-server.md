@@ -1,8 +1,7 @@
 ---
+tags: [laboratory]
 title: "Emby客户端推荐"
 published: 2024-05-21
-categories: 
-  - "laboratory"
 coverImage: "image-43.png"
 ---
 

@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hetzner 25欧杜甫测试"
 published: 2023-08-23
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## SSD 测试

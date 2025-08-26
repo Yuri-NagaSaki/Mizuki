@@ -1,11 +1,7 @@
 ---
+tags: [sg, sg-server]
 title: "SpeedyPage 新加坡5950x测评"
 published: 2023-03-05
-categories: 
-  - "sg-server"
-  - "vps"
-tags: 
-  - "sg"
 ---
 
 ## 1.官方网站

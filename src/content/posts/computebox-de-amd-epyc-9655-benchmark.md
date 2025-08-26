@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "ComputeBox 德国 AMD Epyc 9655 测试"
 published: 2025-03-29
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 # ComputeBox 商家介绍

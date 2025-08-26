@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "奥地利云服务商 Alwyzon测评"
 published: 2023-05-28
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 奥地利云服务商 Alwyzon，Hohl IT e.U.旗下品牌，主要售卖 KVM 虚拟化的 VPS，大硬盘存储 VPS 和独立服务器，在奥地利最大互联网中心 Interxion 园区内运营所有服务器。欧洲对等互联优秀。

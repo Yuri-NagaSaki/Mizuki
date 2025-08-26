@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "ServerStatus-Rust Debian11 保姆级部署教程"
 published: 2023-09-04
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 > 本来探针部署在大阪的Oracle Arm上，无奈号被清退了，只得重新部署

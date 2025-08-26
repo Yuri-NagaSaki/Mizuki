@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Hostbbr 3T超大存储年付72刀翻倍款vps测评"
 published: 2023-06-02
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 ## 介绍

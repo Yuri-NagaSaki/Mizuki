@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "Oblivus 芝加哥 纽约 拉斯维加斯测评"
 published: 2023-08-05
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 ## 机器配置

@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Advin Servers AMD EPYC™ Genoa 9554 测评"
 published: 2023-11-26
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 > ## 套餐

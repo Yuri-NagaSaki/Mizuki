@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Hostbbr ipv6 ipv4 nat VPS"
 published: 2023-08-29
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐

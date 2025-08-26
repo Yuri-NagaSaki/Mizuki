@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Docker 部署 幻兽帕鲁联机服务器"
 published: 2024-01-22
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 ## 配置需求

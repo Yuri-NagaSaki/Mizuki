@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Spaceberg 法国20T 超大容量存储服务器测评"
 published: 2023-06-15
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 ```shell

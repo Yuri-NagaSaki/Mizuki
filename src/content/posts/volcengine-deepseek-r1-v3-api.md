@@ -1,9 +1,7 @@
 ---
+tags: [llm, laboratory]
 title: "火山引擎 DeepSeek R1 满血 API 白嫖指南"
 published: 2025-02-20
-categories: 
-  - "llm"
-  - "laboratory"
 coverImage: "image-15.png"
 ---
 

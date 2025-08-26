@@ -1,9 +1,7 @@
 ---
+tags: [pt, laboratory]
 title: "Docker 部署 Vertex 进行刷流"
 published: 2025-03-08
-categories: 
-  - "pt"
-  - "laboratory"
 ---
 
 其实我已经不刷了，把方案和配置留存记录一下。一些脚本在上一篇文章里。

@@ -1,8 +1,7 @@
 ---
+tags: [llm]
 title: "Ubuntu 22.04+8*A800 Ollama 运行deepseek-r1"
 published: 2025-01-21
-categories: 
-  - "llm"
 ---
 
 发现 deepseek-r1 的 617B 我的机器刚好满足条件，本着闲着也是闲着，测试一下。

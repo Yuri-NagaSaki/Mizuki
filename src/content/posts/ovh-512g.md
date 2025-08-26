@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Spaceberg 4C6G512G 150T"
 published: 2023-07-07
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 ## 配置

@@ -1,8 +1,7 @@
 ---
+tags: [laboratory]
 title: "猫猫Emby服食用指南"
 published: 2024-08-06
-categories: 
-  - "laboratory"
 coverImage: "emby.webp"
 ---
 

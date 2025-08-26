@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "CrownCloud DE AMD 7950X测试"
 published: 2023-09-16
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 > ## 套餐

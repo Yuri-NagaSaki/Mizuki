@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hetzner Helsinki 独立服务器 AMD 5950X 测评"
 published: 2024-02-13
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 机器配置

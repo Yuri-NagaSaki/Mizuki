@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "ImageFlow 一款更适合你的图床"
 published: 2025-03-22
-categories: 
-  - "docker"
-  - "laboratory"
 coverImage: "gmonnnuasaahvq3.jpg"
 ---
 

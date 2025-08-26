@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hetzner 7950x3d测评"
 published: 2023-05-20
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ```shell

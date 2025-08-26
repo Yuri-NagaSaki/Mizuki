@@ -1,10 +1,7 @@
 ---
+tags: [sg-server, jp-server]
 title: "Oracle 测评"
 published: 2023-05-23
-categories: 
-  - "sg-server"
-  - "jp-server"
-  - "vps"
 ---
 
 ## 新加坡AMD

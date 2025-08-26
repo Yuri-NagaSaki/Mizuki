@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "HostCram  独立日促销"
 published: 2023-07-05
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 ## 套餐配置

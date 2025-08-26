@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "Nube Cloud 香港 AMD  7532 独立服务器 测评"
 published: 2024-10-01
-categories: 
-  - "vps"
-  - "hk-server"
 ---
 
 ### 服务器套餐

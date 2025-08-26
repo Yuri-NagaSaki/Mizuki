@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Redswitches  荷兰万兆 AMD EPYC 4344P 测评"
 published: 2025-05-07
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 **RedSwitches是一家全球托管服务提供商，在全球 20 多个地点提供高性能专用（裸机）服务器、基础设施即服务 (IaaS) 和托管主机解决方案，自称拥有超过15 年的行业经验，机器硬件配置不错，但是价格和网络不行，标称10G的带宽，实际上很难跑满。**

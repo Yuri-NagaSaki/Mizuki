@@ -1,9 +1,7 @@
 ---
+tags: [jp-server]
 title: "AkileCloud 日本bgp 测试"
 published: 2023-07-24
-categories: 
-  - "jp-server"
-  - "vps"
 ---
 
 ## 融合怪脚本测试

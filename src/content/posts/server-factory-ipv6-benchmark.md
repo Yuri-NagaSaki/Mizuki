@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "server-factory 瑞典ipv6测评"
 published: 2023-07-23
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐配置

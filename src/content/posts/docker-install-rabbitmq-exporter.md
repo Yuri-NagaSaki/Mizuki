@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Docker 部署单机 RabbitMQ + exporter"
 published: 2023-05-14
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 ## 资源清单

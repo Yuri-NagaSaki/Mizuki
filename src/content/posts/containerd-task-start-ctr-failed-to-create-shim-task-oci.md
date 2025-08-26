@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Containerd task启动容器ctr: failed to create shim task: OCI runtime create failed"
 published: 2023-03-21
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 错误信息如下:

@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "备份和迁移 Chevereto 的 Docker 服务（4.0.6）"
 published: 2023-04-11
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 要备份和迁移 Chevereto 的 Docker 服务，需要执行以下步骤：

@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "Sharon 新站 GoMami 香港 AMD 9950X 测评"
 published: 2025-08-13
-categories: 
-  - "vps"
-  - "hk-server"
 ---
 
 相关前言可以见 [Sharon 新站 GoMami 香港 AMD 7763 测评](https://catcat.blog/sharon-gomami-amd-7763-benchamark.html)

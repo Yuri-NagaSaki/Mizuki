@@ -1,8 +1,7 @@
 ---
+tags: [knowledge]
 title: "Scaleway API 开机教程"
 published: 2023-07-09
-categories: 
-  - "knowledge"
 ---
 
 ## 价格

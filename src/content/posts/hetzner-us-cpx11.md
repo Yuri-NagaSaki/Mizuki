@@ -1,11 +1,7 @@
 ---
+tags: [usa, us-server]
 title: "Hetzner美西俄勒冈vps评测"
 published: 2023-02-27
-categories: 
-  - "vps"
-  - "us-server"
-tags: 
-  - "usa"
 ---
 
 ## 1\. 官方网站

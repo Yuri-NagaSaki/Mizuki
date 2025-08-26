@@ -1,8 +1,7 @@
 ---
+tags: [laboratory]
 title: "公益项目整理"
 published: 2024-07-04
-categories: 
-  - "laboratory"
 coverImage: "emby.webp"
 ---
 

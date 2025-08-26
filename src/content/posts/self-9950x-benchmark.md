@@ -1,9 +1,7 @@
 ---
+tags: [大陆服务器]
 title: "猫猫 AMD Ryzen 9950X 服务器 测试"
 published: 2025-01-04
-categories: 
-  - "大陆服务器"
-  - "vps"
 coverImage: "GUeGukGbwAAUDZj.jpg"
 ---
 

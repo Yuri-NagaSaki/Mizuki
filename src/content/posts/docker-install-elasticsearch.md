@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Docker 部署 elasticsearch"
 published: 2023-05-18
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 需要宿主机安装 `docker` 服务

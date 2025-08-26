@@ -1,8 +1,7 @@
 ---
+tags: [docker]
 title: "日本成人影片刮削器 MetaTube 的搭建与配置教程"
 published: 2024-02-04
-categories: 
-  - "docker"
 ---
 
 ## 一、MetaTube 介绍

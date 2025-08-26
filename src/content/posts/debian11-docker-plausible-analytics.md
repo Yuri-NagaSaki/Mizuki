@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "<strong>Debian 11 使用 Docker 安装 Plausible Analytics 自建网站统计</strong>"
 published: 2023-02-26
-categories: 
-  - "docker"
-  - "laboratory"
 ---
 
 > 原文地址 [u.sb](https://u.sb/docker-plausible/)

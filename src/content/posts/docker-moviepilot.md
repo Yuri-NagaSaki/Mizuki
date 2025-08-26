@@ -1,8 +1,7 @@
 ---
+tags: [docker]
 title: "Docker 部署 自动化观影平台MoviePilot"
 published: 2024-02-28
-categories: 
-  - "docker"
 ---
 
 - 2024年7月11日更新：重写了docker-compose.yaml文件，按照新版本参数方式调整

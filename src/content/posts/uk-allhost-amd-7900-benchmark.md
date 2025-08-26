@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "英国 AllHost AMD 7900 测评"
 published: 2023-09-08
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 > ## 套餐

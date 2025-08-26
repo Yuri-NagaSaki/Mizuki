@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "usercloud.host 香港VPS"
 published: 2023-07-04
-categories: 
-  - "vps"
-  - "hk-server"
 ---
 
 - 新开的香港主机，自有 AS 151188，上游对接 enos

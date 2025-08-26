@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Hybula 荷兰 AMD EPYC Milan VPS 16美元测试"
 published: 2023-07-16
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐配置

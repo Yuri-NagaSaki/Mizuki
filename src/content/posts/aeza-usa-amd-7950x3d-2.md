@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "Aeza USA AMD 7950X3D 测评"
 published: 2023-09-11
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 > ## 套餐

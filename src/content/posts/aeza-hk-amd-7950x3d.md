@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "Aeza 香港 AMD 7950X3D 测评"
 published: 2024-02-22
-categories: 
-  - "vps"
-  - "hk-server"
 ---
 
 首月-25%优惠无需优惠码。俄罗斯商家，不支持支付宝等，建议加密货币购买。香港终于要卷配置了吗？

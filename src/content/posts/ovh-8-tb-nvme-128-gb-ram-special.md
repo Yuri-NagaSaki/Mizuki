@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "OVH 8 TB NVMe - 128 GB RAM - SPECIAL"
 published: 2023-07-18
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 ## 套餐配置

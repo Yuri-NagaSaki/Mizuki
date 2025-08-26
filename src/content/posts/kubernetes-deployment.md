@@ -1,9 +1,7 @@
 ---
+tags: [kubernetes, laboratory]
 title: "Kubernetes 部署应用到集群中"
 published: 2023-09-14
-categories: 
-  - "kubernetes"
-  - "laboratory"
 ---
 
 #### 命令行运行

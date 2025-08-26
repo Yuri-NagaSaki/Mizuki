@@ -1,12 +1,7 @@
 ---
+tags: [eu, strong-server, eu-server]
 title: "BuyVM 卢森堡 5900x 不限流量"
 published: 2023-04-23
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
-tags: 
-  - "eu"
 ---
 
 ## 融合怪脚本测试

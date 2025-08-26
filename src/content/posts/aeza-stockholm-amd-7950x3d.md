@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "Aeza Stockholm AMD 7950X3D 测评"
 published: 2023-09-09
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 很容易开出被墙IP,不是很推荐购买

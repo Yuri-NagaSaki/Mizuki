@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "Nube.SH 香港 AMD 9950X 裸金属服务器测评"
 published: 2024-11-03
-categories: 
-  - "vps"
-  - "hk-server"
 ---
 
 更新了一些测试的指标和内容。

@@ -1,9 +1,7 @@
 ---
+tags: [sg-server]
 title: "ShockHosting 新加坡 AMD 9354P 测评"
 published: 2024-05-26
-categories: 
-  - "sg-server"
-  - "vps"
 coverImage: "image-49.png"
 ---
 

@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "Crunchbits 17$ 7950x VDS测评"
 published: 2023-07-28
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 ## 套餐

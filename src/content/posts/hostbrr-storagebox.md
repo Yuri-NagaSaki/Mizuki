@@ -1,8 +1,7 @@
 ---
+tags: [laboratory]
 title: "Hostbrr Storagebox 挂载玩法"
 published: 2025-07-07
-categories: 
-  - "laboratory"
 ---
 
 这两天在研究backup，正好和hostbrr的老板聊到了，他给我提了个醒，他们的Storagebox完全支持各种备份。

@@ -1,9 +1,7 @@
 ---
+tags: [jp-server]
 title: "cloudsigma 日本VPS 测评"
 published: 2023-07-10
-categories: 
-  - "jp-server"
-  - "vps"
 ---
 
 ## 流媒体解锁测试

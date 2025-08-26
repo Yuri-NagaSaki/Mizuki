@@ -1,10 +1,7 @@
 ---
+tags: [strong-server, eu-server]
 title: "Spaceberg 促销 7T存储 50G口下行不限流量测评"
 published: 2023-06-17
-categories: 
-  - "strong-server"
-  - "vps"
-  - "eu-server"
 ---
 
 ```shell

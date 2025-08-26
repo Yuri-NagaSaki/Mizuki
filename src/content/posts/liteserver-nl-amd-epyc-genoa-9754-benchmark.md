@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "LiteServer 荷兰  AMD EPYC™ Genoa 9754 测评"
 published: 2023-11-24
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 题外话：最近忙着公司事情，很久没测了，买了很多都在吃灰，闲下来慢慢补上吧

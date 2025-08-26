@@ -1,9 +1,7 @@
 ---
+tags: [eu-server]
 title: "OVH Advance-1 德国万兆 AMD 4244P 测评"
 published: 2025-06-28
-categories: 
-  - "vps"
-  - "eu-server"
 ---
 
 **之前一直以来注册都被ovh免税拒绝，昨天听闻优惠，实在按捺不住再次尝试，终于注册****成功****。**

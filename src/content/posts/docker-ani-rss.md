@@ -1,9 +1,7 @@
 ---
+tags: [docker, laboratory]
 title: "Docker 部署 ani-rss 实现自动追番"
 published: 2024-09-11
-categories: 
-  - "docker"
-  - "laboratory"
 coverImage: "QQ_1726020301071.png"
 ---
 

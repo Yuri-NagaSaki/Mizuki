@@ -1,9 +1,7 @@
 ---
+tags: [hk-server]
 title: "Sharon HK Infinite(CN2+9929+CMIN2)测评"
 published: 2024-06-08
-categories: 
-  - "vps"
-  - "hk-server"
 coverImage: "image-10.png"
 ---
 

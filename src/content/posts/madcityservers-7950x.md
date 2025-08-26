@@ -1,9 +1,7 @@
 ---
+tags: [us-server]
 title: "Madcityservers 7950x 测评"
 published: 2023-09-04
-categories: 
-  - "vps"
-  - "us-server"
 ---
 
 > 风评不大好，谨慎购买
