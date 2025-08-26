@@ -1,7 +1,7 @@
 ---
-tags: [eu-server]
 title: "Aeza瑞典 测评"
 published: 2023-07-13
+tags: [eu-server]
 ---
 
 ## 融合怪脚本测试
