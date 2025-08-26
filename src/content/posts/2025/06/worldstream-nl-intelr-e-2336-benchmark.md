@@ -36,7 +36,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 48 minutes
@@ -109,7 +109,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/12622177
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -154,7 +154,7 @@ Geekbench 5 测试结果
 
 ### UnixBench
 
-```
+```shell
 Benchmark Run: Fri Jun 27 2025 14:15:25 - 14:43:30
 12 CPUs in system; running 1 parallel copy of tests
 
@@ -224,7 +224,7 @@ System Benchmarks Index Score                                       11713.9
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 Intel Xeon E-2336 CPU @ 2.90GHz (x86_64)
 6 cores @ 2900 MHz  |  62.6 GiB RAM
 Number of Processes: 12  |  Test Iterations: 1  |  Test Duration: Medium

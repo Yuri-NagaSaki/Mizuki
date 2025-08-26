@@ -17,7 +17,7 @@ FullTclash bot 是承载其测试任务的Telegram 机器人（以下简称bot�
 
 ## 环境准备
 
-```
+```shell
 apt update && apt upgrade
 apt install -y git && git clone https://github.com/AirportR/FullTclash.git && cd FullTclash
 apt install python3-pip screen fontconfig
@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 
 去这里挑选 [Nerd Fonts](https://www.nerdfonts.com/)
 
-```
+```shell
 将字体文件复制到系统字体目录：将你下载字体文件（通常是以 .ttf、.otf 或 .woff 结尾的文件）复制到 /usr/share/fonts/ 目录下。
 
 sudo cp your_font.ttf /usr/share/fonts/
@@ -58,7 +58,7 @@ bot\_token = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 
 ## 运行
 
-```
+```shell
 screen ## 创建新的终端
 cd FullTclash/./resources
 cp config.yaml.example config.yaml

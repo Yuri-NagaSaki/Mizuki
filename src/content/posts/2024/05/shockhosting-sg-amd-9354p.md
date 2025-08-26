@@ -33,7 +33,7 @@ Price : \$19.99 /month_**
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -84,7 +84,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 33 minutes
@@ -135,7 +135,7 @@ YABS completed in 5 min 40 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 9354P 32-Core Processor
  CPU Cores          : 4 @ 3250.000 MHz
@@ -179,7 +179,7 @@ YABS completed in 5 min 40 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9354P 32-Core Processor
  CPU 核心数        : 4
@@ -442,7 +442,7 @@ Speedtest.net    935.22 Mbps     944.24 Mbps     0.24     0.0%
 
 ### GeekBench5 测试
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -473,7 +473,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -562,7 +562,7 @@ System Benchmarks Index Score                                        5052.9
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9354P 32-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -623,7 +623,7 @@ Memory Mark:                       2651
 
 ### monster 测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  OS           : Debian GNU/Linux 12 (64 Bit)
  Virt/Kernel  : KVM / 6.1.0-9-amd64

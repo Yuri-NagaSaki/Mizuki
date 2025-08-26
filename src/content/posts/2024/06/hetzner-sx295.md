@@ -20,7 +20,7 @@ coverImage: "image.png"
 
 ### lscpu
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          43 bits physical, 48 bits virtual
@@ -74,7 +74,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Mon Jun  3 02:04:16 PM CEST 2024
 
 Basic System Information:
@@ -140,7 +140,7 @@ YABS completed in 6 min 1 sec
 
 ### 通电时间测试
 
-```
+```shell
 
   CPU 型号              AMD EPYC 7502P 32-Core Processor
   CPU 核心              合计 32 核心，64 线程
@@ -193,7 +193,7 @@ YABS completed in 6 min 1 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息

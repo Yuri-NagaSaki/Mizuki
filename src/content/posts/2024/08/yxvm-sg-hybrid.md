@@ -22,7 +22,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 13 minutes
@@ -64,7 +64,7 @@ Total      | 10.83 GB/s   (21.1k) | 4.30 GB/s     (4.2k)
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz
  CPU Cores          : 1 @ 2494.140 MHz
@@ -109,7 +109,7 @@ Total      | 10.83 GB/s   (21.1k) | 4.30 GB/s     (4.2k)
 
 ### 融合怪测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz
  CPU 核心数        : 1
@@ -377,7 +377,7 @@ Speedtest.net    9219.70 Mbps    7933.59 Mbps    1.06     0.0%
     <img src="https://s3.catcat.blog/images/2024/08/QQ_1723711138454.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 ########################################################################
 一、基础信息（Maxmind 数据库）
 自治系统号：            AS48024
@@ -420,7 +420,7 @@ IP地址黑名单数据库：  有效 439   正常 437   已标记 2   黑名单
 ========================================================================
 ```
 
-```
+```shell
 [ Multination ] =============
 Dazn                      YES (Region: SG)
 Disney+                   YES (Region: SG)
@@ -446,7 +446,7 @@ Instagram Audio           YES
 
 ### 禁用 ipv6
 
-```
+```shell
 编辑 /etc/sysctl.conf，添加或者编辑以下变量：
 net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
@@ -456,12 +456,12 @@ net.ipv6.conf.eth0.disable_ipv6 = 1
 
 ### 检查 ip 配置
 
-```
+```shell
 vim /etc/netplan/50-cloud-init.yaml
 检查是否原生 ip 103 在前，优化 ip 178 在后
 ```
 
-```
+```shell
 network:
     version: 2
     ethernets:
@@ -484,7 +484,7 @@ network:
 
 验证一下出口IP是否更改为原生 ip
 
-```
+```shell
 curl ip.sb
 ```
 

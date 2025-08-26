@@ -32,7 +32,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 13 hours, 30 minutes
@@ -107,7 +107,7 @@ YABS completed in 14 min 0 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -174,7 +174,7 @@ Geekbench 5 测试结果
 
 ### 融合怪Go
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD Ryzen 9 9950X 16-Core Processor @ 4300.000 MHz
  CPU 数量            : 32 Physical CPU(s)

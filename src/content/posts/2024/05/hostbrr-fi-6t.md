@@ -36,7 +36,7 @@ Hosted in Helsinki, Finland
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 4 days, 4 hours, 37 minutes
@@ -108,7 +108,7 @@ Multi Core      | 3694
 
 ### HDD测试
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/vdb1):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)

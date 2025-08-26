@@ -18,7 +18,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -84,7 +84,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.34 Gbits/sec  | 101 Mbits/sec   
 
 ### **Bench**
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7900 12-Core Processor
  CPU Cores          : 3 @ 3700.018 MHz
@@ -127,7 +127,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.34 Gbits/sec  | 101 Mbits/sec   
 
 ### **UnixBench**
 
-```
+```shell
 3 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       74248937.5 lps   (10.0 s, 7 samples)
@@ -194,7 +194,7 @@ System Benchmarks Index Score                                        8806.0
 
 ### PassMark
 
-```
+```shell
 AMD Ryzen 9 7900 12-Core Processor (x86_64)
 3 cores @ 0 MHz  |  4.0 GiB RAM
 Number of Processes: 3  |  Test Iterations: 2  |  Test Duration: Very Long

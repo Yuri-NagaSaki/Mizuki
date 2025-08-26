@@ -43,7 +43,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -96,7 +96,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 27 minutes
@@ -160,7 +160,7 @@ Leaseweb        | NYC, NY, US (10G)         | 1.24 Gbits/sec  | 2.47 Gbits/sec  
 
 ### GeekBench5
 
-```
+```shell
 系统信息
   Operating System              Debian GNU/Linux 12 (bookworm)
   Kernel                        Linux 6.1.0-9-amd64 x86_64
@@ -197,7 +197,7 @@ Leaseweb        | NYC, NY, US (10G)         | 1.24 Gbits/sec  | 2.47 Gbits/sec  
 
 ### **UnixBench**
 
-```
+```shell
 root@catcat:~/byte-unixbench/UnixBench/results# ls
 catcat.evoxt-2025-01-20-01  catcat.evoxt-2025-01-20-01.html  catcat.evoxt-2025-01-20-01.log
 root@catcat:~/byte-unixbench/UnixBench/results# cat catcat.evoxt-2025-01-20-01
@@ -282,7 +282,7 @@ System Benchmarks Index Score                                        5742.2
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2024-11-11
  Usage              : wget -qO- bench.sh | bash
@@ -347,7 +347,7 @@ System Benchmarks Index Score                                        5742.2
 
 ### 融合怪测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC-Genoa Processor @ 3693.026 MHz
  CPU 数量            : 2 Virtual CPU(s)
@@ -599,7 +599,7 @@ Speedtest.net   941.36 Mbps     942.82 Mbps     0.55 ms         0.0%
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC-Genoa Processor (x86_64)
 2 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium

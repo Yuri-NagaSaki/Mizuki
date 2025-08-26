@@ -40,7 +40,7 @@ image
 
 ### CPU
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -94,7 +94,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 24 minutes
@@ -157,7 +157,7 @@ YABS completed in 9 min 55 sec
 
 ### Geekbench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -196,7 +196,7 @@ Size 31.3 GB
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 Intel Xeon E-2388G CPU @ 3.20GHz (x86_64)
 8 cores @ 5100 MHz  |  31.3 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -225,7 +225,7 @@ Memory Mark:                       3459
 
 ### 融合怪测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) E-2388G CPU @ 3.20GHz
  CPU 核心数        : 1 物理核心, 8 总核心, 16 总线程数

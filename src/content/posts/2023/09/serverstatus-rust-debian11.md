@@ -48,7 +48,7 @@ categories:
 
 ### 服务端部署
 
-```
+```shell
 apt install wget curl unzip vim
 新建目录并且进入
 mkdir -p /opt/ServerStatus && cd /opt/ServerStatus
@@ -58,7 +58,7 @@ vim server.sh
 
 如果是部署到**ARM**架构，记得按照注释修改`OS_ARCH`变量，文件内容如下：
 
-```
+```shell
 #!/bin/bash
 set -ex
 
@@ -94,19 +94,19 @@ systemctl enable stat_server
 
 运行`.sh`文件：
 
-```
+```shell
 bash -ex server.sh
 ```
 
 修改`config.toml`配置文件，本地修改配置文件参考[config.toml](https://raw.githubusercontent.com/zdz/ServerStatus-Rust/master/config.toml)
 
-```
+```shell
 vim /opt/ServerStatus/config.toml
 ```
 
 config.toml参考
 
-```
+```shell
 # 管理员账号,不设置默认随机生成，用于查看 /detail, /map
 jwt_secret = "" # 修改这个, 使用 openssl rand -base64 16 生成 secret 第8行
 admin_user = ""  第9行
@@ -120,7 +120,7 @@ chat_id = "<chat id>" 第62行
 
 测试配置文件
 
-```
+```shell
 # 测试配置文件是否有效
 ./stat_server -c config.toml -t
 # 根据配置发送测试消息，验证通知是否生效
@@ -129,7 +129,7 @@ chat_id = "<chat id>" 第62行
 
 重启服务端服务
 
-```
+```shell
 systemctl restart stat_server
 ```
 
@@ -165,7 +165,7 @@ vercel导入该库
 
 在仓库根目录创建`vercel.json`，文件内容如下，将`http://xxx.com/`改为**自己的域名或`IP地址:端口`**，如果支持HTTPS，记得将`http://`全部改为`https://`：
 
-```
+```shell
 {
     "routes": [
         {
@@ -222,7 +222,7 @@ commit推送分支，随意Message
 
 创建目录
 
-```
+```shell
 cd
 apt install wget curl unzip vim vnstat
 mkdir -p /opt/ServerStatus && cd /opt/ServerStatus
@@ -230,13 +230,13 @@ mkdir -p /opt/ServerStatus && cd /opt/ServerStatus
 
 编辑`.sh`文件
 
-```
+```shell
 vim client.sh
 ```
 
 如果是部署到**ARM**架构，记得按照注释修改`OS_ARCH`变量，文件内容如下：
 
-```
+```shell
 #!/bin/bash
 set -ex
 
@@ -277,13 +277,13 @@ systemctl enable stat_client
 
 运行`.sh`文件：
 
-```
+```shell
 bash -ex client.sh
 ```
 
 如果需要使用vnstat数据，参考[zdz/ServerStatus-Rust: ✨ Rust 版 ServerStatus 探针、威力加强版 (github.com)](https://github.com/zdz/ServerStatus-Rust#5-%E5%BC%80%E5%90%AF-vnstat-%E6%94%AF%E6%8C%81)安装vnstat并配置：
 
-```
+```shell
 # 在client端安装 vnstat
 ## Centos
 sudo yum install epel-release -y
@@ -309,19 +309,19 @@ vnstat --json m
 
 在修改配置文件前，可以先试试看自己的服务是否可以使用：(此处域名是你ververl部署的域名，用户名和密码是对应的host)
 
-```
+```shell
 ./stat_client -a https://probe.catcat.blog/report -u 用户名 -p 密码
 ```
 
 如果可以使用，就可以修改`stat_client.service`配置文件了:
 
-```
+```shell
 vim /etc/systemd/system/stat_client.service
 ```
 
 参考如下，**只修改`ExecStart=/opt/ServerStatus/stat_client`这一行**，如果是HTTP记得将https改成http，不使用vnstat的话，请删除`-n`，即只保留`-a "https://probe.catcat.blog/report" -u 用户名 -p 密码`。
 
-```
+```shell
 [Unit]
 Description=ServerStatus-Rust Client
 After=network.target
@@ -345,7 +345,7 @@ WantedBy=multi-user.target
 
 修改完成后先重载文件再重启客户端服务：
 
-```
+```shell
 systemctl daemon-reload && systemctl restart stat_client
 ```
 

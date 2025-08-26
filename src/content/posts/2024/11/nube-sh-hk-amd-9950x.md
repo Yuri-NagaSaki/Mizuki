@@ -59,7 +59,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@eons-hkg5-ryzen-2:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -115,7 +115,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Sun Nov  3 11:22:42 AM HKT 2024
 
 Basic System Information:
@@ -188,7 +188,7 @@ YABS completed in 8 min 20 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -367,7 +367,7 @@ YABS completed in 8 min 20 sec
 
 ### 融合怪 GO 版测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD Ryzen 9 9950X 16-Core Processor @ 600.000 MHz
  CPU 数量            : 32 Physical CPU(s)

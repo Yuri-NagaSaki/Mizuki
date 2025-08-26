@@ -29,7 +29,7 @@ categories:
 
 ### 机器检测
 
-```
+```shell
 ════════════════════════════════════════════════════════════════════════════════
                        System Hardware Information Report                       
 ════════════════════════════════════════════════════════════════════════════════
@@ -153,7 +153,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -203,7 +203,7 @@ Total      | 4.57 GB/s     (8.9k) | 5.12 GB/s     (5.0k)
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD Ryzen 9 PRO 8945HS w/ Radeon 780M Graphics (x86_64)
 8 cores @ 5263 MHz  |  25.2 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -232,7 +232,7 @@ Memory Mark:                       3215
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Fri Aug 01 2025 15:51:29 - 16:19:51
 16 CPUs in system; running 1 parallel copy of tests

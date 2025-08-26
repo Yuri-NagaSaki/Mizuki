@@ -56,7 +56,7 @@ HostBrr 目前对于VDS定义是 1 vCore = 1 CPU 线程。vCore 不固定，但�
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -106,7 +106,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Sun Sep  8 02:07:30 PM CST 2024
 
 Basic System Information:
@@ -183,7 +183,7 @@ YABS completed in 10 min 56 sec
 
 ### GeekBench5
 
-```
+```shell
 系统信息
   Operating System              Debian GNU/Linux 12 (bookworm)
   Kernel                        Linux 6.1.0-9-amd64 x86_64
@@ -212,7 +212,7 @@ YABS completed in 10 min 56 sec
 
 ### UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -295,7 +295,7 @@ System Benchmarks Index Score                                        6304.8
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 9950X 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  11.6 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -324,7 +324,7 @@ Memory Mark:                       2824
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 9950X 16-Core Processor
  CPU 核心数        : 2

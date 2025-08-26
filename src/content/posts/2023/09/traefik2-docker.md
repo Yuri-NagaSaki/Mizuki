@@ -38,7 +38,7 @@ categories:
 
 ## 创建目录
 
-```
+```shell
 mkdir -p data/configurations
 touch docker-compose.yml
 touch data/traefik.yml
@@ -51,7 +51,7 @@ chmod 600 data/acme.json
 
 文件路径 `~/docker-compose.yml`
 
-```
+```shell
 version: '3.7'
 
 services:
@@ -90,7 +90,7 @@ networks:
 
 文件路径 `~/data/traefik.yml`
 
-```
+```shell
 api:
   dashboard: true
 
@@ -144,7 +144,7 @@ certificatesResolvers:
 
 文件路径 `~/data/configurations/dynamic.yml`
 
-```
+```shell
 # Dynamic configuration
 http:
   middlewares:
@@ -182,13 +182,13 @@ tls:
 
 ## 创建网络
 
-```
+```shell
 docker network create proxy
 ```
 
 ## 启动
 
-```
+```shell
 docker compose up -d
 ```
 

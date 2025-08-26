@@ -20,7 +20,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 28 minutes
@@ -95,7 +95,7 @@ YABS completed in 14 min 1 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 1
@@ -301,7 +301,7 @@ Speedtest.net	 905.65 Mbps	 906.47 Mbps	 7.81	  NULL
 
 ### Bench
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Debian GNU/Linux 12 (bookworm)     Model       : AMD Ryzen 9 7950X3D 16-Core Processor

@@ -10,7 +10,7 @@ categories:
 
 ## Bcache简介
 
-```
+```shell
 bcache 是一个 Linux 内核块层超速缓存。它允许使用一个或多个高速磁盘驱动器（例如 SSD）作为一个或多个速度低得多的硬盘的超速缓存。bcache 支持直写和写回，不受所用文件系统的约束。
 
 主要功能：
@@ -35,7 +35,7 @@ nvme1n1 作为缓存盘 7.68T
 
 下面是已完成的最终情况
 
-```
+```shell
 root@Debian ~ # lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
 sda           8:0    1    20T  0 disk  
@@ -93,19 +93,19 @@ nvme0n1     259:1    0     7T  0 disk
 
 ## 内核开启Bcache
 
-```
+```shell
 modprobe bcachelsmod |grep bcache
 ```
 
 ## **安装bcache-tools**
 
-```
+```shell
 apt install bcache-tools
 ```
 
 ## 格式化
 
-```
+```shell
 wipefs -a /dev/md127
 wipefs -a /dev/nvme1n1p2
 
@@ -113,19 +113,19 @@ wipefs -a /dev/nvme1n1p2
 
 ## 添加数据盘
 
-```
+```shell
 make-bcache -B /dev/md127
 ```
 
 ## 添加缓存盘
 
-```
+```shell
 make-bcache -C /dev/nvme1n1p2
 ```
 
 ## 查看当前块信息
 
-```
+```shell
 root@Debian ~ # lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
 sda           8:0    1    20T  0 disk  
@@ -182,7 +182,7 @@ nvme0n1     259:1    0     7T  0 disk
 
 ## 获取缓存盘UUID
 
-```
+```shell
 bcache-super-show /dev/nvme1n1p2
 如下图所示，就是cset.uuid
 ```
@@ -195,13 +195,13 @@ bcache-super-show /dev/nvme1n1p2
 
 ## 绑定缓存盘
 
-```
+```shell
 echo "0c07a77e-3735-410b-adae-60ea5d708009" >/sys/block/bcache0/bcache/attach
 ```
 
 ## 查看当前块信息
 
-```
+```shell
 root@Debian ~ # lsblkNAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTSsda           8:0    1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdb           8:16   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdc           8:32   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdd           8:48   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sde           8:64   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdf           8:80   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdg           8:96   1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdh           8:112  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdi           8:128  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdj           8:144  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdk           8:160  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdl           8:176  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdm           8:192  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  sdn           8:208  1    20T  0 disk  └─md127       9:127  0 280.1T  0 raid0   └─bcache0 252:0    0 280.1T  0 disk  nvme1n1     259:0    0     7T  0 disk  ├─nvme1n1p1 259:2    0     1G  0 part  ├─nvme1n1p2 259:3    0     7T  0 part  │ └─bcache0 252:0    0 280.1T  0 disk  └─nvme1n1p3 259:4    0     1M  0 part  nvme0n1     259:1    0     7T  0 disk  ├─nvme0n1p1 259:5    0     1G  0 part  /boot├─nvme0n1p2 259:6    0     7T  0 part  /└─nvme0n1p3 259:7    0     1M  0 part  
 ```
 
@@ -215,13 +215,13 @@ root@Debian ~ # lsblkNAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTSsda      
 
 - 遇到问题，后台设备与缓存设备不同步
 
-```
+```shell
 cat /sys/block/bcache0/bcache/state
 ```
 
 ## 更改缓存策略
 
-```
+```shell
 Bcache有三种缓存策略
 ```
 
@@ -233,7 +233,7 @@ Bcache有三种缓存策略
 
 为了性能，这里改为 writeback回写策略
 
-```
+```shell
 查看缓存模式
 cat /sys/block/bcache0/bcache/cache_mode
 修改缓存策略
@@ -250,7 +250,7 @@ echo 0 > /sys/block/bcache0/bcache/sequential_cutoff
 
 ## 格式化数据盘
 
-```
+```shell
 mkfs.xfs /dev/bcache0
 ```
 
@@ -262,7 +262,7 @@ mkfs.xfs /dev/bcache0
 
 ## 设置开机自动挂载
 
-```
+```shell
 查看设备UUIDblkid /dev/bcache0添加到/etc/fstabvim /etc/fstab添加上面UUIDUUID=f9c51924-f6d5-4466-84ee-14fcfbb1bb14 /hdd                   xfs     defaults        0 0
 ```
 

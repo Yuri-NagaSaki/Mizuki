@@ -36,7 +36,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -86,7 +86,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Sun Apr 21 09:57:50 AM HKT 2024
 
 Basic System Information:
@@ -164,7 +164,7 @@ YABS completed in 16 min 38 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 32 @ 4500.000 MHz
@@ -208,7 +208,7 @@ YABS completed in 16 min 38 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -239,7 +239,7 @@ Geekbench 5 测试结果
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 16 cores @ 5879 MHz  |  124.9 GiB RAM
 Number of Processes: 32  |  Test Iterations: 1  |  Test Duration: Medium
@@ -268,7 +268,7 @@ Memory Mark:                       3351
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -382,7 +382,7 @@ Benchmark Run: Sun Apr 21 2024 11:03:35 - 11:03:35
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 1 物理核心, 16 总核心, 32 总线程数
@@ -619,7 +619,7 @@ IP类型: Data Center/Web Hosting/Transit⑤  isp⑪
 
 ### 回程测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -1024,7 +1024,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### 通电检测
 
-```
+```shell
 
   CPU 型号              AMD Ryzen 9 7950X 16-Core Processor
   CPU 核心              合计 16 核心，32 线程
@@ -1063,13 +1063,13 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============ Dazn:                                  Yes (Region: HK) HotStar:                               No Disney+:                               Yes (Region: TW) Netflix:                               Yes (Region: HK) YouTube Premium:                       Yes (Region: HK) Amazon Prime Video:                    Yes (Region: HK) TVBAnywhere+:                          No iQyi Oversea Region:                   HK Viu.com:                               Yes (Region: HK) YouTube CDN:                           Hong Kong  Netflix Preferred CDN:                 Hong Kong   Spotify Registration:                  Yes (Region: HK) Steam Currency:                        HKD ChatGPT:                               Only Available with Mobile APP Bing Region:                           HK Instagram Licensed Audio:              No====================================================[ Hong Kong ]============= Now E:                                 No Viu.TV:                                Yes MyTVSuper:                             Yes HBO GO Asia:                           Yes (Region: HK) BiliBili Hongkong/Macau/Taiwan:        Yes======================================= ** 正在测试IPv6解锁情况 -------------------------------- ** 您的网络为: Eons Data Communications (2404:c140:1f00:*:*) ============[ Multination ]============ Dazn:                                  Failed (Network Connection) HotStar:                               No Disney+:                               Yes (Region: HK) Netflix:                               Yes (Region: HK) YouTube Premium:                       Yes (Region: HK) Amazon Prime Video:                    Unsupported TVBAnywhere+:                          Failed (Network Connection) iQyi Oversea Region:                   Failed Viu.com:                               Failed YouTube CDN:                           Hong Kong  Netflix Preferred CDN:                 Hong Kong   Spotify Registration:                  Yes (Region: HK) Steam Currency:                        Failed (Network Connection) ChatGPT:                               Failed Bing Region:                           HK Instagram Licensed Audio:              No====================================================[ Hong Kong ]============= Now E:                                 Failed Viu.TV:                                Failed (Network Connection) MyTVSuper:                             No HBO GO Asia:                           Failed (Network Connection) BiliBili Hongkong/Macau/Taiwan:        Failed (Network Connection)=======================================
 ```
 
 ### 三网单线程
 
-```
+```shell
 ------------------------ 多功能 自更新 测速脚本 ------------------------
  Version               : v2024-04-07
  Usage                 : bash <(curl -sL bash.icu/speedtest)
@@ -1097,7 +1097,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### Network-Speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  Basic System Info
 ---------------------------------------------------------------------------
@@ -1195,7 +1195,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### 硬盘读写测试
 
-```
+```shell
 root@eons-supero-ryzen-2:~#  dd bs=64k count=4k if=/dev/zero of=test oflag=dsync && rm test
 4096+0 records in
 4096+0 records out
@@ -1211,7 +1211,7 @@ root@eons-supero-ryzen-2:~# dd if=/dev/zero of=test bs=8M count=256 oflag=dsync
 root@eons-supero-ryzen-2:~# 
 ```
 
-```
+```shell
 root@eons-supero-ryzen-2:~# ioping -R /
 
 --- / (xfs /dev/md0 1.74 TiB) ioping statistics ---

@@ -18,7 +18,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes
@@ -91,7 +91,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4858304
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 4
@@ -299,7 +299,7 @@ Speedtest.net    372.90 Mbps     2528.18 Mbps    236.87   0.0%
 
 ### Geekbench 5 专测
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -330,7 +330,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC-Milan Processor
  CPU Cores          : 4 @ 2245.780 MHz

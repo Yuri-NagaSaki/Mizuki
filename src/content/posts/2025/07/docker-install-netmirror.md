@@ -120,7 +120,7 @@ categories:
 
 ### **克隆仓库**
 
-```
+```shell
 git clone https://github.com/Yuri-NagaSaki/NetMirror.git cd NetMirror
 ```
 
@@ -128,7 +128,7 @@ git clone https://github.com/Yuri-NagaSaki/NetMirror.git cd NetMirror
 
 **复制环境文件示例以创建您自己的配置。**
 
-```
+```shell
 cp .env.example .env
 ```
 
@@ -140,7 +140,7 @@ cp .env.example .env
 
 ### **启动服务:**
 
-```
+```shell
 services:
   als:
     image: soyorins/netmirror:latest
@@ -165,7 +165,7 @@ services:
         max-file: "3"
 ```
 
-```
+```shell
 docker compose up -d
 ```
 
@@ -173,7 +173,7 @@ docker compose up -d
 
 ### ENV配置解释
 
-```
+```shell
 # ALS - Another Looking-glass Server 环境变量
 # 将此文件复制为 .env 并填写您需要的值。
 

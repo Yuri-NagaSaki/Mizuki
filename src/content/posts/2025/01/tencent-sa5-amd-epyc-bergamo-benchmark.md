@@ -26,7 +26,7 @@ categories:
 
 ### CPU Info
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -78,7 +78,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 2 minutes
@@ -134,7 +134,7 @@ Total      | 732.37 MB/s   (1.4k) | 724.90 MB/s    (707)
 
 ### UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -221,7 +221,7 @@ System Benchmarks Index Score                                        3389.8
 
 ### 融合怪Go测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 9754 128-Core Processor @ 2250.022 MHz
  CPU 数量            : 4 Virtual CPU(s)

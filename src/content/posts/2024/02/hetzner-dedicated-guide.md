@@ -139,12 +139,12 @@ RAID 设置区分
 
 ## 监测通电时间
 
-```
+```shell
 wget https://github.com/Aniverse/A/raw/i/a && bash a
 
 ```
 
-```
+```shell
 
   CPU 型号              AMD Ryzen 9 5950X 16-Core Processor
   CPU 核心              合计 16 核心，32 线程

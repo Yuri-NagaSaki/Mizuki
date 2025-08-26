@@ -91,7 +91,7 @@ BuyVM成立于 2010 年，英国注册公司 FRAN­TECH SO­LU­TIONS LTD (07743
 
 这个配置和这个价格 其实去刷流，也刷不过别人。一旦竞速起来，由于cpu和内存的限制，往往qb和deluge直接崩溃。说实话，保种的性价比其实也不是很高。
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -162,7 +162,7 @@ Scaleway        | Paris, FR (10G)           | 1.11 Gbits/sec  | 974 Mbits/sec   
     <img src="https://s3.catcat.blog/images/2024/03/image-2.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -275,7 +275,7 @@ OneProvider France Paris (Xeon E3-1220 v2 or better) 24.99€ (續費已漲價�
     <img src="https://s3.catcat.blog/images/2024/03/image-3.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -665,13 +665,13 @@ HPS 是 ltconfig 自带的参数，全称High Performance Seed，如何启用？
 我现在主用的是 AutoRemoveTorrents（下面会简称为 ART），这里就简单的讲讲安装和配置吧。  
 ART 有两种安装方式，第一种是直接通过 pip 安装。
 
-```
+```shell
 pip3 install autoremove-torrents
 ```
 
 第二种是从 Github 安装
 
-```
+```shell
 git clone https://github.com/jerrymakesjelly/autoremove-torrents.git
 cd autoremove-torrents
 python3 setup.py install
@@ -688,19 +688,19 @@ python3 setup.py install
 
 例如：
 
-```
+```shell
 autoremove-torrents --view --conf=/home/myserver/autoremove-torrents/config.yml
 ```
 
 它等价于：
 
-```
+```shell
 autoremove-torrents -v -c /home/myserver/autoremove-torrents/config.yml
 ```
 
 要想自动删除种子，我们得先创建配置文件以及 log 目录.
 
-```
+```shell
 # 创建 art 目录
 mkdir -p /root/.config/art/artlogs
 ```
@@ -711,7 +711,7 @@ mkdir -p /root/.config/art/artlogs
 
 然后，需要在命令行中输入 `crontab -e`
 
-```
+```shell
 */15 * * * * /usr/local/bin/autoremove-torrents -c /root/.config/art/config.yml -l /root/.config/art/artlogs`
 ```
 
@@ -723,7 +723,7 @@ mkdir -p /root/.config/art/artlogs
 
 下面给出脚本文件
 
-```
+```shell
 """
 deluge 删种脚本，优先保留体积大、下载人数多、上传速度高、做种时间少的种子。
 用过一些删种工具，逻辑都比较粗暴，所以自己写了一个，
@@ -943,13 +943,13 @@ AutoDel(Deluge()).run()
 
 你需要在deluge种下载label插件，给你需要自动删除的分类打上标签，创建计划任务，运行此脚本
 
-```
+```shell
 python3 xx.py
 ```
 
 # 常见黑话
 
-```
+```shell
 art: auto remove torrents，一种自动删种工具。
 
 auto_feed: 一种油猴脚本，可以用于一键转种。此类工具还有easy_upload等。
@@ -1143,7 +1143,7 @@ VPS: 虚拟服务器，相当于把一台计算机分成多个小机，会受到
 9kg: 不说了，自己领会。
 ```
 
-```
+```shell
 
 以上是一些最基础入门的PT刷流和优化方法，未完待更。
 ```

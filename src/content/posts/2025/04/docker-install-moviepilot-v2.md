@@ -42,7 +42,7 @@ MoviePilot v1 部署：[Docker 部署 自动化观影平台MoviePilot](https://c
 
 ## 部署
 
-```
+```shell
 mkdir MoviePilot
 cd MoviePilot
 vim docker-compose.yaml
@@ -56,7 +56,7 @@ docker compse up -d
     <img src="https://s3.catcat.blog/images/2025/04/image-52.jpg" alt="Docker终端显示容器状态和警告信息。" loading="lazy">
 </picture>
 
-```
+```shell
 services:
   moviepilot:
     stdin_open: true  # 是否打开标准输入流（交互模式），为 true 时容器可以保持运行并与用户交互
@@ -114,7 +114,7 @@ services:
 
 如需开启域名访问MoviePilot，则需要搭建反向代理服务。以`nginx`为例，需要添加以下配置项，否则可能会导致部分功能无法访问（`ip:port`修改为实际值）：
 
-```
+```shell
 location / {
     proxy_pass http://ip:port;
     proxy_set_header Host $http_host;
@@ -126,7 +126,7 @@ location / {
 
 反向代理使用SSL时，还需要开启http2，否则会导致日志加载时间过长或不可用：
 
-```
+```shell
 server {
     listen 443 ssl;
     http2 on;
@@ -214,11 +214,11 @@ PS:我发现webui里也可以设置。
 
 其他配置根据自己的喜好来
 
-```
+```shell
 # BIG_MEMORY_MODE 大内存模式，开启后会增加缓存数量，但会占用更多内存# PLUGIN_MARKET 插件市场仓库地址，多个地址使用`,`分隔，保留最后的/#SEARCH_MULTIPLE_NAME 搜索多个名称，true/false，为true时搜索时会同时搜索中英文及原始名称，搜索结果会更全面,但会增加搜索时间；为false时其中一个名称搜索到结果或全部名称搜索完毕即停止#AUTO_UPDATE_RESOURCE 启动时自动检测和更新资源包（站点索引及认证等），true/false，默认true，需要能正常连接Github，仅支持Docker镜像
 ```
 
-```
+```shell
 BIG_MEMORY_MODE=true
 PLUGIN_MARKET=https://github.com/jxxghp/MoviePilot-Plugins/,https://github.com/thsrite/MoviePilot-Plugins/,https://github.com/honue/MoviePilot-Plugins/,https://github.com/InfinityPacer/MoviePilot-Plugins/,https://github.com/dandkong/MoviePilot-Plugins/,https://github.com/Aqr-K/MoviePilot-Plugins/,https://github.com/AnjoyLi/MoviePilot-Plugins/,https://github.com/WithdewHua/MoviePilot-Plugins/,https://github.com/HankunYu/MoviePilot-Plugins/,https://github.com/baozaodetudou/MoviePilot-Plugins/,https://github.com/almus2zhang/MoviePilot-Plugins/,https://github.com/Pixel-LH/MoviePilot-Plugins/,https://github.com/lightolly/MoviePilot-Plugins/,https://github.com/suraxiuxiu/MoviePilot-Plugins/,https://github.com/gxterry/MoviePilot-Plugins/,https://github.com/hotlcc/MoviePilot-Plugins-Third/,https://github.com/boeto/MoviePilot-Plugins/,https://github.com/xiangt920/MoviePilot-Plugins/
 SEARCH_MULTIPLE_NAME=true
@@ -229,7 +229,7 @@ AUTO_UPDATE_RESOURCE=true
 
 ## CSS主题
 
-```
+```shell
 body, #app, .v-application {
     height: 100% !important;
     min-height: initial !important;
@@ -423,7 +423,7 @@ body, #app, .v-application {
 
 ### **自定义制作组/字幕组**
 
-```
+```shell
 喵萌奶茶屋
 风车字幕组
 银色子弹字幕组
@@ -478,13 +478,13 @@ RLeaves
 
 ### 自定义占位符
 
-```
+```shell
 \b(简繁内封|简繁日内封|简繁日英内封|简繁官字内封|官简内封|简日双语|简体内封|简体内嵌|繁体内嵌|简英双语|简繁外挂|简体|HDR|DoVi)\b
 ```
 
 ### 文件整理屏蔽词
 
-```
+```shell
 __\w{6}/
 Special Ending Movie
 \[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
@@ -505,7 +505,7 @@ WiKi.sample
 
 `MoviePilot-V2`加入了自定义规则，可以自定义编写用于筛选资源的规则列表，主要用于管理资源的分类和过滤条件。每个条目都有一个`id`（标识符）、`name`（名称）、`include`（包含条件）和`exclude`（排除条件）等字段。自定义规则列表能帮助用户更加精准、快捷地找到符合偏好的高质量资源，同时保证了筛选的灵活性和效率，让MP的订阅功能得到了史诗级的提升。
 
-```
+```shell
 [{"id":"Complete","name":"Complete","include":"(全|共)\\d(集|期)|完结|合集|Complete","exclude":""},{"id":"filterGlobal","name":"filterGlobal","include":"","exclude":"(?i)日语无字|先行|DV|MiniBD|DIY原盘|iPad|UPSCALE|AV1|BDMV|RMVB|DVD|vcd|480p|OPUS","seeders":""},{"id":"filerGroup","name":"filerGroup","include":"","exclude":"(?i)SubsPlease|Up to 21°C|VARYG|TELESYNC|NTb|sGnb|BHYS|DBD|HDH|COLLECTiVE|SRVFI|HDSPad"},{"id":"filterMovie","name":"filterMovie","include":"","exclude":"","seeders":"","size_range":"0-22000"},{"id":"filterSeries","name":"filterSeries","include":"","exclude":"","size_range":"0-102400"},{"id":"AnimeGroup","name":"AnimeGroup","include":"7³ACG|VCB-Studio","exclude":"","size_range":""},{"id":"Audiences","name":"Audiences","include":"ADE|ADWeb","exclude":"","seeders":""},{"id":"HHWEB","name":"HHWEB","include":"HHWEB","exclude":""},{"id":"Crunchyroll","name":"Crunchyroll","include":"CR|Crunchyroll","exclude":""},{"id":"Netflix","name":"Netflix","include":"Netflix|NF","exclude":""},{"id":"B-Global","name":"B-Global","include":"B-Global|BG","exclude":""},{"id":"AMZN","name":"AMZN","include":"AMZN|Amazon","exclude":""},{"id":"HQ","name":"HQ","include":"HQ|高码|EDR","exclude":"","size_range":""},{"id":"DDP","name":"DDP","include":"DDP","exclude":""}]
 ```
 
@@ -541,7 +541,7 @@ WiKi.sample
 
 `MoviePilot-V2`再次更新了优先级规则的**高度自定义**，让有动手能力的大佬，可以**手搓完美契合自己的订阅规则**。本次升级将订阅规则细分至`媒体类型（电影、电视剧）`与`媒体类别（根据你的二级分类而定）`。比如我想自定义电影的订阅规则，可以自定义。我还想自定义二级分类下华语电影的订阅规则，同样可以自定义。
 
-```
+```shell
 [{"name":"前置过滤","rule_string":"filterGlobal& !BLU & !REMUX & !3D & !DOLBY &filerGroup","media_type":"","category":""},{"name":"动画电影","rule_string":" SPECSUB & 4K & BLURAY & H265 > CNSUB & 4K & BLURAY & H265 > CNSUB & 4K & BLURAY > CNSUB & 1080P & BLURAY > CNSUB & 4K > CNSUB & 1080P ","media_type":"电影","category":"动画电影"},{"name":"华语电影","rule_string":" 4K & BLURAY & H265 > 1080P & BLURAY > 4K > 1080P ","media_type":"电影","category":"华语电影"},{"name":"外语电影","rule_string":" SPECSUB & 4K & BLURAY & H265 &filterMovie> CNSUB & 4K & BLURAY & H265 &filterMovie> CNSUB & 1080P & BLURAY &filterMovie> CNSUB & 4K &filterMovie> CNSUB & 1080P &filterMovie","media_type":"电影","category":"外语电影"},{"name":"日番","rule_string":"AnimeGroup& CNSUB & BLURAY & 1080P >Audiences& H265 & BLURAY & 1080P >Audiences&AMZN&HHWEB& CNSUB & 1080P >Audiences&Crunchyroll& CNSUB & 1080P >Audiences&Netflix&HHWEB& CNSUB & 1080P >Audiences&B-Global& 4K & CNSUB >Audiences&B-Global& 1080P & CNSUB >Audiences&HHWEB& CNSUB & 1080P > CNSUB & BLURAY & 1080P > 1080P & CNSUB > 1080P ","media_type":"电视剧","category":"日番"},{"name":"国漫","rule_string":" 4K &Audiences&HHWEB&DDP> 4K &Audiences&HHWEB> 1080P &Audiences&HHWEB> 4K > 1080P > 720P ","media_type":"电视剧","category":"国漫"},{"name":"纪录片","rule_string":" 4K & BLURAY > 1080P & BLURAY > 4K > 1080P ","media_type":"电视剧","category":"纪录片"},{"name":"综艺","rule_string":" 4K & WEBDL &Complete> 4K & WEBDL &HHWEB> WEBDL & 1080P &HHWEB> 4K & WEBDL &Audiences> 1080P &Audiences& WEBDL > 1080P ","media_type":"电视剧","category":"综艺"},{"name":"国产剧","rule_string":" 4K & WEBDL &HQ> 4K & WEBDL > 4K & WEBDL > 1080P > 720P ","media_type":"电视剧","category":"国产剧"},{"name":"欧美剧","rule_string":" SPECSUB & 1080P & BLURAY &filterSeries> 1080P & WEBDL & CNSUB &filterSeries> CNSUB &filterSeries","media_type":"电视剧","category":"欧美剧"},{"name":"日韩剧","rule_string":" SPECSUB & 1080P & BLURAY &filterSeries> CNSUB & 1080P &filterSeries> 1080P & CNSUB &filterSeries> CNSUB &filterSeries ","media_type":"电视剧","category":"日韩剧"},{"name":"现场","rule_string":" CNSUB & 4K > CNSUB & 1080P > 4K > 1080P > !720P ","media_type":"电影","category":"现场"}]
 ```
 

@@ -70,7 +70,7 @@ categories:
 
 #### 深圳电信
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -109,7 +109,7 @@ traceroute to 59.36.216.1, 30 hops max, 52 bytes packets
 
 #### 上海电信
 
-```
+```shell
 No:2/9 Traceroute to 中国 上海 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -150,7 +150,7 @@ traceroute to 101.226.41.65, 30 hops max, 52 bytes packets
 
 #### 北京电信
 
-```
+```shell
 No:3/9 Traceroute to 中国 北京 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -188,7 +188,7 @@ traceroute to 220.181.53.1, 30 hops max, 52 bytes packets
 
 #### 广州联通
 
-```
+```shell
 No:4/9 Traceroute to 中国 广州 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -240,7 +240,7 @@ traceroute to 210.21.4.130, 30 hops max, 52 bytes packets
 
 #### 上海联通
 
-```
+```shell
 No:5/9 Traceroute to 中国 上海 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -282,7 +282,7 @@ traceroute to 112.65.95.129, 30 hops max, 52 bytes packets
 
 #### 北京联通
 
-```
+```shell
 No:6/9 Traceroute to 中国 北京 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -320,7 +320,7 @@ traceroute to 61.49.140.217, 30 hops max, 52 bytes packets
 
 #### 深圳移动
 
-```
+```shell
 No:7/9 Traceroute to 中国 深圳 移动 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -357,7 +357,7 @@ traceroute to 120.233.53.1, 30 hops max, 52 bytes packets
 
 #### 上海移动
 
-```
+```shell
 No:8/9 Traceroute to 中国 上海 移动 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -392,7 +392,7 @@ traceroute to 183.194.216.129, 30 hops max, 52 bytes packets
 
 #### 北京移动
 
-```
+```shell
 No:9/9 Traceroute to 中国 北京 移动 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -460,7 +460,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7K62 48-Core Processor
  CPU 核心数        : 2

@@ -8,7 +8,7 @@ categories:
 
 ## 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 5 3600 6-Core Processor
  CPU 核心数        : 1
@@ -217,7 +217,7 @@ Speedtest.net	 537.05 Mbps	 411.16 Mbps	 6.31	  5.6%
 
 ## Yabs
 
-```
+```shell
 root@sa:~# curl -sL yabs.sh | bash
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #

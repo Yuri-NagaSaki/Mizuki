@@ -47,20 +47,20 @@ categories:
 
 ### 安装 Rclone
 
-```
+```shell
 curl https://rclone.org/install.sh | bash 
 ```
 
 出现如下就算安装成功。
 
-```
+```shell
 rclone v1.70.2 has successfully installed.
 Now run "rclone config" for setup. Check https://rclone.org/docs/ for more details.
 ```
 
 ### 配置
 
-```
+```shell
  rclone config                                                                                                                                                              [22:23:42]
 2025/07/05 22:23:49 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
 No remotes found, make a new one?
@@ -77,7 +77,7 @@ name> hostbrr
 
 找到ftp
 
-```
+```shell
 15 / Encrypt/Decrypt a remote
    \ (crypt)
 16 / Enterprise File Fabric
@@ -92,7 +92,7 @@ name> hostbrr
 
 我这里现在是17
 
-```
+```shell
 61 / iCloud Drive
    \ (iclouddrive)
 62 / premiumize.me
@@ -104,7 +104,7 @@ Storage> 17
 
 下面的连接信息
 
-```
+```shell
 Option host.
 FTP host to connect to.
 E.g. "ftp.example.com".
@@ -158,7 +158,7 @@ y/n> n ##默认回车
 
 ### 确认信息
 
-```
+```shell
 Configuration complete.
 Options:
 - type: ftp
@@ -189,7 +189,7 @@ e/n/d/r/c/s/q> q
 
 到此就完成了挂载
 
-```
+```shell
 rclone ls hostbrr:/ 
 #若前序配置无误，则执行该命令后会列出远程空间ftp用户定义的根目录文件
 rclone copy hostbrr:/example.txt /root/ -P 
@@ -199,7 +199,7 @@ rclone copy /root/example.txt hostbrr:/-P
 #"-P" 参数能大概看个传输速度
 ```
 
-```
+```shell
 rclone copy /hdd/media/av/JAV hostbrr:/backup -P                                                                                          [22:45:37]
 Transferred:        2.783 GiB / 86.698 GiB, 3%, 98.724 MiB/s, ETA 14m30s
 Checks:                 0 / 0, -, Listed 31
@@ -216,7 +216,7 @@ Transferring:
 
 安装`fuse3`
 
-```
+```shell
 apt update
 apt install fuse3
 ```
@@ -225,7 +225,7 @@ apt install fuse3
 
 建立挂载服务 `vim /etc/systemd/system/rclone-examplehost.service`
 
-```
+```shell
 [Unit]
 Description=Rclone
 AssertPathIsDirectory=/usr/examplehost
@@ -242,7 +242,7 @@ WantedBy=default.target
 
 然后执行
 
-```
+```shell
 systemctl daemon-reload
 systemctl enable rclone-examplehost.service
 systemctl restart rclone-examplehost.service

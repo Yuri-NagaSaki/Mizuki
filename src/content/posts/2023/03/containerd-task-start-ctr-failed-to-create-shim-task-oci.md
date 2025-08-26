@@ -8,13 +8,13 @@ categories:
 
 错误信息如下:
 
-```
+```shell
 ctr: failed to create shim task: OCI runtime create failed: unable to retrieve OCI runtime error (open /run/containerd/io.containerd.runtime.v2.task/i4t/nginx/log.json: no such file or directory): runc did not terminate successfully: exit status 127: unknown
 ```
 
 我们执行的命令如下
 
-```
+```shell
 [root@web01 ~]# ctr -n i4t c ls
 CONTAINER    IMAGE                             RUNTIME                  
 nginx        docker.io/library/nginx:alpine    io.containerd.runc.v2    
@@ -27,7 +27,7 @@ ctr: failed to create shim task: OCI runtime create failed: unable to retrieve O
 **解决办法:**  
 这个是说缺少依赖包`libseccomp`，需要注意的是`centos7`中 yum 下载的版本是 2.3 的，版本不满足我们最新 containerd 的需求，需要下载 2.4 以上的
 
-```
+```shell
 #卸载原来的
 [i4t@web01 ~]# rpm -qa | grep libseccomp
 libseccomp-devel-2.3.1-4.el7.x86_64
@@ -49,7 +49,7 @@ libseccomp-2.5.1-1.el8.x86_64
 
 执行 runc
 
-```
+```shell
 [root@web01 ~]# runc
 NAME:
    runc - Open Container Initiative runtime

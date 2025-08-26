@@ -20,7 +20,7 @@ categories:
 
 ## 计算圆周率占用 CPU 保活
 
-```
+```shell
 nohup echo "scale=99999999;4*a(1)" | bc -lq > /dev/null &
 nohup cpulimit -l 30   -p 22489 >/dev/null &
 scale那个代表小数点后的位数，数越大计算时间越长
@@ -39,7 +39,7 @@ apt install bc -y && apt install cpulimit -y
 
 NeverIdle 项目地址：[https://github.com/layou233/NeverIdle](https://github.com/layou233/NeverIdle)
 
-```
+```shell
 # 服务器安装 wget screen
 yum install -y wget screen
 # 下载编译后的可执行文件
@@ -60,7 +60,7 @@ screen -R baohuo
 
 命令参数：
 
-```
+```shell
 ./NeverIdle -c 2h -m 2 -n 4h
 ```
 
@@ -80,7 +80,7 @@ screen -R baohuo
 
 有宝塔的也可以用面板自带定时任务，甲骨文一键保活代码：
 
-```
+```shell
 #AMD版本
 cd /root && wget https://raw.githubusercontent.com/velor2012/lookbusy-docker/main/lookbusy -O lookbusy && chmod +x lookbusy && sudo echo "0 */3 * * * root timeout 600 /root/lookbusy -c 10-20 -r curve" >> /etc/crontab && grep -q centos /etc/os-release && service crond restart || service cron restart
 #ARM版本
@@ -89,13 +89,13 @@ cd /root && wget https://raw.githubusercontent.com/velor2012/lookbusy-docker/mai
 
 查看执行日志：
 
-```
+```shell
 cat /var/log/cron | grep lookbusy
 ```
 
 一键卸载：
 
-```
+```shell
 sed -i "/lookbusy/d" /etc/crontab && rm -f /root/lookbusy && grep -q centos /etc/os-release && service crond restart || service cron restart
 ```
 
@@ -117,19 +117,19 @@ Oracle-server-keep-alive-script 项目地址：[Oracle-server-keep-alive-script]
 
 最后会询问是否需要带宽占用的参数自定义，这时候默认选项就是 n，回车就使用默认配置，输入 y 再回车则需要按照提示自定义参数
 
-```
+```shell
 curl -L https://raw.githubusercontent.com/spiritLHLS/Oracle-server-keep-alive-script/main/oalive.sh -o oalive.sh && chmod +x oalive.sh && bash oalive.sh
 ```
 
 或
 
-```
+```shell
 bash oalive.sh
 ```
 
 或
 
-```
+```shell
 bash <(wget -qO- --no-check-certificate https://raw.githubusercontent.com/spiritLHLS/Oracle-server-keep-alive-script/main/oalive.sh)
 ```
 

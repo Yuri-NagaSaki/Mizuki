@@ -10,13 +10,13 @@ categories:
 
 - 使用 `kibana:7.10.1` 镜像
 
-```
+```shell
 - 挂载了主配置文件
 ```
 
 - 可根据实际情况修改参数
 
-```
+```shell
 docker run -d --restart=always --name kibana \
     -p 5601:5601 \
     -v "/data/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml" \
@@ -27,7 +27,7 @@ docker run -d --restart=always --name kibana \
 
 ### 目录信息[#](#2060504847)
 
-```
+```shell
 # tree /data/kibana/
 /data/kibana/
 └── kibana.yml
@@ -38,7 +38,7 @@ docker run -d --restart=always --name kibana \
 
 ### 配置信息[#](#535312965)
 
-```
+```shell
 # vim /data/kibana/kibana.yml
 
 #
@@ -64,7 +64,7 @@ xpack.security.encryptionKey: "something_at_least_32_characters"
 
 - 可根据实际情况修改参数
 
-```
+```shell
 docker run -d --restart=always --name kibana \
     -p 5601:5601 \
     -v "/data/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml" \

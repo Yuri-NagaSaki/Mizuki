@@ -10,19 +10,19 @@ categories:
 
 1. 停止正在运行的 Chevereto 容器，使用以下命令：
 
-```
+```shell
 docker stop chevereto
 ```
 
 2. 备份 `/var/www/html/images/` 目录，不同的 VPS 可能具有不同的备份和迁移方法。如果你是使用基于 Linux 的 VPS，可以使用 `tar` 命令进行备份。例如，执行以下命令将 `images` 目录备份到当前目录下：
 
-```
+```shell
 tar -zcvf images_backup.tar.gz /var/www/html/images/
 ```
 
 3. 导出数据库，使用以下命令：
 
-```
+```shell
 docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > backup.sql
 ```
 
@@ -32,14 +32,14 @@ docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > back
 
 6. 在新的 VPS 上安装 Docker 和 Docker Compose，如果还没有安装可以根据对应操作系统的官方安装指南进行安装。例如，在 Ubuntu 20.04 上可以按照如下方式安装：
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install docker-compose docker.io
 ```
 
 6. 在新的 VPS 上创建一个新的目录。为了方便，可以将目录命名为 Chevereto，并切换到该目录中，使用以下命令：
 
-```
+```shell
 mkdir Chevereto
 cd Chevereto
 ```
@@ -58,7 +58,7 @@ cd Chevereto
 
 具体的 `docker-compose.yml` 文件内容如下：
 
-```
+```shell
 version: '3'
 services:
   chevereto:
@@ -90,7 +90,7 @@ services:
 
 8. 通过以下命令在新的 VPS 上启动 Chevereto 服务：
 
-```
+```shell
 docker-compose up -d
 ```
 

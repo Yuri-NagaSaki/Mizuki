@@ -8,7 +8,7 @@ categories:
 
 ## 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No
@@ -54,7 +54,7 @@ categories:
 
 ## 融合怪测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
  CPU 核心数        : 1

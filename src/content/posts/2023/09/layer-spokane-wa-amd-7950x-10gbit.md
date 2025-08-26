@@ -48,7 +48,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -124,7 +124,7 @@ YABS completed in 12 min 37 sec
 
 ### Benchy
 
-```
+```shell
 
 Server Insight                                  Hardware Information
 --------------------- ---------------------
@@ -182,7 +182,7 @@ Network Performance Test (Region: Mixed)
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -231,7 +231,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 1
@@ -448,7 +448,7 @@ Speedtest.net    2331.40 Mbps    8938.77 Mbps    15.94    0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Sat Sep 16 2023 10:40:13 - 11:08:36
 1 CPU in system; running 1 parallel copy of tests
@@ -485,7 +485,7 @@ System Benchmarks Index Score                                        4248.4
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 1 cores @ 4499 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -514,7 +514,7 @@ Memory Mark:                       1786
 
 ### SpeedTest
 
-```
+```shell
 Speedtest by Ookla
 
   Server: Vyve Broadband - Moses Lake, WA (id: 38364)
@@ -536,7 +536,7 @@ Result URL: https://www.speedtest.net/result/c/c4fbfc78-8692-4ccb-9b70-6720face5
 
 ### 2023.9.22
 
-```
+```shell
 Basic System Information:
 Uptime : 0 days, 0 hours, 1 minutes
 Processor : AMD Ryzen 9 7950X 16-Core Processor
@@ -596,7 +596,7 @@ YABS completed in 6 min 10 sec
 
 ### 2023年9.28日Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 1 days, 16 hours, 20 minutes
@@ -645,7 +645,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2810263
 
 ### 2023年10.2日Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 5 days, 21 hours, 7 minutes
@@ -696,7 +696,7 @@ YABS completed in 6 min 20 sec
 
 ### 2023年10月7日
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 1 Core @ 4499.996 MHz
@@ -1106,7 +1106,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ### 2023.10.22
 
-```
+```shell
 Processor  : AMD Ryzen 9 7950X 16-Core Processor
 CPU cores  : 1 @ 4499.980 MHz
 AES-NI     : ✔ Enabled

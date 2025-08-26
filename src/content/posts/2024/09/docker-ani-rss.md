@@ -41,7 +41,7 @@ Ani-RSS 的工作原理和功能与 AutoBangumi非常类似，但是解决了不
 
 首先，安装一些必要的软件包：
 
-```
+```shell
 apt update
 apt upgrade -y
 apt install curl vim wget gnupg dpkg apt-transport-https lsb-release ca-certificates
@@ -51,14 +51,14 @@ apt install curl vim wget gnupg dpkg apt-transport-https lsb-release ca-certific
 
 Debian
 
-```
+```shell
 curl -sSL https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://download.docker.com/linux/debian $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
 ```
 
 Ubuntu
 
-```
+```shell
 curl -sSL https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
 ```
@@ -67,21 +67,21 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 
 Debian
 
-```
+```shell
 curl -sS https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
 ```
 
 Ubuntu
 
-```
+```shell
 curl -sS https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
 ```
 
 然后更新系统后即可安装 Docker CE 和 Docker Compose 插件：
 
-```
+```shell
 apt update
 apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
@@ -92,7 +92,7 @@ apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 因为我们已经安装了 `docker-compose-plugin`，所以 Docker 目前已经自带 `docker compose` 命令，基本上可以替代 `docker-compose`：
 
-```
+```shell
 root@debian ~ # docker compose version
 Docker Compose version v2.27.1
 ```
@@ -101,14 +101,14 @@ Docker Compose version v2.27.1
 
 我们可以使用 Docker 官方发布的 [Github](https://github.com/docker/compose) 直接安装最新版本：
 
-```
+```shell
 curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 
 此时可以使用 `docker-compose version` 命令检查是否安装成功：
 
-```
+```shell
 root@debian ~ # docker-compose version
 Docker Compose version v2.27.1
 ```
@@ -117,7 +117,7 @@ Docker Compose version v2.27.1
 
 以下配置会增加一段自定义内网 IPv6 地址，开启容器的 IPv6 功能，以及限制日志文件大小，防止 Docker 日志塞满硬盘 ：
 
-```
+```shell
 cat > /etc/docker/daemon.json << EOF
 {
     "log-driver": "json-file",
@@ -135,7 +135,7 @@ EOF
 
 然后重启 Docker 服务：
 
-```
+```shell
 systemctl restart docker
 ```
 
@@ -143,7 +143,7 @@ systemctl restart docker
 
 ### 3.1 创建配置文件
 
-```
+```shell
 mkdir -p /root/docker/ani-rss/config
 也可以自己选择自己的下载目录，只需要和下面路径一致就可以
 mkdir -p /root/docker/ani-rss/downloads   （可选）
@@ -170,11 +170,11 @@ swr.ap-southeast-1.myhuaweicloud.com/soyorin/ani-rss:latest
 
 创建docker-compose.yaml文件，内容如下:
 
-```
+```shell
 vim docker-compose.yaml
 ```
 
-```
+```shell
 services:
   ani-rss:
     container_name: ani-rss
@@ -217,13 +217,13 @@ services:
 
 ### 3.3 启动项目
 
-```
+```shell
 docker compose up -d
 ```
 
 查看是否成功
 
-```
+```shell
 docker ps -a 
 ```
 
@@ -283,7 +283,7 @@ docker ps -a
 
 用于整理番剧到A-Z文件夹中 如:
 
-```
+```shell
 .
 ├── #
 │   └── 【我推的孩子】
@@ -342,7 +342,7 @@ RSS更新检查的间隔，单位 分钟
 
 如:
 
-```
+```shell
 2024-09-01 13:29:06.865 [rss-task-thread] INFO  ani.rss.util.TorrentUtil - 添加下载 Wonderful 光之美少女！ S01E31
 2024-09-01 13:29:06.866 [rss-task-thread] INFO  ani.rss.util.TorrentUtil - 下载种子 Wonderful 光之美少女！ S01E31
 2024-09-01 13:29:46.352 [rename-task-thread] INFO  ani.rss.util.TorrentUtil - 重命名 [FLsnow][Wonderful_Precure！][31][1080P]/[FLsnow][Wonderful_Precure！][31][1080P].mkv ==> Wonderful 光之美少女！ S01E31.mkv
@@ -361,7 +361,7 @@ RSS更新检查的间隔，单位 分钟
 
 支持的命名:
 
-```
+```shell
 ├─A
 │  └─安达与岛村
 │      ├─S1
@@ -485,7 +485,7 @@ mkdir -p /root/docker/bark
 
 vim docker-compose.yaml
 
-```
+```shell
 services:
   bark-server:
     image: finab/bark-server
@@ -497,11 +497,11 @@ services:
       - "18999:8080"
 ```
 
-```
+```shell
 之后输入 http://ip:8090/ping 访问了。如何有域名需求，自行设置反代。不做赘述
 ```
 
-```
+```shell
 iOS在 APP Store 里找到 Bark打开 APP，默认指向了官方服务器 api.day.app，需要点右上角的 + 号来添加我们前面搭建的私有服务器：输入你的 ip:端口测试连接并进行绑定会显示不同内容的发送格式#  推送内容https://地址/Xy4ssdd2pARjLfFY/这里改成你自己的推送内容# 推送标题https://地址/Xy4ssdd2pARjLfFY/推送标题/这里改成你自己的推送内容
 ```
 
@@ -563,7 +563,7 @@ iOS在 APP Store 里找到 Bark打开 APP，默认指向了官方服务器 api.d
 
 如果你现在的版本的用的尚可，没必要追着更新，大部分新增的功能都不是不可获取的。
 
-```
+```shell
 1. 关闭 ani-rss
 
 docekr stop ani-rss

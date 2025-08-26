@@ -24,7 +24,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:                       x86_64
 CPU op-mode(s):                     32-bit, 64-bit
@@ -67,7 +67,7 @@ Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep 
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 2 minutes
@@ -141,7 +141,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/7217346
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC-Milan Processor
  CPU Cores          : 2 @ 2396.398 MHz
@@ -185,7 +185,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/7217346
 
 ### UnixBench
 
-```
+```shell
    BYTE UNIX Benchmarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
@@ -267,7 +267,7 @@ System Benchmarks Index Score                                        3694.0
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 2
@@ -561,7 +561,7 @@ Speedtest.net	 411.82 Mbps	 3854.45 Mbps	 155.89	  0.0%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC-Milan Processor (x86_64)
 1 cores @ 2396 MHz  |  7.6 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium

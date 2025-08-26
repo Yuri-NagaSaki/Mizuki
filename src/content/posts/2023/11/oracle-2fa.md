@@ -15,7 +15,7 @@ categories:
 
 ## 解决方法：
 
-```
+```shell
 先进Oracle登录页面，然后在输入邮箱和密码页面中记下以 
 
 https://idcs-********.identity.oraclecloud.com/ 

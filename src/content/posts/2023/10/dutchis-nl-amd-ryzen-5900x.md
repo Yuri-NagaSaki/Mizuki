@@ -30,7 +30,7 @@ Data center's looking glass: [https://lg.serverius.net/](https://lg.serverius.n
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -60,7 +60,7 @@ Caches (sum of all):
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 9 minutes
@@ -113,7 +113,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 575 Mbits/sec   | 801 Mbits/sec   
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 5900X 12-Core Processor
  CPU Cores          : 2 @ 3693.062 MHz
@@ -156,7 +156,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 575 Mbits/sec   | 801 Mbits/sec   
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 5900X 12-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -184,7 +184,7 @@ Memory Mark:                       1906
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 
 2 CPUs in system; running 1 parallel copy of tests
 
@@ -253,7 +253,7 @@ System Benchmarks Index Score                                        4755.2
 
 ### Network-Speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  Basic System Info
 ---------------------------------------------------------------------------

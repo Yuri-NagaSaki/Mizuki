@@ -16,7 +16,7 @@ categories:
 
 ## 测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7402P 24-Core Processor
  CPU 核心数        : 1
@@ -226,7 +226,7 @@ Speedtest.net	 466.83 Mbps	 503.54 Mbps	 0.35	  0.0%
 
 ### 回程测试
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
@@ -423,7 +423,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 1 days, 19 hours, 52 minutes

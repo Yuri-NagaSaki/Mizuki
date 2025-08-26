@@ -9,7 +9,7 @@ categories:
 
 采用一键脚本
 
-```
+```shell
 bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Install.sh) <用户名称> <用户密码> <缓存大小(单位:GiB，且为整数)>
 ```
 
@@ -29,7 +29,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/ma
 找到 `qbittorrent.conf` 文件（如 `~/.config/qBittorrent/qBittorrent.conf` ）并打开；  
 在`[Preferences]`中 设置
 
-```
+```shell
 WebUI\HostHeaderValidation=false
 WebUI\CSRFProtection=false
 ```

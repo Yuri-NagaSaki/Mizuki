@@ -22,7 +22,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 22 minutes
@@ -97,7 +97,7 @@ YABS completed in 12 min 11 sec
 
 ### Bench
 
-```
+```shell
 
 Server Insight                                  Hardware Information
 --------------------- ---------------------
@@ -155,7 +155,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2
@@ -373,7 +373,7 @@ Speedtest.net    23.09 Mbps      55.05 Mbps      40.82    0.0%
 
 ### SpeedTest
 
-```
+```shell
 
    Speedtest by Ookla
 

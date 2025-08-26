@@ -7,7 +7,7 @@ categories:
 
 我这边采用的是Hetzner的独立服务器配置，VPS也能部署
 
-```
+```shell
  CPU 型号          : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
  CPU 核心数        : 1 物理核心, 4 总核心, 8 总线程数
  CPU 频率          : 4089.603 MHz
@@ -42,7 +42,7 @@ categories:
 
 ## 安装 Kubectl
 
-```
+```shell
 依次执行
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x ./kubectl
@@ -60,7 +60,7 @@ kubectl version -o yaml
 
 ## 安装Minikube
 
-```
+```shell
 依次执行
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
 sudo install minikube-darwin-amd64 /usr/local/bin/minikube
@@ -76,7 +76,7 @@ minikube version
 
 ## 启动Minikube
 
-```
+```shell
 我这边采用的是Root权限下启动需要执行的，如果直接minikube启动，会有权限警告错误
 minikube start --driver=docker --force
 ```
@@ -91,7 +91,7 @@ minikube start --driver=docker --force
 
 Root登录权限下直接通过minikube start 启动集群
 
-```
+```shell
 minikube v1.31.2 on Debian 11.7
 Automatically selected the docker driver. Other choices: ssh, none
 The "docker" driver should not be used with root privileges. If you wish to continue as root, use --force.
@@ -104,7 +104,7 @@ X Exiting due to DRV_AS_ROOT: The "docker" driver should not be used with root p
 
 ## 检查集群状态
 
-```
+```shell
 kubectl cluster-info
 ```
 
@@ -116,7 +116,7 @@ kubectl cluster-info
 
 ## 检查正在运行的节点
 
-```
+```shell
 kubectl get nodes
 ```
 
@@ -128,7 +128,7 @@ kubectl get nodes
 
 ## 访问Minikube 容器
 
-```
+```shell
 minikube ssh
 ```
 
@@ -140,7 +140,7 @@ minikube ssh
 
 退出容器Shell
 
-```
+```shell
 exit
 ```
 
@@ -152,14 +152,14 @@ exit
 
 ## 停止和删除 Kubernetes 集群
 
-```
+```shell
 minikube stop
 minikube delete
 ```
 
 ## 检查Minikube状态
 
-```
+```shell
 minikube status
 ```
 
@@ -177,7 +177,7 @@ minikube status
 
 你可以看到以下输出：
 
-```
+```shell
 [15:56 root@panel ~] > minikube addons list
 |-----------------------------|----------|--------------|--------------------------------|
 |         ADDON NAME          | PROFILE  |    STATUS    |           MAINTAINER           |
@@ -223,7 +223,7 @@ minikube status
 
 接下來，使用以下命令列出集群中目前运行的所有容器镜像：
 
-```
+```shell
 kubectl get pods --all-namespaces
 ```
 
@@ -235,7 +235,7 @@ kubectl get pods --all-namespaces
 
 现在，韵行以下命令获取 Kubernetes 面板的 URL：
 
-```
+```shell
 minikube dashboard --url
 ```
 
@@ -247,7 +247,7 @@ minikube dashboard --url
 
 此時，Minikube 仪表盘已安装并运行在服务器上的 39509 端口上。但是，目前只能从本地地址访问它。 如果要从外部访问它，需要运行以下命令。
 
-```
+```shell
 kubectl proxy --address='0.0.0.0' --disable-filter=true
 ```
 

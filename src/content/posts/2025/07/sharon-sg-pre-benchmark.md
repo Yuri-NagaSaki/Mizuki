@@ -30,7 +30,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@sharon-sg-pre:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -80,7 +80,7 @@ root@sharon-sg-pre:~#
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 4 days, 11 hours, 23 minutes

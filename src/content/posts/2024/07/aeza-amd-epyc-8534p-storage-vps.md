@@ -21,7 +21,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -75,7 +75,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 0 minutes
@@ -138,7 +138,7 @@ YABS completed in 11 min 58 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -169,7 +169,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 8534P 64-Core Processor
  CPU Cores          : 4 @ 2296.548 MHz
@@ -210,7 +210,7 @@ Geekbench 5 测试结果
 
 ### FIO 测试
 
-```
+```shell
 read4k-rand: (groupid=0, jobs=16): err= 0: pid=2807: Tue Jul  9 17:05:14 2024
   read: IOPS=1008, BW=4172KiB/s (4272kB/s)(245MiB/60013msec)
     slat (usec): min=2, max=65500, avg=15852.93, stdev=1848.37

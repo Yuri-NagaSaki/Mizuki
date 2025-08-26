@@ -55,7 +55,7 @@ categories:
 
 ## 纽约测评
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7443P 24-Core Processor
  CPU 核心数        : 1
@@ -308,7 +308,7 @@ Speedtest.net	 66.17 Mbps	 2707.80 Mbps	 0.52	  0.0%
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 15 minutes
@@ -368,7 +368,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2154536
 
 ## 拉斯维加斯
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7413 24-Core Processor
  CPU 核心数        : 2
@@ -569,7 +569,7 @@ Speedtest.net	 6198.26 Mbps	 5695.18 Mbps	 0.92	  0.0%
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 25 minutes
@@ -629,7 +629,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2154871
 
 ### 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               Yes (Region: US)
@@ -689,7 +689,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2154871
 
 ## 芝加哥
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7413 24-Core Processor
  CPU 核心数        : 2
@@ -877,7 +877,7 @@ Speedtest.net	 9425.92 Mbps	 5772.86 Mbps	 1.63	  0.0%
 ------------------------------------------------------------------------
 ```
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-04-23                    #
@@ -944,7 +944,7 @@ Multi Core      | 2495
 Full Test       | https://browser.geekbench.com/v6/cpu/2155122
 ```
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               Yes (Region: US)

@@ -16,13 +16,13 @@ categories:
 
 这里就不过多在赘述这个了
 
-```
+```shell
 curl https://rclone.org/install.sh | bash 
 ```
 
 出现如下就算安装成功。
 
-```
+```shell
 rclone v1.70.2 has successfully installed.Now run "rclone config" for setup. Check https://rclone.org/docs/ for more details.
 ```
 
@@ -114,19 +114,19 @@ rclone v1.70.2 has successfully installed.Now run "rclone config" for setup. Che
 
 我喜欢使用scoop管理，和自己去下载执行文件一样的
 
-```
+```shell
 scoop install rclone
 ```
 
 运行命令
 
-```
+```shell
 rclone config
 ```
 
 交互式操作，按实际情况进行选择：
 
-```
+```shell
 e) Edit existing remote
 n) New remote
 d) Delete remote
@@ -375,13 +375,13 @@ d) Delete this remote
 
 基本上根据上面也就操作好了，根据你的安装目录，找到根目录下的rclone.conf文件，把你这个挂载存储的信息复制粘贴到服务器 rclone.conf 里。
 
-```
+```shell
 vim ~/.config/rclone/rclone.conf
 ```
 
 最后用命令测试一下能否读取到数据即可。
 
-```
+```shell
 rclone ls OneDrive:/ 
 #若前序配置无误，则执行该命令后会列出远程空间ftp用户定义的根目录文件
 rclone copy OneDrive:/example.txt /root/ -P 

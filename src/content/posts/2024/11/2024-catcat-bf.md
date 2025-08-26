@@ -66,7 +66,7 @@ OVH：😆 Netcup：😆
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 19 minutes

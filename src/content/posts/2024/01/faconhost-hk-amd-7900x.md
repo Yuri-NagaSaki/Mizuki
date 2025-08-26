@@ -36,7 +36,7 @@ Price : £24.50 GBP_**
 
 ### lscpu
 
-```
+```shell
 root@yuri-ly:~# lscpu
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
@@ -91,7 +91,7 @@ root@yuri-ly:~#
 
 ### Yabs
 
-```
+```shell
 Thu 25 Jan 2024 12:14:03 PM GMT
 
 Basic System Information:
@@ -145,7 +145,7 @@ root@yuri-ly:~#
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -195,7 +195,7 @@ root@yuri-ly:~#
 
 ### GeekBench5 测试
 
-```
+```shell
 
 Geekbench 5 测试结果
 
@@ -227,7 +227,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -312,7 +312,7 @@ System Benchmarks Index Score                                        4463.3
 
 ### Monster 测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  OS           : Debian GNU/Linux 11 (64 Bit)
  Virt/Kernel  : KVM / 5.10.0-20-amd64
@@ -356,7 +356,7 @@ System Benchmarks Index Score                                        4463.3
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7900X 12-Core Processor
  CPU 核心数        : 2
@@ -563,7 +563,7 @@ Speedtest.net    49.28 Mbps      19.01 Mbps      31.62    0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD Ryzen 9 7900X 12-Core Processor (x86_64)
 2 cores @ 4691 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -600,7 +600,7 @@ Memory Mark:                       1698
 
 ### 多地回程测试
 
-```
+```shell
 traceroute to 59.36.216.1, 30 hops max, 52 bytes packets
 1   *
 2   10.82.3.254     *                         RFC1918          

@@ -19,7 +19,7 @@ categories:
 
 ## bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -67,7 +67,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 16 minutes
@@ -142,7 +142,7 @@ YABS completed in 12 min 44 sec
 
 ## Benchy测试
 
-```
+```shell
 # # # # # # # # # # # # # # # # # # # # #
 #             Benchy v2.7               #
 #    https://github.com/L1so/benchy     #
@@ -206,7 +206,7 @@ Network Performance Test (Region: Mixed)
 
 ## 融合怪脚本
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 7402 24-Core Processor
  CPU 核心数        : 4

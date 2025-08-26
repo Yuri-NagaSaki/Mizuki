@@ -175,7 +175,7 @@ Looking glass: [https://lg-cda.crunchbits.com](https://lg-cda.crunchbits.com/)
 
 ## 融合怪脚本测速
 
-```
+```shell
 -----------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD Ryzen 9 5950X 16-Core Processor
  CPU 核心数        : 1
@@ -410,7 +410,7 @@ Speedtest.net	 990.38 Mbps	 2314.60 Mbps	 41.54	  0.0%
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -485,7 +485,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2500151
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Intechtel - Managed IT Services - Coeur d'Alene, ID (id: 51640)
@@ -501,7 +501,7 @@ Idle Latency:    10.61 ms   (jitter: 0.12ms, low: 10.52ms, high: 10.70ms)
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 5950X 16-Core Processor
  CPU 核心数        : 1

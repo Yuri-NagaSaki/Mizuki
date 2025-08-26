@@ -26,14 +26,14 @@ categories:
 
 ### 1\. 使用国内 `yum` 源[#](#675912178)
 
-```
+```shell
 # yum install -y yum-utils device-mapper-persistent-data lvm2
 # yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ```
 
 ### 2\. 卸载旧版本的 `docker`[#](#3030073587)
 
-```
+```shell
 ## 如果主机上已经有docker存在且不是想要安装的版本，需要先进行卸载。
 # yum remove -y docker \
               docker-client \
@@ -50,13 +50,13 @@ categories:
 
 ### 3\. 安装 `Docker20.10` 版本[#](#1357564711)
 
-```
+```shell
 # yum -y install docker-ce-20.10.12-3.el7 docker-ce-cli-20.10.12-3.el7
 ```
 
 ### 4\. 设置镜像加速[#](#1440004243)
 
-```
+```shell
 # mkdir /etc/docker
 # vi /etc/docker/daemon.json
 
@@ -67,7 +67,7 @@ categories:
 
 ### 5\. 启动 `docker`[#](#2644354139)
 
-```
+```shell
 # systemctl start docker
 # systemctl enable docker
 # systemctl status docker
@@ -77,7 +77,7 @@ categories:
 
 ### 1\. `Docker-compose` 安装[#](#3204906843)
 
-```
+```shell
 ## github.com 可能访问超时，可以使用下面的获取下载下来后上传服务器即可
 # curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
@@ -88,7 +88,7 @@ categories:
 
 ### 2\. 查看 `docker-compose` 版本[#](#644543534)
 
-```
+```shell
 # docker-compose version
 ```
 
@@ -96,7 +96,7 @@ categories:
 
 ### 1\. 获取 `docker-compose.yaml`[#](#3566464355)
 
-```
+```shell
 ## 使用下面的开源项目，可以跳过这个步骤，使用下面的 docker-compose.yaml 文件
 # cd /opt/
 # git clone https://github.com/evnsio/prom-stack.git
@@ -105,7 +105,7 @@ categories:
 
 ### 2\. 编辑 `docker-compose.yml` 文件[#](#3416775633)
 
-```
+```shell
 version: "3"
 services:
 
@@ -175,7 +175,7 @@ services:
 
 ### 3\. 创建服务挂载目录[#](#2050426407)
 
-```
+```shell
 # mkdir -pv /data/{pushgateway,prometheus,alertmanager,grafana}
 
 # mkdir /data/prometheus/{alerts,data}
@@ -188,7 +188,7 @@ services:
 
 #### a | `prometheus.yml`[#](#81745845)
 
-```
+```shell
 # vim /data/prometheus/prometheus.yml
 
 # my global config
@@ -231,7 +231,7 @@ scrape_configs:
 
 #### b | `alertmanager.yml`[#](#1328503301)
 
-```
+```shell
 # vim  /data/alertmanager/alertmanager.yml
 
 global:
@@ -252,7 +252,7 @@ receivers:
 
 ### 5\. 启动服务[#](#250570383)
 
-```
+```shell
 # docker-compose -f docker-compose.yml pull
 # docker-compose -f docker-compose.yml up -d
 ```
@@ -261,7 +261,7 @@ receivers:
 
 #### a | 查看服务安装情况[#](#99071733)
 
-```
+```shell
 # docker-compse ps
 
 # docker ps -a
@@ -271,7 +271,7 @@ receivers:
 
 - 可以使用 $RANDOM 来生成随机数
 
-```
+```shell
 # while true; do
     echo "mymetric $RANDOM" | curl --data-binary @- http://localhost:9091/metrics/job/my-push-job
     sleep 1

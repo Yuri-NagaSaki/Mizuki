@@ -141,13 +141,13 @@ categories:
 
 语法：
 
-```
+```shell
 kubectl create -f FILENAME
 ```
 
 示例：
 
-```
+```shell
 # 通过 pod.yml 文件创建一个 pod
 kubectl create -f ./pod.yml
 
@@ -164,13 +164,13 @@ kubectl create rolebinding deploy-runner --clusterrole=cluster-admin --serviceac
 
 语法：
 
-```
+```shell
 kubectl expose (-f FILENAME | TYPE NAME) [--port=port] [--protocol=TCP|UDP] [--target-port=number-or-name] [--name=name] [--external-ip=external-ip-of-service] [--type=type]
 ```
 
 示例：
 
-```
+```shell
 # 为 rc 的 nginx 创建 service，并通过 service 的 80 端口转发至容器的 8000 端口上
 kubectl expose rc nginx --port=80 --target-port=8000
 
@@ -184,13 +184,13 @@ kubectl expose -f nginx-controller.yml --port=80 --target-port=8000
 
 语法：
 
-```
+```shell
 kubectl get RESOURCE_NAME
 ```
 
 示例：
 
-```
+```shell
 # 查看 master 状态
 kubectl get componentstatuses
  
@@ -231,13 +231,13 @@ kubectl get all
 
 语法：
 
-```
+```shell
 kubectl edit (RESOURCE/NAME | -f FILENAME)
 ```
 
 示例：
 
-```
+```shell
 # 编辑名为 “docker-registry” 的 service
 kubectl edit svc/docker-registry
 
@@ -256,13 +256,13 @@ kubectl edit deployment/mydeployment -o yaml --save-config
 
 语法：
 
-```
+```shell
 kubectl delete ([-f FILENAME] | TYPE [(NAME | -l label | --all)])
 ```
 
 示例：
 
-```
+```shell
 # 使用 pod.yml 中指定的资源类型和名称删除 pod
 kubectl delete -f ./pod.yml
 
@@ -300,13 +300,13 @@ kubectl delete pods --all
 
 语法：
 
-```
+```shell
 kubectl rollout SUBCOMMAND
 ```
 
 示例：
 
-```
+```shell
 # 查看 deployment 的历史记录
 kubectl rollout history deployment/abc
 
@@ -348,13 +348,13 @@ kubectl scale --replicas=5 rc/foo rc/bar
 
 语法：
 
-```
+```shell
 kubectl describe (-f FILENAME | TYPE [NAME_PREFIX | -l label] | TYPE/NAME)
 ```
 
 示例：
 
-```
+```shell
 # 描述一个 node
 kubectl describe nodes kubernetes-minion-emt8.c.myproject.internal
 
@@ -380,13 +380,13 @@ kubectl describe pods frontend
 
 语法：
 
-```
+```shell
 kubectl logs [-f] [-p] POD [-c CONTAINER]
 ```
 
 示例：
 
-```
+```shell
 # 返回仅包含一个容器的 pod nginx 的日志快照
 kubectl logs nginx
 
@@ -409,13 +409,13 @@ kubectl logs --since=1h nginx
 
 语法：
 
-```
+```shell
 kubectl exec POD [-c CONTAINER] -- COMMAND [args...]
 ```
 
 示例：
 
-```
+```shell
 
 # 默认在 pod 123456-abcd 的第一个容器中运行“date”并获取输出
 kubectl exec 123456-abcd date
@@ -433,13 +433,13 @@ kubectl exec 123456-abcd -c ruby-container -i -t -- bash -il
 
 语法：
 
-```
+```shell
 kubectl apply -f FILENAME
 ```
 
 示例：
 
-```
+```shell
 # 通过 pod.yml 文件创建一个 pod
 kubectl apply -f ./pod.yml
 
@@ -462,13 +462,13 @@ cat pod.yml | kubectl apply -f -
 
 语法：
 
-```
+```shell
 kubectl label [--overwrite] (-f FILENAME | TYPE NAME) KEY_1=VAL_1 ... KEY_N=VAL_N [--resource-version=version]
 ```
 
 示例：
 
-```
+```shell
 
 # 给名为 foo 的 Pod 添加 label unhealthy=true
 kubectl label pods foo unhealthy=true

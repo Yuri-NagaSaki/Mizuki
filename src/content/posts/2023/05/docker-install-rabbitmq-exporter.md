@@ -22,14 +22,14 @@ categories:
 
 ### 1\. 使用国内 `yum` 源
 
-```
+```shell
 # yum install -y yum-utils device-mapper-persistent-data lvm2
 # yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ```
 
 ### 2\. 卸载旧版本的 `docker`
 
-```
+```shell
 ## 如果主机上已经有docker存在且不是想要安装的版本，需要先进行卸载。
 # yum remove -y docker \
               docker-client \
@@ -46,13 +46,13 @@ categories:
 
 ### 3\. 安装 `Docker20.10` 版本
 
-```
+```shell
 # yum -y install docker-ce-20.10.12-3.el7 docker-ce-cli-20.10.12-3.el7
 ```
 
 ### 4\. 设置镜像加速
 
-```
+```shell
 # mkdir /etc/docker
 # vi /etc/docker/daemon.json
 
@@ -63,7 +63,7 @@ categories:
 
 ### 5\. 启动 `docker`
 
-```
+```shell
 # systemctl start docker
 # systemctl enable docker
 # systemctl status docker
@@ -73,7 +73,7 @@ categories:
 
 ### 1\. `Docker-compose` 安装
 
-```
+```shell
 ## github.com 可能访问超时，可以使用下面的获取下载下来后上传服务器即可
 # curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
@@ -84,7 +84,7 @@ categories:
 
 ### 2\. 查看 `docker-compose` 版本
 
-```
+```shell
 # docker-compose version
 ```
 
@@ -92,7 +92,7 @@ categories:
 
 ### 1\. `docker-compose.yaml` 资源清单
 
-```
+```shell
 version: '3'
 
 services:
@@ -130,7 +130,7 @@ services:
 
 ### 2\. 部署服务
 
-```
+```shell
 # docker-compose up -d
 
 # docker-compose ps -a
@@ -138,7 +138,7 @@ services:
 
 ### 3\. 初始化 rabbimq 账号信息
 
-```
+```shell
 # cat init_rabbitmq.sh
 
 #!/bin/bash
@@ -163,6 +163,6 @@ echo "5、Delete guest user"
 docker exec rabbitmq /bin/bash -c "rabbitmqctl delete_user guest"
 ```
 
-```
+```shell
 # bash init_rabbitmq.sh
 ```

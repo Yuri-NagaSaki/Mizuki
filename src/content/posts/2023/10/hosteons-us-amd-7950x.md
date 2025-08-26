@@ -26,7 +26,7 @@ Looking Glass: [https://lg.slc2.hosteons.com](https://lg.slc2.hosteons.com/)
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -63,7 +63,7 @@ Caches (sum of all):
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 10 minutes
@@ -123,7 +123,7 @@ Multi Core      | 5222
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -174,7 +174,7 @@ Multi Core      | 5222
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       79195958.5 lps   (10.0 s, 7 samples)
@@ -242,7 +242,7 @@ System Benchmarks Index Score                                        6490.9
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -270,7 +270,7 @@ Memory Mark:                       2778
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2
@@ -486,7 +486,7 @@ Speedtest.net	 1857.20 Mbps	 7007.73 Mbps	 15.13	  0.0%
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Sumo Fiber - Salt Lake City, UT (id: 2185)

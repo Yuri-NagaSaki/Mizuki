@@ -24,7 +24,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -72,7 +72,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 1 days, 11 hours, 42 minutes
@@ -134,7 +134,7 @@ YABS completed in 10 min 42 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC-Milan Processor
  CPU Cores          : 2 @ 4491.536 MHz
@@ -181,7 +181,7 @@ YABS completed in 10 min 42 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 2
@@ -357,7 +357,7 @@ Speedtest.net    140.75 Mbps     4749.34 Mbps    44.52    0.4%
 
 ### SpeedTest
 
-```
+```shell
 
    Speedtest by Ookla
 
@@ -380,7 +380,7 @@ Idle Latency:    40.73 ms   (jitter: 0.01ms, low: 40.71ms, high: 40.75ms)
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC-Milan Processor (x86_64)
 2 cores @ 0 MHz  |  942 MiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -409,7 +409,7 @@ Memory Mark:                       1043
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 

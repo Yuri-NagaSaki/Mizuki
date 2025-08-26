@@ -8,7 +8,7 @@ categories:
 
 ## SSD 测试
 
-```
+```shell
 
   CPU 型号              Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
   CPU 核心              合计 4 核心，8 线程
@@ -46,7 +46,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 1 minutes
@@ -121,7 +121,7 @@ YABS completed in 11 min 42 sec
 
 ## 融合怪
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
  CPU 核心数        : 1 物理核心, 4 总核心, 8 总线程数

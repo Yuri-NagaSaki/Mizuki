@@ -97,7 +97,7 @@ coverImage: "image-10.png"
 > 方式二：通过 `ModelScope` 下载 （国内推荐用这个）  
 > 仓库地址：https://modelscope.cn/models/deepseek-ai/DeepSeek-R1/files
 
-```
+```shell
 1、安装ModelScope
 pip3 install modelscope 
 
@@ -140,7 +140,7 @@ nohup modelscope download --model deepseek-ai/DeepSeek-R1 --local_dir /mnt/catca
     <img src="https://s3.catcat.blog/images/2025/02/image-11.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 安装 LWS API 的 CRD
 VERSION=v0.5.1
 kubectl apply --server-side -f https://github.com/kubernetes-sigs/lws">https://github.com/kubernetes-sigs/lws/releases/download/$VERSION/manifests.yaml
@@ -154,7 +154,7 @@ kubectl api-resources |grep -i lws
 
 ## 部署DeepSeek-R1
 
-```
+```shell
 apiVersion: leaderworkerset.x-k8s.io/v1
 kind: LeaderWorkerSet
 metadata:
@@ -366,7 +366,7 @@ spec:
         schedulerName: volcano
 ```
 
-```
+```shell
 kubectl apply -f deepseek-r1-lws-sglang.yaml
 
 kubectl get lws -n deepseek
@@ -378,7 +378,7 @@ sglang-0                                 1/1     Running   0          2h
 sglang-0-1                               1/1     Running   0         2h
 ```
 
-```
+```shell
 ##查看日志
 ~# kubectl logs -n deepseek sglang-0
 [2025-02-16 12:25:49] server_args=ServerArgs(model_path='deepseek-ai/DeepSeek-R1', tokenizer_path='deepseek-ai/DeepSeek-R1', tokenizer_mode='auto', load_format='auto', trust_remote_code=True, dtype='auto', kv_cache_dtype='auto', quantization_param_path=None, quantization=None, context_length=None, device='cuda', served_model_name='deepseek-ai/DeepSeek-R1', chat_template=None, is_embedding=False, revision=None, skip_tokenizer_init=False, host='0.0.0.0', port=30000, mem_fraction_static=0.81, max_running_requests=None, max_total_tokens=None, chunked_prefill_size=4096, max_prefill_tokens=16384, schedule_policy='lpm', schedule_conservativeness=0.3, cpu_offload_gb=0, prefill_only_one_req=False, tp_size=8, stream_interval=1, stream_output=False, random_seed=773491082, constrained_json_whitespace_pattern=None, watchdog_timeout=300, download_dir=None, base_gpu_id=0, log_level='info', log_level_http=None, log_requests=False, show_time_cost=False, enable_metrics=False, decode_log_interval=40, api_key=None, file_storage_pth='sglang_storage', enable_cache_report=False, dp_size=8, load_balance_method='round_robin', ep_size=1, dist_init_addr=None, nnodes=1, node_rank=0, json_model_override_args='{}', lora_paths=None, max_loras_per_batch=8, lora_backend='triton', attention_backend='flashinfer', sampling_backend='flashinfer', grammar_backend='outlines', speculative_draft_model_path=None, speculative_algorithm=None, speculative_num_steps=5, speculative_num_draft_tokens=64, speculative_eagle_topk=8, enable_double_sparsity=False, ds_channel_config_path=None, ds_heavy_channel_num=32, ds_heavy_token_num=256, ds_heavy_channel_type='qk', ds_sparse_decode_threshold=4096, disable_radix_cache=False, disable_jump_forward=False, disable_cuda_graph=False, disable_cuda_graph_padding=False, enable_nccl_nvls=False, disable_outlines_disk_cache=False, disable_custom_all_reduce=False, disable_mla=False, disable_overlap_schedule=False, enable_mixed_chunk=False, enable_dp_attention=True, enable_ep_moe=False, enable_torch_compile=False, torch_compile_max_bs=32, cuda_graph_max_bs=160, cuda_graph_bs=None, torchao_config='', enable_nan_detection=False, enable_p2p_check=False, triton_attention_reduce_in_fp32=False, triton_attention_num_kv_splits=8, num_continuous_decode_steps=1, delete_ckpt_after_loading=False, enable_memory_saver=False, allow_auto_truncate=False, return_hidden_states=False, enable_custom_logit_processor=False, tool_call_parser=None, enable_hierarchical_cache=False, enable_flashinfer_mla=False)
@@ -408,7 +408,7 @@ INFO 02-16 12:26:01 __init__.py:190] Automatically detected platform cuda.
 
 编写SVC
 
-```
+```shell
 apiVersion: v1
 kind: Service
 metadata:
@@ -433,7 +433,7 @@ kubectl apply -f deepseek-r1-svc.yaml -n deepseek
 
 ### Curl 测试部署
 
-```
+```shell
 curl -X POST http://ip:port/v1/chat/completions -H "Content-Type: application/json" -d '{
     "model": "/model",
     "messages": [
@@ -451,7 +451,7 @@ curl -X POST http://ip:port/v1/chat/completions -H "Content-Type: application/js
 
 这里给出yaml，不在过多赘述了
 
-```
+```shell
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:

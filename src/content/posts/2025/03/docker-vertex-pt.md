@@ -30,7 +30,7 @@ Vertex 是一个专为 PT（私有种子网络）玩家设计的追剧刷流一�
 
 其实官网已经有完善的部署
 
-```
+```shell
 apt update -y && 
 apt upgrade -y && 
 apt install curl -y && 
@@ -52,7 +52,7 @@ docker run -d --name vertex --restart unless-stopped --network host -v /root/ver
 
 访问vertex存储路径/root/vertex/data/ 鼠标双击password查看初始密码。
 
-```
+```shell
  cat /root/vertex/data/password
 ```
 
@@ -84,13 +84,13 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 还有部分规则来自 Nodeseek-[vertex刷流工具的规则](https://www.nodeseek.com/post-273783-1)
 
-```
+```shell
 根据自身盒子io情况，硬盘大小和刷的站点，勾选删种和修改里面的参数，不要直接套用。
 ```
 
 #### 黑车1
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   let ruleData = [
@@ -117,7 +117,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 黑车2
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const { state, category, uploadSpeed, downloadSpeed } = torrent;
@@ -140,7 +140,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 无效做种
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const stateList = ["uploading", "stalledUP"];
@@ -166,7 +166,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 分享率
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = [
     "keep",
@@ -198,7 +198,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 最长下载时间
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const stateList = ["downloading", "stalledDL"];
@@ -224,7 +224,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 慢车 持续40s
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const stateList = ["downloading", "stalledDL"];
@@ -257,7 +257,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 长时间未开始
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const { state, category, progress, addedTime } = torrent;
@@ -291,7 +291,7 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 下载人数少
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const stateList = ["downloading", "stalledDL"];
@@ -318,11 +318,11 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 空1小时跳车
 
-```
+```shell
 持续时间10-15s
 ```
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const { state, category, progress } = torrent;
@@ -340,11 +340,11 @@ Vertex的基础安装参照：[https://wiki.vertex.icu](https://wiki.vertex.icu/
 
 #### 瓷器非免跳车
 
-```
+```shell
 qb的分类必须和下方的判断一致。默认使用hdchina
 ```
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const { state, category, addedTime } = torrent;
@@ -362,11 +362,11 @@ qb的分类必须和下方的判断一致。默认使用hdchina
 
 #### 岛非免跳车
 
-```
+```shell
 qb的分类必须和下方的判断一致。默认使用chdbits
 ```
 
-```
+```shell
 (maindata, torrent) => {
   const categoryList = ["keep"];
   const { state, category, addedTime } = torrent;
@@ -396,7 +396,7 @@ qb的分类必须和下方的判断一致。默认使用chdbits
 
 超过七天才可能删除符合规则的种子，删种按分享率删除，每在3的基础上多0.1分享率就多留一天。
 
-```
+```shell
 (maindata, torrent) => {
 const config = {
   deleteHours: 7 * 24 *3600,    // 超时才删种的时间
@@ -442,7 +442,7 @@ function logFailure(message) {
 
 效果：适应馒头标盒机制，对于小流量的机器不当冤大头额外上传不计入上传流量的部分。同时又不暂停，可以获取魔力。规则：不实际删除种子，超过分享率后设置限速100k，两天后解除限速（适用于馒头盒子机制：新种标盒，两天盒子规则消失，盒子规则限制时间内只计算3倍种子大小上传量，标盒过期后取消限制）
 
-```
+```shell
 // 参数：
 //   maindata：qBittorrent 的全局数据
 //   torrent：当前种子的信息
@@ -521,7 +521,7 @@ if (!client) {
 
 可以根据更多规则选择要刷的种子，对于小盘鸡友好，完全不会超过设置的保种体积，同时计算体积带矫正，和性能缓解，2分钟前算过体积就不重新计算了，不会每个种子都算一遍全盘种子大小。可以限制下载数量，种子大小，文件名等，可以自定义开启关闭功能进行组合。15G小盘鸡也能刷了，添加种子前计算下载器中种子的大小，这个不是vertex自带的剩余空间大小，那个实际因为没下完种子可能会超过空间导致占满空间，当然可用提前分配缓解，但是还是不符合需求，这个可以直接实现完全不会超过设置空间。可以说是非常人性化了。注意要设置相应下载器的id。
 
-```
+```shell
 (torrent) => {
   // 配置部分：这些部分可以自定义
   const config = {

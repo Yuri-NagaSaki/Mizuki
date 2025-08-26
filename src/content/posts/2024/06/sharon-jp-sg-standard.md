@@ -13,7 +13,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Sun Jun 30 07:40:27 AM BST 2024
 
 Basic System Information:
@@ -65,7 +65,7 @@ YABS completed in 13 min 13 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz
  CPU 核心数        : 1
@@ -287,7 +287,7 @@ Speedtest.net    995.67 Mbps     928.85 Mbps     0.36     0.0%
 
 ### 路由回程测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.1 2024-05-31T02:04:05Z f303397
@@ -677,7 +677,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes payload
 
 ### 流媒体测试
 
-```
+```shell
 ########################################################################                      IP质量体检报告：157.254.*.*                    bash <(curl -sL IP.Check.Place)                   https://github.com/xykt/IPQuality        报告时间：2024-06-30 16:41:35 CST  脚本版本：v2024-06-27########################################################################一、基础信息（Maxmind 数据库）自治系统号：            AS396856组织：                  AS-SHARON坐标：                  139°41′24″E, 35°41′21″N地图：                  https://check.place/35.6893,139.6899,15,cn城市：                  东京都, 东京, 151-0053使用地：                [JP]日本, [AS]亚洲注册地：                [US]美国时区：                  Asia/TokyoIP类型：                 广播IP 二、IP类型属性数据库：      IPinfo    ipregistry    ipapi     AbuseIPDB  IP2LOCATION 使用类型：     机房        家宽        机房        机房        机房    公司类型：     机房        家宽        机房    三、风险评分风险等级：      极低         低       中等       高         极高SCAMALYTICS：                       35|中风险ipapi：     0.06%|低风险AbuseIPDB：    0|低风险IPQS：                        75|可疑IPDB-IP：         |低风险四、风险因子库： IP2LOCATION ipapi ipregistry IPQS SCAMALYTICS ipdata IPinfo IPWHOIS地区：    [JP]    [JP]    [JP]    [US]    [JP]    [JP]    [JP]    [JP]代理：     否      否      否      是      否      否      否      否 Tor：      否      否      否      否      否      否      否      否 VPN：      否      否      否      是      否      无      否      否 服务器：   是      是      否      无      否      否      否      否 滥用：     否      否      否      否      无      否      无      无 机器人：   否      否      无      否      否      无      无      无 五、流媒体及AI服务解锁检测服务商：  TikTok   Disney+  Netflix Youtube  AmazonPV  Spotify  ChatGPT 状态：     解锁     屏蔽    仅自制    解锁     解锁     解锁     解锁   地区：     [US]              [US]     [JP]     [JP]     [JP]     [JP]   方式：     原生              原生     原生     原生     原生     原生   六、邮局连通性及黑名单检测本地25端口：阻断IP地址黑名单数据库：  有效 439   正常 437   已标记 2   黑名单 0========================================================================
 ```
 
@@ -685,7 +685,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes payload
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -735,7 +735,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/6726431
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7B13 64-Core Processor
  CPU 核心数        : 2
@@ -959,7 +959,7 @@ Speedtest.net	 997.13 Mbps	 962.22 Mbps	 1.12	  0.0%
 
 ### 路由回程测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.1 2024-05-31T02:04:05Z f303397
@@ -1356,7 +1356,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes payload
 
 ### 流媒体测试
 
-```
+```shell
 ########################################################################
                        IP质量体检报告：188.64.*.*
                     bash <(curl -sL IP.Check.Place)

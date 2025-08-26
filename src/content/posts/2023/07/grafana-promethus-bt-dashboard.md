@@ -30,7 +30,7 @@ categories:
 
 vim config.yml
 
-```
+```shell
 root@Sakura:~# cat config.yml 
 qb:  
 
@@ -75,7 +75,7 @@ tr:
 
 ## 部署
 
-```
+```shell
 docker run -d -p 9000:9000 -v /root/config.yml:/config/config.yml leishi1313/downloader-exporter
 ```
 

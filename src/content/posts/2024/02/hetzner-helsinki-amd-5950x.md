@@ -18,7 +18,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@Hetnzer-5950X ~ # lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -74,7 +74,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Tue Feb 13 10:46:19 AM CET 2024
 
@@ -127,7 +127,7 @@ YABS completed in 5 min 1 sec
 
 ### 通电时长测试
 
-```
+```shell
 
   CPU 型号              AMD Ryzen 9 5950X 16-Core Processor
   CPU 核心              合计 16 核心，32 线程
@@ -166,7 +166,7 @@ YABS completed in 5 min 1 sec
 
 ### GeekBench5
 
-```
+```shell
 
 Geekbench 5 测试结果
 
@@ -198,7 +198,7 @@ Geekbench 5 测试结果
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 5950X 16-Core Processor
  CPU 核心数        : 1 物理核心, 16 总核心, 32 总线程数
@@ -420,7 +420,7 @@ Speedtest.net    936.08 Mbps     926.96 Mbps     23.26    0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 
 AMD Ryzen 9 5950X 16-Core Processor (x86_64)
 16 cores @ 5083 MHz  |  125.7 GiB RAM
@@ -450,7 +450,7 @@ Memory Mark:                       3219
 
 ### network-speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 5950X 16-Core Processor
  CPU Cores          : 32 @ 2200.000 MHz
@@ -535,7 +535,7 @@ Memory Mark:                       3219
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 5950X 16-Core Processor
  CPU Cores          : 32 @ 2200.000 MHz

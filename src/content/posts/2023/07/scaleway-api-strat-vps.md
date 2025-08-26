@@ -30,7 +30,7 @@ categories:
 
 ## 创建SSH key
 
-```
+```shell
 在你的服务器上 输入 
 ssh-keygen -o -b 4096
 
@@ -81,7 +81,7 @@ Enter same passphrase again:
 
 通过终端进入解压好的文件夹(管理员的权限)
 
-```
+```shell
 scw init
 ```
 
@@ -105,13 +105,13 @@ project-id 获取
 
 荷兰
 
-```
+```shell
 scw instance server create type=STARDUST1-S zone=nl-ams-1 image=debian_bullseye root-volume=l:10G name=OK ip=none ipv6=true project-id=51b4e5be-9xxx-4xxx-bxxx-4fxxxxx(换成你自己的)
 ```
 
 法国
 
-```
+```shell
 scw instance server create type=STARDUST1-S zone=fr-par-1 image=debian_bullseye root-volume=l:10G name=OK ip=none ipv6=true project-id=51b4e5be-9xxx-4xxx-bxxx-4fxxxxx(换成你自己的)
 ```
 
@@ -130,7 +130,7 @@ scw instance server create type=STARDUST1-S zone=fr-par-1 image=debian_bullseye 
 
 这样子的话 你可以一直运行另一个开机脚本
 
-```
+```shell
 scw instance server start xxxxxxx-xxxxxx-xxxx（机子ID）
 ```
 
@@ -139,7 +139,7 @@ BashCopy
 弄个定时任务就OK啦  
 将下列文本保存为bat文件，在scw.exe的目录执行，一直挂着就行
 
-```
+```shell
 @echo off
 :scw
 scw instance server start f5xxxxx-1007-476c-a137-xxxxxxxxx
@@ -171,13 +171,13 @@ BatCopy
 
 ## Warp脚本添加ipv4
 
-```
+```shell
 bash <(wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh 2> /dev/null)
 ```
 
 ## 结语
 
-```
+```shell
 结语
 我个人认为Scaleway的Stardust机器是远强于玩具的，机器虽然便宜，但是性能十分给力，并且在WARP优秀的网络加持下，机器本身虽然只有公网V6，但是也可以愉快的访问V4的资源.
 这机器在挂载了scaleway赠送的75G对象储存之后可玩性更高了，并且同一区域的流量应该是不计费的，而星尘的流量也是无限的.

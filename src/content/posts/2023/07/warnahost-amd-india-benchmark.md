@@ -8,7 +8,7 @@ categories:
 
 ## **Bench**
 
-```
+```shell
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
 ----------------------------------------------------------------------
@@ -54,7 +54,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -110,7 +110,7 @@ YABS completed in 3 min 59 sec
 
 ## 流媒体检测
 
-```
+```shell
 ============[ Multination ]============
  Dazn: Yes (Region: ID)
  HotStar: Yes (Region: ID)
@@ -188,7 +188,7 @@ YABS completed in 3 min 59 sec
 
 ## OpenAi检测
 
-```
+```shell
 [IPv4]
 Your IPv4: 103.189.*.* - PT Warna Data Multimedia
 Your IP supports access to OpenAI. Region: ID

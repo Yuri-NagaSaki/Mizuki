@@ -50,7 +50,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@VM-0-4-debian:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -107,7 +107,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 6 minutes
@@ -172,7 +172,7 @@ Total      | 739.47 MB/s   (1.4k) | 733.78 MB/s    (715)
 
 ### UnixBench
 
-```
+```shell
    BYTE UNIX Benchmarks (Version 5.1.3)
 
    System: VM-0-4-debian: GNU/Linux
@@ -282,7 +282,7 @@ System Benchmarks Index Score                                       28574.9
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 9K65 192-Core Processor (x86_64)
 8 cores @ 0 MHz  |  30.1 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -311,7 +311,7 @@ Memory Mark:                       2601
 
 ### 融合怪Go 测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 9K65 192-Core Processor @2250.046 MHz
  CPU 数量            : 16 Virtual CPU(s)

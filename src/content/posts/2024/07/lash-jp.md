@@ -20,13 +20,13 @@ IPs : 1 IPv4 /64 IPv6**
 
 ### Bench
 
-```
+```shell
 ---------------------------------------------------------------------- CPU Model          : Intel Core Processor (Broadwell, IBRS) CPU Cores          : 1 @ 2399.996 MHz CPU Cache          : 16384 KB AES-NI             : ✓ Enabled VM-x/AMD-V         : ✓ Enabled Total Disk         : 4.9 GB (2.0 GB Used) Total Mem          : 457.8 MB (135.0 MB Used) System uptime      : 0 days, 18 hour 58 min Load average       : 0.00, 0.00, 0.00 OS                 : Debian GNU/Linux 12 Arch               : x86_64 (64 Bit) Kernel             : 6.1.0-9-amd64 TCP CC             : cubic Virtualization     : KVM IPv4/IPv6          : ✓ Online / ✓ Online Organization       : AS215304 YUWAN NETWORKS LIMITED Location           : Tokyo / JP Region             : Tokyo---------------------------------------------------------------------- I/O Speed(1st run) : 50.0 MB/s I/O Speed(2nd run) : 50.1 MB/s I/O Speed(3rd run) : 50.1 MB/s I/O Speed(average) : 50.1 MB/s---------------------------------------------------------------------- Node Name        Upload Speed      Download Speed      Latency      Speedtest.net    994.46 Mbps       931.22 Mbps         0.37 ms      Los Angeles, US  808.89 Mbps       653.69 Mbps         104.22 ms    Dallas, US       609.85 Mbps       759.08 Mbps         142.17 ms    Montreal, CA     184.91 Mbps       4.84 Mbps           175.96 ms    Amsterdam, NL    277.53 Mbps       7.53 Mbps           223.98 ms    Hongkong, CN     258.97 Mbps       7.32 Mbps           224.10 ms    Mumbai, IN       315.18 Mbps       799.63 Mbps         133.71 ms    Singapore, SG    99.91 Mbps        1.20 Mbps           181.73 ms    Tokyo, JP        999.75 Mbps       917.65 Mbps         1.14 ms     ---------------------------------------------------------------------- Finished in        : 5 min 32 sec Timestamp          : 2024-07-27 09:23:35 CST----------------------------------------------------------------------
 ```
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel Core Processor (Broadwell, IBRS)
  CPU 核心数        : 1
@@ -290,7 +290,7 @@ Speedtest.net	 996.26 Mbps	 942.42 Mbps	 0.34	  NULL
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                  原生解锁        Yes (Region: JP)
  TikTok:                原生解锁        Yes (Region: JP)
@@ -343,7 +343,7 @@ Speedtest.net	 996.26 Mbps	 942.42 Mbps	 0.34	  NULL
 =======================================
 ```
 
-```
+```shell
         报告时间：2024-07-27 09:38:06 CST  脚本版本：v2024-07-24
 ########################################################################
 一、基础信息（Maxmind 数据库）

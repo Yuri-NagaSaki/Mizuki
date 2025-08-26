@@ -36,7 +36,7 @@ Nube cloud的第二个节点，上游为Cogent，三网Cogent，然后骨干网�
 
 ### Yabs
 
-```
+```shell
 Fri Jul 12 04:08:51 PM HKT 2024
 
 Basic System Information:
@@ -100,7 +100,7 @@ YABS completed in 11 min 34 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -147,7 +147,7 @@ YABS completed in 11 min 34 sec
 
 ### GeekBench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -178,7 +178,7 @@ Geekbench 5 测试结果
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 
 AMD EPYC 7663 56-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.7 GiB RAM
@@ -208,7 +208,7 @@ Memory Mark:                       2354
 
 ### 流媒体检测
 
-```
+```shell
 [ Multination ] =============
 Dazn                      YES (Region: US)
 Disney+                   YES (Region: HK)
@@ -264,7 +264,7 @@ CBC Gem                   NO
 Crave                     YES
 ```
 
-```
+```shell
 ########################################################################
 一、基础信息（Maxmind 数据库）
 自治系统号：            AS138997
@@ -309,7 +309,7 @@ IP地址黑名单数据库：  有效 439   正常 435   已标记 4   黑名单
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7663 56-Core Processor
  CPU 核心数        : 4

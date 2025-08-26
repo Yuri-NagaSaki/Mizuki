@@ -28,7 +28,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
 Byte Order:                      Little Endian
@@ -57,7 +57,7 @@ L3 cache:                        32 MiB
 
 ### 内存
 
-```
+```shell
               total        used        free      shared  buff/cache   available
 Mem:          1.9Gi       167Mi       409Mi       0.0Ki       1.4Gi       1.6Gi
 Swap:         511Mi       1.0Mi       510Mi
@@ -66,7 +66,7 @@ Total:        2.4Gi       169Mi       919Mi
 
 ### 硬盘
 
-```
+```shell
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  948M     0  948M   0% /dev
 tmpfs          tmpfs     199M  1.0M  198M   1% /run
@@ -85,7 +85,7 @@ total          - 63G  3.2G   56G   6% -
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 7 minutes
@@ -157,7 +157,7 @@ Multi Core      | 5015
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 2 @ 4491.560 MHz
@@ -199,7 +199,7 @@ Multi Core      | 5015
 
 ### **Benchy**
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Ubuntu 20.04.6 LTS                 Model       : AMD Ryzen 9 7950X 16-Core Processor
@@ -247,7 +247,7 @@ Network Performance Test (Region: Europe)
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       79491429.9 lps   (10.0 s, 7 samples)
@@ -315,7 +315,7 @@ System Benchmarks Index Score                                        5583.6
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 4491 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -344,7 +344,7 @@ Memory Mark:                       1902
 
 ### **Speedtest**
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Clouvider Ltd - Frankfurt Am Main (id: 35692)
@@ -365,7 +365,7 @@ Idle Latency:     0.99 ms   (jitter: 0.02ms, low: 0.97ms, high: 1.03ms)
 
 ### Network-Speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 2 @ 4491.560 MHz

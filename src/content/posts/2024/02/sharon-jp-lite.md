@@ -24,7 +24,7 @@ Price : \$1_**
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel Xeon Processor (Skylake, IBRS)
  CPU 核心数        : 1
@@ -205,7 +205,7 @@ Speedtest.net    603.08 Mbps     946.41 Mbps     0.47     89.0%
 
 #### 深圳电信
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 104.21.40.176 - 275.41ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -235,7 +235,7 @@ traceroute to 59.36.216.1, 30 hops max, 52 bytes packets
 
 #### 上海电信
 
-```
+```shell
 [NextTrace API] preferred API IP - 104.21.40.176 - 311.47ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
 traceroute to 101.226.41.65, 30 hops max, 52 bytes packets
@@ -265,7 +265,7 @@ traceroute to 101.226.41.65, 30 hops max, 52 bytes packets
 
 #### 北京电信
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 104.21.40.176 - 310.18ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -295,7 +295,7 @@ traceroute to 220.181.53.1, 30 hops max, 52 bytes packets
 
 #### 广州联通
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 172.67.155.192 - 259.39ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -326,7 +326,7 @@ traceroute to 210.21.4.130, 30 hops max, 52 bytes packets
 
 #### 上海联通
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 172.67.155.192 - 154.51ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -355,7 +355,7 @@ traceroute to 112.65.95.129, 30 hops max, 52 bytes packets
 
 #### 北京联通
 
-```
+```shell
 
 [NextTrace API] preferred API IP - 104.21.40.176 - 279.10ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -385,7 +385,7 @@ traceroute to 61.49.140.217, 30 hops max, 52 bytes packets
 
 #### 深圳移动
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 104.21.40.176 - 152.68ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -418,7 +418,7 @@ traceroute to 120.233.53.1, 30 hops max, 52 bytes packets
 
 #### 上海移动
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 104.21.40.176 - 160.46ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -448,7 +448,7 @@ traceroute to 183.194.216.129, 30 hops max, 52 bytes packets
 
 #### 北京移动
 
-```
+```shell
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
 [NextTrace API] preferred API IP - 104.21.40.176 - 160.46ms - Misaka.HKG
 IP Geo Data Provider: LeoMoeAPI
@@ -486,7 +486,7 @@ traceroute to 183.194.216.129, 30 hops max, 52 bytes packets
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 22 minutes

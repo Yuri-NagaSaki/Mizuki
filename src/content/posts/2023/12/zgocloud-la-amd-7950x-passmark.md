@@ -16,7 +16,7 @@ categories:
 
 **商家TOS:**
 
-```
+```shell
 1.一个账号只能退款2次，流量超10g不退，push账号不退，活动鸡不退，超5天不退
 2.每月可以更改一次IP，每次收取$10，$5（洛杉矶Xeon® Platinum）或$3（大阪Ryzen 7950X）
 3.禁止I/O操作速率超过100 MiB/s，持续时间超过4小时
@@ -46,7 +46,7 @@ https://catcat.blog/zgocloud-%e7%b3%bb%e5%88%97%e6%b5%8b%e8%af%84%ef%bc%88%e6%96
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -97,7 +97,7 @@ YABS completed in 8 min 45 sec
 
 ### 流媒体测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               Yes (Region: US)
@@ -218,7 +218,7 @@ YABS completed in 8 min 45 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2
@@ -393,7 +393,7 @@ Speedtest.net	 482.75 Mbps	 422.83 Mbps	 39.80	  0.0%
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -429,7 +429,7 @@ Speedtest.net	 482.75 Mbps	 422.83 Mbps	 39.80	  0.0%
 
 ### GeekBench
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -462,7 +462,7 @@ Geekbench 5 测试结果
 
 ### yabs
 
-```
+```shell
 Sun 31 Dec 2023 12:06:08 AM CST
 
 Basic System Information:
@@ -515,7 +515,7 @@ YABS completed in 6 min 23 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -547,7 +547,7 @@ Geekbench 5 测试结果
 
 #### Yabs
 
-```
+```shell
 Sat 13 Jan 2024 12:45:34 PM CST
 
 Basic System Information:
@@ -598,7 +598,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4370469
 
 #### 回程路由测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -901,7 +901,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 

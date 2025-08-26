@@ -24,7 +24,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 Architecture:                x86_64
   CPU op-mode(s):            32-bit, 64-bit
   Address sizes:             36 bits physical, 48 bits virtual
@@ -75,7 +75,7 @@ Vulnerabilities:
 
 ### 硬件检测
 
-```
+```shell
 ════════════════════════════════════════════════════════════════════════════════
                                     系统硬件信息报告                                    
 ════════════════════════════════════════════════════════════════════════════════
@@ -177,7 +177,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 11 minutes
@@ -264,7 +264,7 @@ YABS completed in 14 min 5 sec
 
 ### 网络测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz
  CPU Cores          : 8 @ 2158.382 MHz

@@ -7,7 +7,7 @@ categories:
   - "eu-server"
 ---
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
  CPU 核心数        : 5
@@ -224,7 +224,7 @@ Speedtest.net    298.95 Mbps     5356.05 Mbps    4.61     0.0%
 
 ## Yabs
 
-```
+```shell
 
 root@sayyiku:~# curl -sL yabs.sh | bash
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
@@ -315,7 +315,7 @@ YABS completed in 11 min 16 sec
     <img src="https://s3.catcat.blog/images/2023/06/image-6-1024x396.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash

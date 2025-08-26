@@ -41,7 +41,7 @@ coverImage: "image-10.png"
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -90,7 +90,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 2 hours, 1 minutes
@@ -148,7 +148,7 @@ YABS completed in 12 min 26 sec
 
 ### 融合怪测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
  CPU 核心数        : 4
@@ -354,7 +354,7 @@ Speedtest.net	 8655.61 Mbps	 8576.95 Mbps	 0.63	  0.0%
 
 ### SpeedTest 脚本测速
 
-```
+```shell
 ---------------------------------------------------------------------------
  Speedtest.net (Region: CHINA | 中華人民共和國)
 ---------------------------------------------------------------------------

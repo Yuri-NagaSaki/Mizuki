@@ -22,7 +22,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 22 minutes
@@ -97,7 +97,7 @@ YABS completed in 11 min 49 sec
 
 ### Benchy 测试
 
-```
+```shell
 
 Server Insight                                  Hardware Information
 --------------------- ---------------------
@@ -155,7 +155,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7713 64-Core Processor
  CPU 核心数        : 8
@@ -376,7 +376,7 @@ Speedtest.net    949.21 Mbps     782.44 Mbps     11.45    0.0%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7713 64-Core Processor (x86_64)
 8 cores @ 1999 MHz  |  15.6 GiB RAM
 Number of Processes: 8  |  Test Iterations: 1  |  Test Duration: Medium
@@ -405,7 +405,7 @@ Memory Mark:                       2424
 
 ### Speedtest
 
-```
+```shell
 
    Speedtest by Ookla
 
@@ -428,7 +428,7 @@ Idle Latency:    11.19 ms   (jitter: 0.20ms, low: 11.13ms, high: 11.51ms)
 
 ### Network
 
-```
+```shell
 ---------------------------- network-speed.xyz ----------------------------
       A simple script to test network performance using speedtest-cli      
 ---------------------------------------------------------------------------
@@ -517,7 +517,7 @@ Idle Latency:    11.19 ms   (jitter: 0.20ms, low: 11.13ms, high: 11.51ms)
 
 ## 9.28
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 3 days, 13 hours, 28 minutes
@@ -566,7 +566,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2810128
 
 ### 10.8日
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 13 days, 6 hours, 41 minutes

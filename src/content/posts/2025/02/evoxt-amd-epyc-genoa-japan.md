@@ -43,7 +43,7 @@ Evoxt 是一家成立于 2020 年的 VPS 提供商，旨在以竞争力的价格
 
 ### CPU
 
-```
+```shell
 ❯ lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -96,7 +96,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 21 hours, 1 minutes
@@ -161,7 +161,7 @@ Edgoo           | Sao Paulo, BR (1G)        | 590 Mbits/sec   | 501 Mbits/sec   
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -192,7 +192,7 @@ Geekbench 5 测试结果
 
 ### UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -240,7 +240,7 @@ System Benchmarks Index Score                                         954.7
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2024-11-11
  Usage              : wget -qO- bench.sh | bash
@@ -303,7 +303,7 @@ System Benchmarks Index Score                                         954.7
 
 ### 融合怪测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC-Genoa Processor @3693.018 MHz
  CPU 数量            : 1 Virtual CPU(s)

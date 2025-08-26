@@ -21,11 +21,11 @@ categories:
 
 ## 搭建 DeepLX
 
-```
+```shell
  docker run -itd -p 1188:1188 missuo/deeplx:latest
 ```
 
-```
+```shell
 root@crunchbits:~# docker run -itd -p 1188:1188 missuo/deeplx:latest
 Unable to find image 'missuo/deeplx:latest' locally
 latest: Pulling from missuo/deeplx

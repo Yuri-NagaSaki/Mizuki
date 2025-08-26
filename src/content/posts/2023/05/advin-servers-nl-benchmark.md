@@ -30,7 +30,7 @@ categories:
 
 ## 融合怪脚本测试
 
-```
+```shell
 -----------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC Processor
  CPU 核心数        : 4

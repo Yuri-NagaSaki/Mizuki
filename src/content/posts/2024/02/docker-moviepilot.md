@@ -96,7 +96,7 @@ ssh 服务器 ，输入 `id -u id -g` 分别获取UID GID
 
 - `/MoviePilot/media` → 媒体数据(`文件硬链接目录`)
 
-```
+```shell
 文件目录一览：
 
 MoviePilot
@@ -115,7 +115,7 @@ MoviePilot
 
 CookieCloud是一个和自架服务器同步Cookie的小工具，可以将浏览器的Cookie及Local storage同步到手机和云端，它支持端对端加密，可设定同步时间间隔。主要用来同步各大PT站点的cookie信息供MoviePilot自动同步导入使用。
 
-```
+```shell
 docker run -d --name=cookiecloud -p 8088:8088 --restart=always easychen/cookiecloud:latest
 ```
 
@@ -159,7 +159,7 @@ docker run -d --name=cookiecloud -p 8088:8088 --restart=always easychen/cookiecl
 
 下面给出完整的docker-compose 文件，需要自行修改其中的变量
 
-```
+```shell
 version: '3.3'
  
 # MoviePilot 地址：https://github.com/jxxghp/MoviePilot
@@ -460,7 +460,7 @@ services:
     <img src="https://s3.catcat.blog/images/2024/02/image-8.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 # 配置电影的分类策略
 movie:
   # 分类名同时也是目录名
@@ -514,7 +514,7 @@ tv:
 
 我的目录结构
 
-```
+```shell
 media
 ├── download
 │   ├── AV

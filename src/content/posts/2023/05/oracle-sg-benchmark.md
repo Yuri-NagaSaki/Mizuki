@@ -9,7 +9,7 @@ categories:
 
 ## 新加坡AMD
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 7J13 64-Core Processor
  CPU 核心数        : 2
@@ -192,7 +192,7 @@ Speedtest.net	 500.37 Mbps	 486.93 Mbps	 0.87	  NULL
 
 ## 日本大阪ARM
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Neoverse-N1
  CPU 核心数        : 4
@@ -373,7 +373,7 @@ Speedtest.net    3723.87 Mbps    4084.66 Mbps    13.91    0.3%
 
 ## 日本大阪AMD
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 7551 32-Core Processor
  CPU 核心数        : 2

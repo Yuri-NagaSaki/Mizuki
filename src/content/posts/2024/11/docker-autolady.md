@@ -14,7 +14,7 @@ categories:
 
 Docker 的安装部署已经在 ANI-RSS 中详细描述，这里不在赘述。有需要的前往 [Docker 部署 ani-rss 实现自动追番](https://catcat.blog/docker-ani-rss.html) 进行查看。
 
-```
+```shell
 mkdir -p /root/docker/autolady
 version: '3'
 services:
@@ -35,7 +35,7 @@ networks:
 
 首次启动需在日志中查看默认的管理员账号、密码：
 
-```
+```shell
 docker logs auto-lady
 ```
 

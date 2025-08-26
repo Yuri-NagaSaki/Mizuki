@@ -7,7 +7,7 @@ categories:
   - "eu-server"
 ---
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 7 minutes

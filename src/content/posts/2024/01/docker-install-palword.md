@@ -17,7 +17,7 @@ categories:
 
 ## 命令
 
-```
+```shell
 docker volume create palworld_saved
 
 docker pull docker.mirrors.sjtug.sjtu.edu.cn/kagurazakanyaa/palworld
@@ -35,11 +35,11 @@ docker run -d --name=palworld-server -v "palworld_saved:/opt/palworld/Pal/Saved"
 
 需要进入容器
 
-```
+```shell
 docker exec -it 容器id /bin/bash 
 ```
 
-```
+```shell
 /opt/palworld/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 编辑后重新运行即可
 ```

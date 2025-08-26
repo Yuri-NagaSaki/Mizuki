@@ -18,7 +18,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-04-23                    #
@@ -93,7 +93,7 @@ YABS completed in 7 min 34 sec
 
 ## 流媒体解锁测试
 
-```
+```shell
  ** Checking Results Under IPv4
 --------------------------------
  ** Your Network Provider: combahton IT Services (178.251.*.*)
@@ -308,7 +308,7 @@ YABS completed in 7 min 34 sec
 
 ## OpenAI解锁测试
 
-```
+```shell
 OpenAI Access Checker. Made by Vincent
 https://github.com/missuo/OpenAI-Checker
 -------------------------------------

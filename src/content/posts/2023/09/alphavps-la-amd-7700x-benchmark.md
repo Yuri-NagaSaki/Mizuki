@@ -21,7 +21,7 @@ categories:
 
 #### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -86,7 +86,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 911 Mbits/sec   | 921 Mbits/sec   
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2022-06-01
  Usage              : wget -qO- bench.sh | bash
@@ -133,7 +133,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 911 Mbits/sec   | 921 Mbits/sec   
 
 ### **PerformanceTest**
 
-```
+```shell
 AMD Ryzen 7 7700X 8-Core Processor (x86_64)
 2 cores @ 4491 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 3  |  Test Duration: Very Long
@@ -161,7 +161,7 @@ Memory Mark:                       1916
 
 ### **UnixBench**
 
-```
+```shell
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       82250362.3 lps   (10.0 s, 10 samples)

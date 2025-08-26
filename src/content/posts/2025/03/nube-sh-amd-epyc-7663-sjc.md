@@ -33,7 +33,7 @@ Price : **_\$_** 0.9733/ Month_** **__\$__0.0187/ GB** （流量计费，只�
 
 ### CPU
 
-```
+```shell
 root@VM-SJC1-EWSTB56ZRX:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -86,7 +86,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 2 days, 18 hours, 11 minutes
@@ -127,7 +127,7 @@ Total      | 2.90 GB/s     (5.6k) | 3.17 GB/s     (3.0k)
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -166,7 +166,7 @@ Geekbench 5 测试结果
 
 ### Speedtest
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD EPYC 7663 56-Core Processor
  CPU Cores          : 1 @ 2000.000 MHz
@@ -213,7 +213,7 @@ Geekbench 5 测试结果
 
 ### 融合怪Go测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 7663 56-Core Processor @2000.000 MHz
  CPU 数量            : 1 Virtual CPU(s)

@@ -27,7 +27,7 @@ Virtio-Balloon 驱动就是通过在虚拟机中申请内存，然后将申请�
 
 - 添加设备 如果用 libvirt 启动 在 libvirt 的虚拟机配置侧添加如下 xml
 
-```
+```shell
  <devices>
  <memballoon model='virtio'>
       <alias name='balloon0'/>
@@ -39,13 +39,13 @@ Virtio-Balloon 驱动就是通过在虚拟机中申请内存，然后将申请�
 
 在 qemu 中启动中添加如下设备
 
-```
+```shell
 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0×4
 ```
 
 - 安装驱动 windows 驱动这里省略了在网上教程很多。 linux 下在 kernel 很早就加入了 Virtio-Balloon 驱动，所以在主流 linux 发行版中一般都具有这个驱动。
 
-```
+```shell
 [root@localhost _posts]# modinfo virtio-balloon
 filename:       /lib/modules/3.10.0-327.el7.x86_64/kernel/drivers/virtio/virtio_balloon.ko
 license:        GPL
@@ -67,13 +67,13 @@ sig_hashalgo:   sha256
 
 - 查看内存： 在 libvirt 侧使用
 
-```
+```shell
 virsh # dommemstat test
 ```
 
 在 qemu 的 hmp 中查看内存
 
-```
+```shell
 info balloon
 ```
 
@@ -81,13 +81,13 @@ info balloon
 
 libvirt 侧
 
-```
+```shell
 virsh # setmem test 4096
 ```
 
 在 qemu 的 hmp 中查看内存
 
-```
+```shell
 balloon 4096
 ```
 
@@ -97,7 +97,7 @@ balloon 4096
 
 首先来看 virtio\_balloon\_driver 驱动的定义， 这里很容易看到驱动的处理函数并不多 virtballoon\_probe，在驱动加载时候， virtballoon\_remove 在驱动卸载时候，剩下只有 virtballoon\_changed 那么肯定所有的功能都是在这个里面来实现。
 
-```
+```shell
 static struct virtio_driver virtio_balloon_driver = {
     .feature_table = features,
     .feature_table_size = ARRAY_SIZE(features),
@@ -116,7 +116,7 @@ static struct virtio_driver virtio_balloon_driver = {
 
 virtballoon\_changed 的函数也相当简单，就是启动了一个 work 这个 work 主要来执行 update\_balloon\_size\_work 这个回调。
 
-```
+```shell
 static void virtballoon_changed(struct virtio_device *vdev)
 {
     struct virtio_balloon *vb = vdev->priv;
@@ -131,7 +131,7 @@ static void virtballoon_changed(struct virtio_device *vdev)
 
 为了弄清楚这个 work 我们还是需要看一下 virtio\_balloon 的初始化函数 virtballoon\_probe。 截取片段来看，初始化时候就注册了 stats\_request 这个 callback，用来响应后端发来的 stats 请求。定义了 2 个任务 update\_balloon\_size\_func 是用来修改内存， 而 update\_balloon\_stats\_func 这个是用来更新内存信息的，这个也是再次浏览代码时候的发现。
 
-```
+```shell
 static int virtballoon_probe(struct virtio_device *vdev)
 {
   struct virtqueue *vqs[3];
@@ -150,7 +150,7 @@ static int virtballoon_probe(struct virtio_device *vdev)
 
 先来介绍基本功能 update\_balloon\_size\_func，代码非常好理解，拿到 diff 和本身现在的内存进行比较，然后开始增加或者减少内存，接着 update\_balloon\_size 更新下当前内存的信息。
 
-```
+```shell
 static void update_balloon_size_func(struct work_struct *work)
 {
     struct virtio_balloon *vb;
@@ -173,7 +173,7 @@ static void update_balloon_size_func(struct work_struct *work)
 
 fill\_balloon 和 leak\_alloon 其实很相似，这里就看下 fill\_balloon 的实现。 调用 balloon\_page\_enqueue 函数进行内存的添加，然后 tell\_host 去更新表项。 balloon\_page\_enqueue 函数是 kernel 自己实现的堆内存进行增减的功能。 所以无论是 kvm 还是 xen 的气球驱动，最终都是调用这个函数去进行实现。 该函数在 mm/balloon\_compaction.c。这里就不继续往下追了，本编只是介绍 virtio-balloon 驱动原理。要想更细一步了解内存的实现，在以后专门讲内存操作时会再次提及该函数。
 
-```
+```shell
 static unsigned fill_balloon(struct virtio_balloon *vb, size_t num)
 {
     struct balloon_dev_info *vb_dev_info = &vb->vb_dev_info;
@@ -214,7 +214,7 @@ static unsigned fill_balloon(struct virtio_balloon *vb, size_t num)
 
 这个基本功能介绍完了，回到本篇最初的问题，Virtio-Balloon 驱动顺便还实现了一个内存的定时监控信息。 刚才在初始化的时候可以看到当后端主动调用 stat 指令时候，stats\_request 就会触发另一个 work update\_balloon\_stats\_func。
 
-```
+```shell
 static void stats_request(struct virtqueue *vq)
 {
     struct virtio_balloon *vb = vq->vdev->priv;
@@ -228,7 +228,7 @@ static void stats_request(struct virtqueue *vq)
 
 update\_balloon\_stats\_func 这里主要调用 stats\_handle\_request
 
-```
+```shell
 static void update_balloon_stats_func(struct work_struct *work)
 {
     struct virtio_balloon *vb;
@@ -241,7 +241,7 @@ static void update_balloon_stats_func(struct work_struct *work)
 
 然后 update\_balloon\_stats 这个函数将会收集所有的信息到达 vb 这个结构体，然后将 vb 发送给后端。
 
-```
+```shell
 static void stats_handle_request(struct virtio_balloon *vb)
 {
     struct virtqueue *vq;
@@ -261,7 +261,7 @@ static void stats_handle_request(struct virtio_balloon *vb)
 
 update\_balloon\_stats 这个函数就是实际采集 guest 连内存使用的情况。
 
-```
+```shell
 static void update_balloon_stats(struct virtio_balloon *vb)
 {
     unsigned long events[NR_VM_EVENT_ITEMS];
@@ -293,7 +293,7 @@ static void update_balloon_stats(struct virtio_balloon *vb)
 
 qemu 后端代码比较简单了，首先来看气球初始化时候， 通过 qemu\_add\_balloon\_handler，注册了在调用 qmp 时候的回调函数，用来发起请求。 初始化了队列，ivq，dvq，svq 用来接收相关的信息，然后调用回调进行相应操作。
 
-```
+```shell
 static void virtio_balloon_device_realize(DeviceState *dev, Error **errp)
 {
     VirtIODevice *vdev = VIRTIO_DEVICE(dev);
@@ -332,7 +332,7 @@ static void virtio_balloon_device_realize(DeviceState *dev, Error **errp)
 
 这里以刷新内存信息为例往下讲，内存增减功能类似。 在上面注册了 guest-stats-polling-interval 属性，这个是设置查询周期的，在设置了周期后，就可以看到启动了一个定时任务，balloon\_stats\_poll\_cb 来实时查询内存的信息。
 
-```
+```shell
 static void balloon_stats_set_poll_interval(Object *obj, struct Visitor *v,
                                             void *opaque, const char *name,
                                             Error **errp)
@@ -384,7 +384,7 @@ static void balloon_stats_set_poll_interval(Object *obj, struct Visitor *v,
 
 而 virtio\_balloon\_receive\_stats 主要是从 vq 中取到前面讲的内存信息，然后用 balloon\_stats\_enabled 进行更新。
 
-```
+```shell
 static void virtio_balloon_receive_stats(VirtIODevice *vdev, VirtQueue *vq)
 {
     VirtIOBalloon *s = VIRTIO_BALLOON(vdev);

@@ -12,13 +12,13 @@ categories:
 
 ## 2\. 部署
 
-```
+```shell
 mkdir -p /root/data/docker_data/wallos
 cd /root/data/docker_data/wallos
 vim docker-compose.yml
 ```
 
-```
+```shell
 
 version: '3.0'
 
@@ -37,7 +37,7 @@ services:
     restart: unless-stopped
 ```
 
-```
+```shell
 docker compose up -d
 ```
 

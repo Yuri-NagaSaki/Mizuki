@@ -11,7 +11,7 @@ categories:
 
 ## 香港HK 三网CMI
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -195,7 +195,7 @@ Speedtest.net	 7227.95 Mbps	 4069.21 Mbps	 0.29	  NULL
 
 ## 日本软银
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -387,7 +387,7 @@ Speedtest.net	 464.71 Mbps	 1961.98 Mbps	 7.43	  71.0%
 
 ## 悉尼9929
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -572,7 +572,7 @@ Speedtest.net	 2176.40 Mbps	 8716.08 Mbps	 0.15	  0.0%
 
 ## 纽约
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -758,7 +758,7 @@ Speedtest.net	 1283.65 Mbps	 6685.22 Mbps	 1.66	  0.0%
 
 ## 新泽西
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -942,7 +942,7 @@ Speedtest.net	 913.27 Mbps	 746.53 Mbps	 1.59	  NULL
 
 ## 荷兰EUNL\_3
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -1138,7 +1138,7 @@ Speedtest.net	 765.91 Mbps	 893.16 Mbps	 0.57	  0.0%
 
 ## 荷兰联通9929
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -1326,7 +1326,7 @@ Speedtest.net	 1600.87 Mbps	 5478.80 Mbps	 1.72	  0.0%
 
 ## 美国洛杉矶DC2
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -1506,7 +1506,7 @@ Speedtest.net	 849.14 Mbps	 932.68 Mbps	 0.43	  0.0%
 
 ## 美国洛杉矶DC3
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -1683,7 +1683,7 @@ Speedtest.net	 737.54 Mbps	 664.96 Mbps	 0.45	  0.0%
 
 ## 美国洛杉矶DC4
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -1868,7 +1868,7 @@ Speedtest.net	 919.97 Mbps	 918.53 Mbps	 0.47	  0.0%
 
 ## 美国洛杉矶DC6 CN2GIA-E
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2045,7 +2045,7 @@ Speedtest.net	 703.77 Mbps	 3962.24 Mbps	 0.46	  NULL
 
 ## 美国洛杉矶DC8
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2216,7 +2216,7 @@ Speedtest.net	 696.73 Mbps	 939.86 Mbps	 0.41	  NULL
 
 ## 美国洛杉矶DC9(CN2-GIA)
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2384,7 +2384,7 @@ Speedtest.net	 776.91 Mbps	 1693.93 Mbps	 0.51	  0.0%
 
 ## 加拿大温哥华
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2574,7 +2574,7 @@ Speedtest.net	 1743.69 Mbps	 7133.59 Mbps	 0.57	  0.0%
 
 ## 加拿大温哥华（CN2GIA）
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2749,7 +2749,7 @@ Speedtest.net	 7790.03 Mbps	 8511.31 Mbps	 0.69	  NULL
 
 ## 美国加弗里蒙特 \[USCA\_FMT\]
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -2922,7 +2922,7 @@ Speedtest.net	 475.26 Mbps	 493.17 Mbps	 1.43	  0.0%
 
 ## 美国弗里蒙特（三网直连，已经取消4837）
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2
@@ -3095,7 +3095,7 @@ Speedtest.net	 947.55 Mbps	 915.68 Mbps	 0.48	  0.0%
 
 ## 迪拜
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : QEMU Virtual CPU version (cpu64-rhel6)
  CPU 核心数        : 2

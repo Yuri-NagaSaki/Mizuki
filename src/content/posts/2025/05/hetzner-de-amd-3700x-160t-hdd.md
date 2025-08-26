@@ -33,7 +33,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@Debian-1208-bookworm-amd64-base ~ # lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -92,7 +92,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Mon May 19 10:03:22 AM CEST 2025
 
 Basic System Information:
@@ -183,7 +183,7 @@ YABS completed in 11 min 45 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息

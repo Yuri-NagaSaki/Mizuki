@@ -22,7 +22,7 @@ Price : € 17.4 / Month_**
 
 ### lscpu
 
-```
+```shell
 root@husky-cattle:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -80,7 +80,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 2 minutes
@@ -129,7 +129,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4885961
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : Intel(R) Core(TM) i9-14900K
  CPU Cores          : 2 @ 3187.200 MHz
@@ -172,7 +172,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4885961
 
 ### GeekBench5 测试
 
-```
+```shell
 
 系统信息
   Operating System              Debian GNU/Linux 12 (bookworm)
@@ -202,7 +202,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4885961
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Core(TM) i9-14900K
  CPU 核心数        : 2
@@ -419,7 +419,7 @@ Speedtest.net    4936.13 Mbps    5741.24 Mbps    40.49    0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 Intel Core i9-14900K (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -448,7 +448,7 @@ Memory Mark:                       2013
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -533,7 +533,7 @@ System Benchmarks Index Score                                        5447.7
 
 ### 硬盘测试
 
-```
+```shell
 root@husky-cattle:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out

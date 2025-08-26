@@ -19,7 +19,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -94,7 +94,7 @@ YABS completed in 14 min 34 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 3900X 12-Core Processor
  CPU 核心数        : 2
@@ -309,7 +309,7 @@ Speedtest.net    946.47 Mbps     889.53 Mbps     0.25     NULL
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -357,7 +357,7 @@ Speedtest.net    946.47 Mbps     889.53 Mbps     0.25     NULL
 
 ### Benchmark
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Tue Aug 29 2023 12:25:19 - 12:53:15
 2 CPUs in system; running 1 parallel copy of tests
@@ -429,7 +429,7 @@ System Benchmarks Index Score                                        2730.7
 
 ### PassMark
 
-```
+```shell
 AMD Ryzen 9 3900X 12-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -458,7 +458,7 @@ Memory Mark:                       1889
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No
@@ -551,7 +551,7 @@ Memory Mark:                       1889
 
 ### Network
 
-```
+```shell
 ---------------------------- network-speed.xyz ----------------------------
       A simple script to test network performance using speedtest-cli      
 ---------------------------------------------------------------------------

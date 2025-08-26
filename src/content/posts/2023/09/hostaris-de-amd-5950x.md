@@ -22,7 +22,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 2 hours, 1 minutes
@@ -95,7 +95,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2583393
 
 ### benchy
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Ubuntu 22.04.3 LTS                 Model       : AMD Ryzen 9 5950X 16-Core Processor
@@ -150,7 +150,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 5950X 16-Core Processor
  CPU 核心数        : 1
@@ -375,7 +375,7 @@ Speedtest.net    921.49 Mbps     921.26 Mbps     5.25     NULL
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 5950X 16-Core Processor (x86_64)
 1 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -404,7 +404,7 @@ Memory Mark:                       1337
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Wed Sep 13 2023 01:52:29 - 02:20:25
 1 CPU in system; running 1 parallel copy of tests
@@ -443,7 +443,7 @@ System Benchmarks Index Score                                        2440.2
 
 ### Network-Speed
 
-```
+```shell
 ---------------------------- network-speed.xyz ----------------------------
       A simple script to test network performance using speedtest-cli      
 ---------------------------------------------------------------------------

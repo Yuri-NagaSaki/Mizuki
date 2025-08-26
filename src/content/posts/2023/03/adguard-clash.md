@@ -169,7 +169,7 @@ AdGuard 默认开启的拦截器不多，这里我开启了：
 
 请确保 Clash 配置文件至少包含类似以下内容：
 
-```
+```shell
 port: 7890
 socks-port: 7891
 dns:

@@ -44,7 +44,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 4 minutes
@@ -103,7 +103,7 @@ YABS completed in 2 min 24 sec
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 7763 64-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -132,7 +132,7 @@ Memory Mark:                       2004
 
 ### IO测速
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=testfile bs=1M count=10240
 10240+0 records in
 10240+0 records out
@@ -191,7 +191,7 @@ root@catcat:~# dd if=/dev/zero of=testfile bs=1M count=10240
 
 ### NWS
 
-```
+```shell
 --------------------------------------------------------------------------- 
  CPU Model          : AMD EPYC 7763 64-Core Processor                                                                                                                                        
  CPU Cores          : 2 @ 2449.986 MHz

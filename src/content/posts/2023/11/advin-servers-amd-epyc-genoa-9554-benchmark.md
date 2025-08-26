@@ -22,7 +22,7 @@ Price : 4 USD_**
 
 ### lscpu
 
-```
+```shell
 root@s9662:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -77,7 +77,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 4 days, 2 hours, 7 minutes
@@ -140,7 +140,7 @@ YABS completed in 10 min 28 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -187,7 +187,7 @@ YABS completed in 10 min 28 sec
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9554 64-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -216,7 +216,7 @@ Memory Mark:                       1591
 
 ### 融合怪脚本测速
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9554 64-Core Processor
  CPU 核心数        : 2
@@ -405,7 +405,7 @@ Speedtest.net	 4097.96 Mbps	 6957.79 Mbps	 14.88	  0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 

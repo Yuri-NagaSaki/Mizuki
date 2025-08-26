@@ -41,7 +41,7 @@ advance****系列新增了一个 3Gbps 带宽的选项, ADV系列3G成为标配�
 
 ### Yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2025-04-20                    #
@@ -124,7 +124,7 @@ YABS completed in 13 min 54 sec
 
 ### GeekBench5
 
-```
+```shell
 系统信息
   Operating System              Debian GNU/Linux 12 (bookworm)
   Kernel                        Linux 6.1.0-37-amd64 x86_64
@@ -167,7 +167,7 @@ YABS completed in 13 min 54 sec
 
 ### UnixBench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Sat Jun 28 2025 00:45:05 - 01:13:06
 12 CPUs in system; running 1 parallel copy of tests
@@ -237,7 +237,7 @@ System Benchmarks Index Score                                       17042.9
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 4244P 6-Core Processor (x86_64)
 6 cores @ 3800 MHz  |  31.0 GiB RAM
 Number of Processes: 12  |  Test Iterations: 1  |  Test Duration: Medium

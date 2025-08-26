@@ -104,7 +104,7 @@ categories:
 
 修改配置命令格式为：
 
-```
+```shell
 pmset [-a | -b | -c | -u] [setting value] [...]
 ```
 
@@ -140,7 +140,7 @@ pmset [-a | -b | -c | -u] [setting value] [...]
 
 **查看详细后台唤醒记录：**
 
-```
+```shell
 pmset -g log | grep -e "Wake from" -e "DarkWake" -e "due to"
 ```
 
@@ -152,7 +152,7 @@ pmset -g log | grep -e "Wake from" -e "DarkWake" -e "due to"
 
 有时系统或应用程序会阻止进入待机，这些运行时的临时待机锁称为 `assertions`，它们会反映在实时电源配置里 (`pmset -g`)，也可以通过上面命令查询。输出如下：
 
-```
+```shell
 Assertion status system-wide:
    BackgroundTask                 0
    ApplePushServiceTask           0

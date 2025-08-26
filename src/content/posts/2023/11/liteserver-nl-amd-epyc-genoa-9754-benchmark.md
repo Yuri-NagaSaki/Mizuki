@@ -55,7 +55,7 @@ LiteServer 其实不用过多介绍了，去年他们家2.4欧的512G的HDD一�
 
 ### lscpu
 
-```
+```shell
 root@liteserver:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -114,7 +114,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 5 minutes
@@ -175,7 +175,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/3686462
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 9754 128-Core Processor
  CPU Cores          : 4 @ 2249.998 MHz
@@ -218,7 +218,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/3686462
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9754 128-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -247,7 +247,7 @@ Memory Mark:                       2335
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9754 128-Core Processor
  CPU 核心数        : 4
@@ -424,7 +424,7 @@ Google搜索可行性：YES
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -513,7 +513,7 @@ System Benchmarks Index Score                                        4306.5
 
 ### IO 测试
 
-```
+```shell
 
 Processor:    AMD EPYC 9754 128-Core Processor
 CPU cores:    4

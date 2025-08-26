@@ -6,7 +6,7 @@ categories:
   - "eu-server"
 ---
 
-```
+```shell
 眼馋7950x3d的性能，前几天管不住手终于下单了，研究了几天开小鸡
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
@@ -220,7 +220,7 @@ Speedtest.net	 92.84 Mbps	 57.94 Mbps	 4.09	  0.0%
 ------------------------------------------------------------------------
 ```
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 6 minutes

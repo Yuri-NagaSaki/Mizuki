@@ -22,14 +22,14 @@ _PS：本文同时适用于任何可安装 Docker 的 Linux 发行版。_
 
 建议安装在 `/opt/plausible` 目录：
 
-```
+```shell
 mkdir -p /opt/plausible
 cd /opt/plausible
 ```
 
 首先，我们需要建立一个 `docker-compose.yaml` 文件，请按照实际需求修改参数：
 
-```
+```shell
 version: "3.8"
 services:
   mail:
@@ -90,7 +90,7 @@ volumes:
 
 然后我们在相同目录建立一个 `geoip` 的文件夹和 `plausible-conf.env` 的文件：
 
-```
+```shell
 mkdir -p geoip
 touch plausible-conf.env
 touch geoip.env
@@ -98,7 +98,7 @@ touch geoip.env
 
 修改 `plausible-conf.env`，按照官网的[教程](https://plausible.io/docs/self-hosting-configuration)进行配置，假设你的网址是 `https://stat.example.com/`，举例如下：
 
-```
+```shell
 ADMIN_USER_EMAIL=管理员邮箱
 ADMIN_USER_NAME=管理员用户名
 ADMIN_USER_PWD=管理员密码
@@ -123,7 +123,7 @@ SMTP 可以使用市面上所有的邮件发送产品，或者懒人也可以直
 
 然后修改 `geoip.env`，并填入如下信息：
 
-```
+```shell
 GEOIPUPDATE_EDITION_IDS=GeoLite2-Country
 GEOIPUPDATE_FREQUENCY=168 
 GEOIPUPDATE_ACCOUNT_ID=你的 Account ID
@@ -132,7 +132,7 @@ GEOIPUPDATE_LICENSE_KEY=你的 License Key
 
 然后抓取镜像并启动：
 
-```
+```shell
 docker-compose pull
 docker-compose up -d
 ```
@@ -145,7 +145,7 @@ docker-compose up -d
 
 万能的 Docker 更新大法：
 
-```
+```shell
 docker-compose pull
 
 docker-compose up -d
@@ -157,7 +157,7 @@ docker system prune
 
 ### 备份
 
-```
+```shell
 # backup.sh
 #!/usr/bin/env sh
 
@@ -169,7 +169,7 @@ docker-compose start -d
 
 导入脚本
 
-```
+```shell
 # restore.sh
 #!/usr/bin/env sh
 
@@ -181,7 +181,7 @@ docker-compose start -d
 
 ## [](#卸载-plausible-analytics)卸载 Plausible Analytics
 
-```
+```shell
 docker-compose down
 rm -rf /opt/plausible
 docker image rm postgres:12
@@ -203,7 +203,7 @@ docker volume rm plausible_event-data
 
 如果你使用 `VuePress v1.x`，那么修改 `.vuepress/config.js` 文件，在 `module.exports` 加入：
 
-```
+```shell
 ['script', {}, `
 const script = document.createElement('script');
 script.async = true;
@@ -216,7 +216,7 @@ document.head.appendChild(script);`
 
 如果你试用 `VuePress v2.x`，那么修改 `.vuepress/config.ts` 文件，在 `export default` 加入：
 
-```
+```shell
 ['script', {}, `
 const script = document.createElement('script');
 script.async = true;
@@ -231,7 +231,7 @@ document.head.appendChild(script);`
 
 安装 [next-plausible](https://github.com/4lejandrito/next-plausible) 这个包，然后使用类似如下的代码：
 
-```
+```shell
 import PlausibleProvider from 'next-plausible'
 
 export default function MyApp({ Component, pageProps }) {

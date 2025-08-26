@@ -38,7 +38,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@netcup:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -90,7 +90,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -165,7 +165,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/6096262
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9634 84-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -194,7 +194,7 @@ Memory Mark:                       2560
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -240,7 +240,7 @@ Memory Mark:                       2560
 
 ### GeekBench5
 
-```
+```shell
 
 系统信息
   Operating System              Debian GNU/Linux 12 (bookworm)
@@ -270,7 +270,7 @@ Memory Mark:                       2560
 
 ### **UnixBench**
 
-```
+```shell
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       55525369.7 lps   (10.0 s, 7 samples)
@@ -337,7 +337,7 @@ System Benchmarks Index Score                                        6605.3
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9634 84-Core Processor
  CPU 核心数        : 4
@@ -604,7 +604,7 @@ Speedtest.net    2494.59 Mbps    2412.58 Mbps    0.59     NULL
 
 ### network-speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD EPYC 9634 84-Core Processor
  CPU Cores          : 4 @ 2246.624 MHz

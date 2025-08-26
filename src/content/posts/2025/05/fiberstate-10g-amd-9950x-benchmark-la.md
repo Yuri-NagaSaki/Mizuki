@@ -36,7 +36,7 @@ categories:
 
 - **MOTHERBOARD : Supermicro H13SRD-F v1.00**
 
-```
+```shell
 System Information
 
   PROCESSOR:              AMD Ryzen 9 9950X 16-Core @ 8.18GHz
@@ -93,7 +93,7 @@ System Information
 
 ### CPU
 
-```
+```shell
 root@pve:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -154,7 +154,7 @@ root@pve:~#
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 25 minutes
@@ -217,7 +217,7 @@ YABS completed in 7 min 41 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -248,7 +248,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2024-11-11
  Usage              : wget -qO- bench.sh | bash
@@ -299,7 +299,7 @@ Geekbench 5 测试结果
     <img src="https://s3.catcat.blog/images/2025/05/image.jpg" alt="网络安全风险评估和IP信息显示" loading="lazy">
 </picture>
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  Disney+:                               Yes (Region: US)
@@ -371,7 +371,7 @@ Geekbench 5 测试结果
 
 ### UnixBench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Mon May 05 2025 18:03:56 - 18:32:15
 32 CPUs in system; running 1 parallel copy of tests
@@ -441,7 +441,7 @@ System Benchmarks Index Score                                       48638.9
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD Ryzen 9 9950X 16-Core Processor (x86_64)
 16 cores @ 8180 MHz  |  123.4 GiB RAM
 Number of Processes: 32  |  Test Iterations: 1  |  Test Duration: Medium
@@ -470,7 +470,7 @@ Memory Mark:                       3324
 
 ### 融合怪Go
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD Ryzen 9 9950X 16-Core Processor @5243.427 MHz
  CPU 数量            : 32 Physical CPU(s)

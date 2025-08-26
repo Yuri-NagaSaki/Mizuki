@@ -56,7 +56,7 @@ GitHub 地址：[https://github.com/misskey-dev/misskey](https://github.com/miss
 
 ## 4.开始搭建
 
-```
+```shell
 sudo -i
 
 mkdir -p /root/data/docker_data/misskey
@@ -66,7 +66,7 @@ cd /root/data/docker_data/misskey
 
 ### docker-compose.yml 内容
 
-```
+```shell
 # Misskey minimal deploy config
 version: "3"
 
@@ -113,7 +113,7 @@ networks:
   external_network: # 外部网
 ```
 
-```
+```shell
 mkdir config
 cd config
 vim default.yml
@@ -121,7 +121,7 @@ vim default.yml
 
 ### default.yml 内容
 
-```
+```shell
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # Misskey configuration
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -273,7 +273,7 @@ id: 'aid'
 #maxFileSize: 262144000
 ```
 
-```
+```shell
 docker.env 内容
 # db settings
 POSTGRES_PASSWORD=example-misskey-pass
@@ -281,7 +281,7 @@ POSTGRES_USER=example-misskey-user
 POSTGRES_DB=misskey
 ```
 
-```
+```shell
 启动
 cd ..    # 来到dockercompose文件所在的文件夹下
 docker-compose run --rm web yarn run init   # 初始化数据库
@@ -307,7 +307,7 @@ docker-compose up -d
 
 原因来自权限不足，进入misskey安装目录修改权限
 
-```
+```shell
 sudo chown -R 991:991 files
 ```
 

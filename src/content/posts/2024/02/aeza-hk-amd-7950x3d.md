@@ -32,7 +32,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@seemly-sheep:~# lscpu
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
@@ -76,7 +76,7 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 2 minutes
@@ -127,7 +127,7 @@ YABS completed in 6 min 17 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU Cores          : 2 @ 4192.080 MHz
@@ -174,7 +174,7 @@ YABS completed in 6 min 17 sec
 
 ### GeekBench5
 
-```
+```shell
 
 系统信息
   Operating System              Debian GNU/Linux 11 (bullseye)
@@ -204,7 +204,7 @@ YABS completed in 6 min 17 sec
 
 ### 融合怪脚本测速
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 2
@@ -393,7 +393,7 @@ IP类型: Data Center/Web Hosting/Transit⑤
 
 ### Monster 测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  OS           : Debian GNU/Linux 11 (64 Bit)
  Virt/Kernel  : KVM / 5.10.0-21-amd64

@@ -24,7 +24,7 @@ categories:
 
 ### cpu
 
-```
+```shell
 root@proper-trucks:~# lscpu
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
@@ -81,7 +81,7 @@ Vulnerability Tsx async abort:   Not affected
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 6 minutes
@@ -156,7 +156,7 @@ YABS completed in 12 min 54 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 2

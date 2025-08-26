@@ -20,7 +20,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 1 days, 9 hours, 51 minutes
@@ -61,7 +61,7 @@ Total      | 2.88 GB/s     (5.6k) | 1.16 GB/s     (1.1k)
 
 ### 融合怪脚本测试
 
-```
+```shell
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 1
  CPU 频率          : 3499.998 MHz
@@ -275,7 +275,7 @@ Speedtest.net    993.06 Mbps     918.13 Mbps     0.66     NULL
 
 ### Geekbench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -306,7 +306,7 @@ Geekbench 5 测试结果
 
 ### 硬盘测试
 
-```
+```shell
 root@UPSTREAM-GB:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out
@@ -316,7 +316,7 @@ root@UPSTREAM-GB:~#
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC-Milan Processor (x86_64)
 1 cores @ 3499 MHz  |  437 MiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium

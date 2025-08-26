@@ -52,7 +52,7 @@ tags:
     <img src="https://s3.catcat.blog/images/2023/03/image-81.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
  CPU Model          : QEMU Virtual CPU version 2.5+
  CPU Cores          : 4 Core @ 3593.246 MHz
  CPU Cache          : 512 KB
@@ -84,7 +84,7 @@ tags:
 
 **CPU Events Per Second 跑分 (基于 sysbench)**
 
-```
+```shell
  -> CPU Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread Test:                 4040 Scores
@@ -93,7 +93,7 @@ tags:
 
 ## 内存性能测试
 
-```
+```shell
  -> Memory Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread - Read Test :         48147.62 MB/s
@@ -104,7 +104,7 @@ tags:
 
 **DD 硬盘测试：**
 
-```
+```shell
  Test Name              Write Speed                             Read Speed
  10MB-4K Block          65.0 MB/s (0.06 IOPS, 0.16s))           30.6 MB/s (7478 IOPS, 0.34s)
  10MB-1M Block          1.8 GB/s (1737 IOPS, 0.01s)             1.3 GB/s (1254 IOPS, 0.01s)
@@ -116,7 +116,7 @@ tags:
 
 **FIO 硬盘测试：**
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
@@ -134,7 +134,7 @@ Total      | 4.28 GB/s     (8.3k) | 4.33 GB/s     (4.2k)
 
 ## 网络基本信息
 
-```
+```shell
  IP                 : 154.91.202.183
  Organization       : AS149440 Evoxt Enterprise
  Location           : Hong Kong / HK
@@ -151,7 +151,7 @@ Total      | 4.28 GB/s     (8.3k) | 4.33 GB/s     (4.2k)
 
 ### SpeedTest.net 测速
 
-```
+```shell
  Node Name                Upload Speed      Download Speed    Latency     Result      
  Speedtest.net            48.97 Mbps        20.89 Mbps        47.08 ms    https://www.speedtest.net/result/c/dd6191a6-5056-4ca7-b3da-e40fd10499de
  TW, Chunghwa Mobile      13.41 Mbps        60.00 Mbps        79.34 ms    https://www.speedtest.net/result/c/1ce3e803-3b38-4faa-97f2-f9dedd03ff97
@@ -177,7 +177,7 @@ Total      | 4.28 GB/s     (8.3k) | 4.33 GB/s     (4.2k)
 
 ### iperf3
 
-```
+```shell
 iperf3 Network Speed Tests (IPv4):
 ---------------------------------
 Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping           
@@ -205,7 +205,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 42.8 Mbits/sec  | 4.49 Mbits/sec  
 
 ### 台湾路由跟踪
 
-```
+```shell
 **  TW, Hinet ( 168.95.1.1) **
 
 traceroute to 168.95.1.1 (168.95.1.1), 30 hops max, 32 byte packets
@@ -308,7 +308,7 @@ traceroute to 103.31.196.1 (103.31.196.1), 30 hops max, 32 byte packets
 
 ### 中国区域路由跟踪
 
-```
+```shell
 **  北京电信 ( 219.141.147.210) **
 
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
@@ -480,7 +480,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ## 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No

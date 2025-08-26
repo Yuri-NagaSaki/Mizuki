@@ -39,7 +39,7 @@ Price : € 13 / Month_**
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -89,7 +89,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes
@@ -140,7 +140,7 @@ YABS completed in 5 min 27 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -171,7 +171,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -260,7 +260,7 @@ System Benchmarks Index Score                                        4362.6
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9554 64-Core Processor (x86_64)
 4 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -289,7 +289,7 @@ Memory Mark:                       2189
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -338,7 +338,7 @@ Memory Mark:                       2189
 
 ### 融合怪脚本测速
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9554 64-Core Processor
  CPU 核心数        : 4
@@ -551,7 +551,7 @@ Speedtest.net	 1996.10 Mbps	 1925.37 Mbps	 0.57	  NULL
 
 ### 综合测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  Region: Global  https://bench.monster v1.7.3 2023-10-27 
  Usage : curl -sL bench.monster | bash -s -- -Global
@@ -620,7 +620,7 @@ Speedtest.net	 1996.10 Mbps	 1925.37 Mbps	 0.57	  NULL
 
 ### Speedtest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Claranet Benelux B.V. - Amsterdam (id: 30847)

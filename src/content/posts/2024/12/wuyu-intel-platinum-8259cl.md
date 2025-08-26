@@ -21,7 +21,7 @@ categories:
 
 ### CPUInfo
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         46 bits physical, 48 bits virtual
@@ -87,7 +87,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 10 hours, 0 minutes
@@ -144,7 +144,7 @@ Total      | 1.61 GB/s     (3.1k) | 1.70 GB/s     (1.6k)
 
 ### 硬盘信息
 
-```
+```shell
 === START OF INFORMATION SECTION ===
 Model Number:                       SAMSUNG MZQLB960HAJR-00007
 Serial Number:                      S437NA0MB06174
@@ -208,7 +208,7 @@ Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
 
 ### PerformanceTest Linux 测试
 
-```
+```shell
 Intel Xeon Platinum 8259CL CPU @ 2.50GHz (x86_64)
 48 cores @ 3500 MHz  |  125.5 GiB RAM
 Number of Processes: 96  |  Test Iterations: 1  |  Test Duration: Medium
@@ -237,7 +237,7 @@ Memory Mark:                       2723
 
 ### 融合怪脚本测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
  CPU 数量            : 96 Physical CPU(s)
@@ -350,7 +350,7 @@ Speedtest.net   47.42 Mbps      474.46 Mbps     5.21 ms         Not available.
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Fri Dec 27 2024 10:41:21 - 11:09:23
 96 CPUs in system; running 1 parallel copy of tests

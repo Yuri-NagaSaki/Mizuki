@@ -34,7 +34,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@Entrywan:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -88,7 +88,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -153,7 +153,7 @@ YABS completed in 12 min 22 sec
 
 ### Bench
 
-```
+```shell
 ---------------------------------------------------------------------
  CPU Model          : AMD EPYC 9124 16-Core Processor
  CPU Cores          : 1 @ 2999.998 MHz
@@ -192,7 +192,7 @@ YABS completed in 12 min 22 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -223,7 +223,7 @@ Geekbench 5 测试结果
 
 ### Unix
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -273,7 +273,7 @@ System Benchmarks Index Score                                        1241.5
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9124 16-Core Processor
  CPU 核心数        : 1
@@ -499,7 +499,7 @@ Speedtest.net    949.11 Mbps     950.52 Mbps     1.24     0.0%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9124 16-Core Processor (x86_64)
 1 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -528,7 +528,7 @@ Memory Mark:                       1641
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  Disney+:                               Yes (Region: US)
@@ -594,7 +594,7 @@ Memory Mark:                       1641
 
 ### network-speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD EPYC 9124 16-Core Processor
  CPU Cores          : 1 @ 2999.998 MHz

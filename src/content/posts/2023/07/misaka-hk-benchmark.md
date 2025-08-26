@@ -14,7 +14,7 @@ Misaka（御坂网络）是一家成立于2017年的国人商家,提供台湾、
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 1
@@ -232,7 +232,7 @@ Speedtest.net	 10205.99 Mbps	 12080.04 Mbps	 0.22	  0.0%
 
 ### 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No
@@ -288,7 +288,7 @@ Speedtest.net	 10205.99 Mbps	 12080.04 Mbps	 0.22	  0.0%
 
 ## **Standard NVMe (Gen3, WAN Latency Optimized, AMD EPYC)**
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 1
@@ -492,7 +492,7 @@ Speedtest.net	 10287.48 Mbps	 12704.46 Mbps	 0.15	  0.0%
 
 ### 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No
@@ -558,7 +558,7 @@ Speedtest.net	 10287.48 Mbps	 12704.46 Mbps	 0.15	  0.0%
 
 ## **Standard NVMe (Gen3, WAN Latency Optimized, AMD EPYC)**
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC-Milan Processor
  CPU 核心数        : 1
@@ -774,7 +774,7 @@ Speedtest.net	 9093.99 Mbps	 7298.72 Mbps	 0.36	  0.0%
 
 ## **Standard NVMe (Gen3, AMD EPYC)**
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel Xeon Processor (Skylake, IBRS)
  CPU 核心数        : 1

@@ -34,7 +34,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~/scripts/btop# lscpu
 Architecture:                x86_64
   CPU op-mode(s):            32-bit, 64-bit
@@ -92,7 +92,7 @@ root@catcat:~/scripts/btop#
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 32 minutes
@@ -143,7 +143,7 @@ YABS completed in 4 min 35 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -204,7 +204,7 @@ Geekbench 5 测试结果
 
 ### 融合怪Go
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD Ryzen 9 9950X 16-Core Processor @ 3000.000 MHz
  CPU 数量            : 32 Physical CPU(s)
@@ -421,7 +421,7 @@ Free_fr   ✘     ✔     ✔     ✘     ✔     ✘
 
 ### UnixBench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Sun Jun 08 2025 10:08:57 - 10:37:14
 32 CPUs in system; running 1 parallel copy of tests
@@ -491,7 +491,7 @@ System Benchmarks Index Score                                       48548.0
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD Ryzen 9 9950X 16-Core Processor (x86_64)
 16 cores @ 4300 MHz  |  186.3 GiB RAM
 Number of Processes: 32  |  Test Iterations: 1  |  Test Duration: Medium
@@ -528,7 +528,7 @@ Memory Mark:                       3282
 
 ### 网络测试
 
-```
+```shell
 ---------------------------------- nws.sh ---------------------------------
       A simple script to bench network performance using speedtest-cli     
 ---------------------------------------------------------------------------

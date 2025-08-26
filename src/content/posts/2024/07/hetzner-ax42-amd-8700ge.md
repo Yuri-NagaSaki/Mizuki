@@ -30,7 +30,7 @@ Price : € 46 /month**_
 
 ### CPU
 
-```
+```shell
 root@rescue ~ # lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -93,7 +93,7 @@ root@rescue ~ #
 
 ### Yabs
 
-```
+```shell
 Tue Jul  2 09:23:32 AM CEST 2024
 
 Basic System Information:
@@ -145,7 +145,7 @@ YABS completed in 4 min 45 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -193,7 +193,7 @@ YABS completed in 4 min 45 sec
 
 ### GeekBench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -224,7 +224,7 @@ Geekbench 5 测试结果
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD Ryzen 7 PRO 8700GE w/ Radeon 780M Graphics (x86_64)
 8 cores @ 6743 MHz  |  60.6 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -253,7 +253,7 @@ Memory Mark:                       3460
 
 ### byte-unixbench 性能测试
 
-```
+```shell
    BYTE UNIX Benchmarks (Version 5.1.3)
 
    System: Hetzner-AX42: GNU/Linux
@@ -363,7 +363,7 @@ System Benchmarks Index Score                                       18458.6
 
 ### 通电检测
 
-```
+```shell
 
   CPU 型号              AMD Ryzen 7 PRO 8700GE w/ Radeon 780M Graphics
   CPU 核心              合计 8 核心，16 线程
@@ -401,7 +401,7 @@ System Benchmarks Index Score                                       18458.6
 
 ### 融合怪脚本测试
 
-```
+```shell
 --------------------- A Bench Script By spiritlhl ----------------------
                    测评频道: https://t.me/vps_reviews                    
 版本：2024.06.24

@@ -66,7 +66,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 15 hours, 54 minutes
@@ -115,7 +115,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/23708944
 
 ### Bench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Tue Aug 05 2025 08:25:08 - 08:53:13
 20 CPUs in system; running 1 parallel copy of tests
@@ -227,7 +227,7 @@ System Benchmarks Index Score                                       16632.6
 
 ### NWS
 
-```
+```shell
 ---------------------------------------------------------------------------
  Basic System Info
 ---------------------------------------------------------------------------

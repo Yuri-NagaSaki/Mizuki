@@ -20,7 +20,7 @@ categories:
 
 ## Docker compose 文件
 
-```
+```shell
 git clone https://github.com/Sayyiku/DataEye.git
 mkdir -p promgrafnode/prometheus
 mkdir -p promgrafnode/grafana/provisioning
@@ -38,7 +38,7 @@ docker-compose up -d
 
 ## Node Exporter 被控端部署
 
-```
+```shell
 docker run -d -p 9100:9100 \
   -v "/root/docker/node-exporter/proc:/host/proc:ro" \
   -v "/root/docker/node-exporter/sys:/host/sys:ro" \
@@ -50,7 +50,7 @@ docker run -d -p 9100:9100 \
 
 ## [prometheus.yml](https://github.com/Sayyiku/DataEye/commit/2e3ab0e9609afb9f32b262fbeeb68589edfea193)
 
-```
+```shell
 global: 
   scrape_interval: 1m
 

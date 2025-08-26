@@ -8,7 +8,7 @@ categories:
 
 ## 套餐配置
 
-```
+```shell
 Provider      : server-factory
 Type/Plan     : ipv6 only 
 Processor     : AMD EPYC™ 7452
@@ -24,7 +24,7 @@ IPV6 SUBNET   : /64
 
 ## Yabs
 
-```
+```shell
 ---------------------------------
 Uptime     : 0 days, 0 hours, 6 minutes
 Processor  : AMD EPYC 7452 32-Core Processor
@@ -72,7 +72,7 @@ YABS completed in 2 min 42 sec
 
 ## 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7452 32-Core Processor
  CPU 核心数        : 1
@@ -296,7 +296,7 @@ Speedtest.net    725.08 Mbps     997.77 Mbps     23.99    0.0%
 
 ## PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 7452 32-Core Processor (x86_64)
 1 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -325,7 +325,7 @@ Memory Mark:                       1292
 
 ## benchy
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Debian GNU/Linux 12 (bookworm)     Model       : AMD EPYC 7452 32-Core Processor
@@ -375,7 +375,7 @@ Network Performance Test (Region: Mixed)
 
 ## Unix 测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Sun Jul 23 2023 16:21:45 - 16:49:43
 1 CPU in system; running 1 parallel copy of tests
@@ -412,7 +412,7 @@ System Benchmarks Index Score                                        1534.3
 
 ## LemonBench
 
-```
+```shell
  -> System Information
 
  CPU Model Name:                AMD EPYC 7452 32-Core Processor

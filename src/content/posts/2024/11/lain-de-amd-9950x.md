@@ -32,7 +32,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -84,7 +84,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 12 minutes
@@ -169,7 +169,7 @@ Edgoo           | Sao Paulo, BR (1G)        | 618 Mbits/sec   | 832 Mbits/sec   
 
 ### 融合怪测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC-Milan Processor @ 4291.932 MHz
  CPU 数量            : 1 Virtual CPU(s)
@@ -416,7 +416,7 @@ Speedtest.net   5446.25 Mbps    2650.26 Mbps    0.73 ms         Not available.
 
 ### 欧洲测试
 
-```
+```shell
 ---------------------------------- nws.sh ---------------------------------
       A simple script to bench network performance using speedtest-cli     
 ---------------------------------------------------------------------------

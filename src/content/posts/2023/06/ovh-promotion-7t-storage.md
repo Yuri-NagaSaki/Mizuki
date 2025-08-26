@@ -7,7 +7,7 @@ categories:
   - "eu-server"
 ---
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
  CPU 核心数        : 4
@@ -232,7 +232,7 @@ Speedtest.net	 2375.87 Mbps	 2990.87 Mbps	 4.38	  0.0%
 
 ## Yabs
 
-```
+```shell
 root@sakura:~# curl -sL yabs.sh | bash
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
@@ -314,7 +314,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/1628481
 YABS completed in 12 min 34 sec
 ```
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
  CPU Cores          : 4 @ 2893.202 MHz
@@ -359,7 +359,7 @@ YABS completed in 12 min 34 sec
 ----------------------------------------------------------------------
 ```
 
-```
+```shell
 # # # # # # # # # # # # # # # # # # # # #
 #             Benchy v2.7               #
 #    https://github.com/L1so/benchy     #

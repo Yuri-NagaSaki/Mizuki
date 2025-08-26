@@ -10,7 +10,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes
@@ -59,7 +59,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/6973346
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -90,7 +90,7 @@ Geekbench 5 测试结果
 
 ### BYTE UNIX Benchmarks
 
-```
+```shell
    BYTE UNIX Benchmarks (Version 5.1.3)
 
    System: Debian-K8S: GNU/Linux
@@ -192,7 +192,7 @@ System Benchmarks Index Score                                       19501.9
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 12th Gen Intel Core i5-12500 (x86_64)
 6 cores @ 5900 MHz  |  62.6 GiB RAM
 Number of Processes: 12  |  Test Iterations: 1  |  Test Duration: Medium

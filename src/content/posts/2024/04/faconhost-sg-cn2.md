@@ -70,7 +70,7 @@ IPv6已分配，购买**新加坡VPS先行探索计划**的客户，可以尝试
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -122,7 +122,7 @@ YABS completed in 8 min 19 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7282 16-Core Processor
  CPU 核心数        : 2
@@ -306,7 +306,7 @@ Speedtest.net    488.56 Mbps     2174.87 Mbps    69.77    26.7%
 
 ### 多地回程测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.3.0 2024-04-18T06:38:21Z 2cb13be
@@ -598,7 +598,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### GeekBench5
 
-```
+```shell
 
 Geekbench 5 测试结果
 
@@ -630,7 +630,7 @@ Geekbench 5 测试结果
 
 ### 三网测速
 
-```
+```shell
 ------------------------------------------------------------------------
 测速节点            下载/Mbps      上传/Mbps      延迟/ms      抖动/ms
 最近的测速点        3032.36 Mbps   737.72 Mbps    67.46 ms     0.12 ms      
@@ -671,7 +671,7 @@ Geekbench 5 测试结果
 
 ### 回程测试
 
-```
+```shell
 root@yuri-ly:~# curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh
 2024/04/27 21:10:12 项目地址：github.com/zhanghanyun/backtrace
 2024/04/27 21:10:12 正在测试三网回程路由...

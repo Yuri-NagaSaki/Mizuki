@@ -11,7 +11,7 @@ categories:
     <img src="https://s3.catcat.blog/images/2023/06/image-8-1024x98.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
   
 完整命令  请不要一味照抄，根据自己的磁盘状况做修改
 lsblk

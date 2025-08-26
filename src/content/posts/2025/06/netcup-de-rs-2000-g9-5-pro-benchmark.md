@@ -12,7 +12,7 @@ categories:
 
 **大多数很关心的G9.5限速问题**，**基本上和之前的一致，但是具体还需要测试。**
 
-```
+```shell
 1. 基础带宽保障
 默认带宽：根服务器默认享有 1 Gbps 的最低带宽保障，即使其网卡为 2.5 Gbps（即理论上限为 2.5 Gbps）。
 
@@ -80,7 +80,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 7 hours, 42 minutes

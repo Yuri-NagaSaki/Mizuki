@@ -28,7 +28,7 @@ categories:
 
 ### YABS
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -101,7 +101,7 @@ Multi Core      | 5324
 
 ### CPU
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -138,7 +138,7 @@ Caches (sum of all):
 
 ## **UnixBench**
 
-```
+```shell
 Dhrystone 2 using register variables       79349675.4 lps   (10.0 s, 7 samples)
 Double-Precision Whetstone                    13716.5 MWIPS (10.0 s, 7 samples)
 Execl Throughput                               9492.4 lps   (30.0 s, 2 samples)
@@ -202,7 +202,7 @@ System Benchmarks Index Score                                        6832.6
 
 ### PerformanceTest测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -230,7 +230,7 @@ Memory Mark:                       2641
 
 ### **Bench** 测试
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -275,7 +275,7 @@ Memory Mark:                       2641
 
 ### **Benchy** 测试
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Ubuntu 22.04.2 LTS                 Model       : AMD Ryzen 9 7950X 16-Core Processor
@@ -308,7 +308,7 @@ Network Performance Test (Region: North America)
 
 ## 2023年9月4日测试
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -385,7 +385,7 @@ YABS completed in 13 min 54 sec
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Intechtel - Managed IT Services - Coeur d'Alene, ID (id: 51640)
@@ -401,7 +401,7 @@ Idle Latency:    10.66 ms   (jitter: 0.05ms, low: 10.64ms, high: 10.74ms)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2

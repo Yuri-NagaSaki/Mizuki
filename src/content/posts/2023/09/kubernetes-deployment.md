@@ -8,7 +8,7 @@ categories:
 
 #### 命令行运行
 
-```
+```shell
 kubectl run testapp --image=ccr.ccs.tencentyun.com/k8s-tutorial/test-k8s:v1
 kubectl get pod 查看是否成功建立
 
@@ -24,7 +24,7 @@ kubectl get pod 查看是否成功建立
 
 ##### pod.yaml 文件
 
-```
+```shell
 apiVersion: v1
 kind: Pod
 metadata:
@@ -38,7 +38,7 @@ spec:
 
 #### 部署命令
 
-```
+```shell
 mkdir Deployment && cd Deployment 
 vim pod.yml # 填入上面的文件内容
 kubectl apply -f pod.yml #创建pod
@@ -48,7 +48,7 @@ kubectl apply -f pod.yml #创建pod
 
 ##### app.yml文件
 
-```
+```shell
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -75,7 +75,7 @@ spec:
 
 #### 部署命令
 
-```
+```shell
 kubectl apply -f app.yml 
 kubectl get deployment
 ```
@@ -96,7 +96,7 @@ kubectl get deployment
 
 ### 常用命令
 
-```
+```shell
 # 查看pod的IP等信息
 kubectl get pod -o wide 
 # 部署应用

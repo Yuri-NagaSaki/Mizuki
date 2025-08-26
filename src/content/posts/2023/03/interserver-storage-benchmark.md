@@ -30,7 +30,7 @@ tags:
 
 ## yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-02-27                    #

@@ -78,7 +78,7 @@ ComputeBox，最近的新商家，位于德国默尔恩（近汉堡）。根据�
 
 ## CPU
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          52 bits physical, 57 bits virtual
@@ -127,7 +127,7 @@ Vulnerabilities:
 
 ## Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 14 minutes
@@ -188,7 +188,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/11262024
 
 ## GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -219,7 +219,7 @@ Geekbench 5 测试结果
 
 ## UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -304,7 +304,7 @@ System Benchmarks Index Score                                        9573.3
 
 ## [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9655 96-Core Processor (x86_64)
 3 cores @ 0 MHz  |  5.8 GiB RAM
 Number of Processes: 3  |  Test Iterations: 1  |  Test Duration: Medium

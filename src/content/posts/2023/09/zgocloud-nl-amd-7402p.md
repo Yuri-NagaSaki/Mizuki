@@ -23,7 +23,7 @@ categories:
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7402P 24-Core Processor
  CPU 核心数        : 2
@@ -236,7 +236,7 @@ Speedtest.net	 781.89 Mbps	 983.35 Mbps	 36.63	  0.0%
 
 ### Yabs
 
-```
+```shell
 ---------------------------------
 Uptime     : 0 days, 0 hours, 32 minutes
 Processor  : AMD EPYC 7402P 24-Core Processor

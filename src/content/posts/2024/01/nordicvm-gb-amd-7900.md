@@ -24,7 +24,7 @@ Price : €6.99_** 
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -74,7 +74,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -138,7 +138,7 @@ YABS completed in 9 min 25 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -187,7 +187,7 @@ YABS completed in 9 min 25 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -218,7 +218,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -303,7 +303,7 @@ System Benchmarks Index Score                                        4737.4
 
 ### Monster 测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  Region: Global  https://bench.monster v1.7.4 2023-12-15 
  Usage : curl -sL bench.monster | bash -s -- -Global
@@ -350,7 +350,7 @@ System Benchmarks Index Score                                        4737.4
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7900 12-Core Processor
  CPU 核心数        : 2
@@ -525,7 +525,7 @@ Speedtest.net    796.22 Mbps     950.70 Mbps     110.12   0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD Ryzen 9 7900 12-Core Processor (x86_64)
 2 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -556,7 +556,7 @@ Memory Mark:                       2061
 
 好猛的硬盘
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out

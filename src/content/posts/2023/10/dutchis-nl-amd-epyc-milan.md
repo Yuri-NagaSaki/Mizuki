@@ -32,7 +32,7 @@ Data center's looking glass: [https://lg.serverius.net/](https://lg.serverius.n
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -61,7 +61,7 @@ Caches (sum of all):
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 7 minutes
@@ -121,7 +121,7 @@ Multi Core      | 3312
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -166,7 +166,7 @@ Multi Core      | 3312
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7313 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -194,7 +194,7 @@ Memory Mark:                       2105
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 
 2 CPUs in system; running 1 parallel copy of tests
@@ -264,7 +264,7 @@ System Benchmarks Index Score                                        3983.3
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: Serverius Connectivity - Amsterdam (id: 20005)
@@ -285,7 +285,7 @@ Idle Latency:     1.05 ms   (jitter: 0.02ms, low: 1.04ms, high: 1.08ms)
 
 ### Network-Speed.xyz
 
-```
+```shell
 Basic System Info
 ---------------------------------------------------------------------------
  CPU Model          : AMD EPYC 7313 16-Core Processor

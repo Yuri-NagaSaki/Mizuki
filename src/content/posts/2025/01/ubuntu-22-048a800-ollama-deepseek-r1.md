@@ -51,7 +51,7 @@ categories:
 
 直接借用官方脚本
 
-```
+```shell
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
@@ -63,7 +63,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ### 配置模型下载路径
 
-```
+```shell
 mkdir -p /root/ollama/ollama_models
 ```
 
@@ -71,7 +71,7 @@ mkdir -p /root/ollama/ollama_models
 
 如果开始没配置OLLAMA\_MODELS ，默认路径是/usr/share/ollama/.ollama/models
 
-```
+```shell
 vim .bashrc
 export OLLAMA_MODELS=/root/ollama/ollama_models
 ```
@@ -98,7 +98,7 @@ ollama server
 
 默认情况下，Ollama只会关注localhost的11434端口，因此只能从localhost访问。
 
-```
+```shell
 vim /etc/systemd/system/ollama.service
 在 [Service] 下添加  Environment="OLLAMA_HOST=0.0.0.0"
 ​
@@ -122,7 +122,7 @@ WantedBy=default.target
 
 ### 重启 ollama
 
-```
+```shell
 systemctl daemon-reload
 ​
 systemctl restart ollama
@@ -135,7 +135,7 @@ systemctl start ollama
 
 ## 运行模型
 
-```
+```shell
 ollama run deepseek-r1:671b 
 ```
 
@@ -155,14 +155,14 @@ ollama run deepseek-r1:671b
 
 ### 安装 Docker
 
-```
+```shell
 export DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
 curl -fsSL https://raw.githubusercontent.com/docker/docker-install/master/install.sh | sh
 ```
 
 ### 安装 GPU-Docker 组件
 
-```
+```shell
  安装 gpu-docekr 
  
 apt-get install -y nvidia-docker2
@@ -179,7 +179,7 @@ nvidia-ctk runtime configure --runtime=docker
 
 ### 配置 Docker 参数
 
-```
+```shell
 root@catcat:~# cat /etc/docker/daemon.json
 {
     "data-root": "/root/docker_data",
@@ -203,11 +203,11 @@ root@catcat:~# cat /etc/docker/daemon.json
 
 ### 测试
 
-```
+```shell
 docker run --rm -it --gpus all ubuntu:22.04 /bin/bash
 ```
 
-```
+```shell
 root@catcat:~# docker run --rm -it --gpus all ubuntu:22.04 /bin/bash
 Unable to find image 'ubuntu:22.04' locally
 22.04: Pulling from library/ubuntu
@@ -267,7 +267,7 @@ Wed Jan 22 02:03:29 2025
 
 ## 部署 [Open WebUI](https://openwebui.com/)
 
-```
+```shell
 version: '3.8'
 
 services:

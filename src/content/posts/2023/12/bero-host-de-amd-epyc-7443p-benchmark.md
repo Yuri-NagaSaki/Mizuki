@@ -24,7 +24,7 @@ Price : € 10 / Month_**
 
 ### lscpu
 
-```
+```shell
 root@catcat ~ # lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -91,7 +91,7 @@ Vulnerabilities:
 
 ### GeekBench
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -122,7 +122,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -173,7 +173,7 @@ Geekbench 5 测试结果
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 7443P 24-Core Processor (x86_64)
 8 cores @ 0 MHz  |  23.5 GiB RAM
 Number of Processes: 8  |  Test Iterations: 1  |  Test Duration: Medium
@@ -202,7 +202,7 @@ Memory Mark:                       1536
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7443P 24-Core Processor
  CPU 核心数        : 8

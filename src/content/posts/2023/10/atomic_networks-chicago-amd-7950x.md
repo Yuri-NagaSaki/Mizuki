@@ -24,7 +24,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -73,7 +73,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -148,7 +148,7 @@ YABS completed in 15 min 44 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 1
@@ -373,7 +373,7 @@ Speedtest.net    1029.86 Mbps    971.94 Mbps     23.68    2.2%
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 1 @ 4499.980 MHz
@@ -419,7 +419,7 @@ Speedtest.net    1029.86 Mbps    971.94 Mbps     23.68    2.2%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 1 cores @ 0 MHz  |  928 MiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -448,7 +448,7 @@ Memory Mark:                       1098
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -498,7 +498,7 @@ System Benchmarks Index Score                                        1970.8
 
 ### Speedtest
 
-```
+```shell
 root@catcat:~# speedtest   Speedtest by Ookla      Server: Kansas Research and Education Network - Wichita, KS (id: 20531)         ISP: Atomic-networks-1Idle Latency:    23.68 ms   (jitter: 0.03ms, low: 23.65ms, high: 23.70ms)    Download:   966.52 Mbps (data used: 1.2 GB)                                                                    24.09 ms   (jitter: 0.11ms, low: 23.76ms, high: 24.36ms)      Upload:  1033.12 Mbps (data used: 1.5 GB)                                                                    23.80 ms   (jitter: 0.10ms, low: 23.68ms, high: 24.56ms) Packet Loss:     0.0%  Result URL: https://www.speedtest.net/result/c/9b905662-e8f5-4a9f-be59-466d08ab9278
 ```
 
@@ -510,7 +510,7 @@ root@catcat:~# speedtest   Speedtest by Ookla      Server: Kansas Research 
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               Yes (Region: US)
@@ -645,7 +645,7 @@ root@catcat:~# speedtest   Speedtest by Ookla      Server: Kansas Research 
 
 ### 综合测试
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 1 Core @ 4499.980 MHz

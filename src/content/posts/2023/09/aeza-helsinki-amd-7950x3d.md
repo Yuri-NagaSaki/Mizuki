@@ -22,7 +22,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@overt-plant:~# lscpu
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
@@ -79,7 +79,7 @@ Vulnerability Tsx async abort:   Not affected
 
 ### Yabs
 
-```
+```shell
 Sun 10 Sep 2023 08:23:25 AM MSK
 
 Basic System Information:
@@ -156,7 +156,7 @@ YABS completed in 12 min 35 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 2
@@ -350,7 +350,7 @@ Speedtest.net    30.90 Mbps      78.09 Mbps      27.53    0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
 BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -431,7 +431,7 @@ System Benchmarks Index Score 4884.5
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X3D 16-Core Processor (x86_64)
 2 cores @ 4192 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -460,7 +460,7 @@ Memory Mark:                       2404
 
 ### SpeedTest
 
-```
+```shell
 
    Speedtest by Ookla
 
@@ -483,7 +483,7 @@ Idle Latency:    28.82 ms   (jitter: 0.48ms, low: 28.36ms, high: 29.47ms)
 
 ### network-speed.xyz
 
-```
+```shell
 ---------------------------- network-speed.xyz ----------------------------
       A simple script to test network performance using speedtest-cli      
 ---------------------------------------------------------------------------
@@ -581,7 +581,7 @@ Idle Latency:    28.82 ms   (jitter: 0.48ms, low: 28.36ms, high: 29.47ms)
 
 ### 四网回程测试
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets

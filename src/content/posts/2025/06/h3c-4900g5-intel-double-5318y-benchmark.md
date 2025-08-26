@@ -24,7 +24,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 57 minutes
@@ -73,7 +73,7 @@ Total      | 3.70 GB/s     (7.2k) | 3.97 GB/s     (3.8k)
 
 ### UniBench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Mon Jun 23 2025 17:57:42 - 18:25:46
 96 CPUs in system; running 1 parallel copy of tests

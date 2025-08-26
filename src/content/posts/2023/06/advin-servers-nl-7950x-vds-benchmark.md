@@ -8,7 +8,7 @@ categories:
 
 ## bench.sh测试
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -53,7 +53,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 14 minutes
@@ -116,7 +116,7 @@ YABS completed in 7 min 24 sec
 
 ## 融合怪脚本测试
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 4

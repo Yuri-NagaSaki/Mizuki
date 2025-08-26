@@ -22,7 +22,7 @@ Price : € 0 / 月_**
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         48 bits physical, 48 bits virtual
@@ -66,7 +66,7 @@ NUMA:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 32 minutes
@@ -115,7 +115,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/21831909
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 7702P 64-Core Processor
  CPU Cores          : 1 @ 1999.999 MHz
@@ -161,7 +161,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/21831909
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7702P 64-Core Processor (x86_64)
 1 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -190,7 +190,7 @@ Memory Mark:                       1289
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Fri Oct 13 2023 03:09:15 - 03:37:13
 1 CPU in system; running 1 parallel copy of tests
@@ -227,7 +227,7 @@ System Benchmarks Index Score                                        1491.2
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7702P 64-Core Processor
  CPU 核心数        : 1

@@ -28,7 +28,7 @@ Price :_ $125 per year**
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -78,7 +78,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 5 minutes
@@ -153,7 +153,7 @@ YABS completed in 12 min 46 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -184,7 +184,7 @@ Geekbench 5 测试结果
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: i3D.net - Tokyo (id: 21569)
@@ -200,7 +200,7 @@ Idle Latency:     0.31 ms   (jitter: 0.05ms, low: 0.29ms, high: 0.47ms)
 
 ### Bench 测试
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 7R13 48-Core Processor
  CPU Cores          : 6 @ 2645.028 MHz
@@ -247,7 +247,7 @@ Idle Latency:     0.31 ms   (jitter: 0.05ms, low: 0.29ms, high: 0.47ms)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7R13 48-Core Processor
  CPU 核心数        : 6
@@ -468,7 +468,7 @@ Speedtest.net	 898.73 Mbps	 7240.15 Mbps	 0.33	  44.4%
 
 ### 磁盘测试
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out
@@ -477,7 +477,7 @@ root@catcat:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD EPYC 7R13 48-Core Processor (x86_64)
 6 cores @ 0 MHz  |  23.7 GiB RAM
 Number of Processes: 6  |  Test Iterations: 1  |  Test Duration: Medium
@@ -508,7 +508,7 @@ Memory Mark:                       1906
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -601,7 +601,7 @@ System Benchmarks Index Score                                        5299.3
 
 ### monster 测试
 
-```
+```shell
 root@catcat:~# curl -sL bench.monster | bash -s -- -asia
 ---------------------------------------------------------------------------
  Region: Asia  https://bench.monster v1.7.4 2023-12-15 
@@ -651,7 +651,7 @@ root@catcat:~# curl -sL bench.monster | bash -s -- -asia
 
 #### 深圳电信
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -694,7 +694,7 @@ traceroute to 59.36.216.1, 30 hops max, 52 bytes packets
 
 #### 上海电信
 
-```
+```shell
 No:2/9 Traceroute to 中国 上海 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -734,7 +734,7 @@ traceroute to 101.226.41.65, 30 hops max, 52 bytes packets
 
 #### 北京电信
 
-```
+```shell
 No:3/9 Traceroute to 中国 北京 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -773,7 +773,7 @@ traceroute to 220.181.53.1, 30 hops max, 52 bytes packets
 
 #### 广州联通
 
-```
+```shell
 No:4/9 Traceroute to 中国 广州 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -814,7 +814,7 @@ traceroute to 210.21.4.130, 30 hops max, 52 bytes packets
 
 #### 上海联通
 
-```
+```shell
 No:5/9 Traceroute to 中国 上海 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -856,7 +856,7 @@ traceroute to 112.65.95.129, 30 hops max, 52 bytes packets
 
 #### 北京联通
 
-```
+```shell
 No:6/9 Traceroute to 中国 北京 联通 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -935,7 +935,7 @@ traceroute to 120.233.53.1, 30 hops max, 52 bytes packets
 
 #### 上海移动
 
-```
+```shell
 No:8/9 Traceroute to 中国 上海 移动 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940
@@ -977,7 +977,7 @@ traceroute to 183.194.216.129, 30 hops max, 52 bytes packets
 
 #### 北京移动
 
-```
+```shell
 No:9/9 Traceroute to 中国 北京 移动 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940

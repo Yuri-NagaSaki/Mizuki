@@ -19,7 +19,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 4 hours, 12 minutes
@@ -68,7 +68,7 @@ Total      | 1.19 GB/s     (2.3k) | 1.18 GB/s     (1.1k)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
  CPU 核心数        : 1

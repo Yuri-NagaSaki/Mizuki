@@ -38,7 +38,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@AllHost:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -88,7 +88,7 @@ root@AllHost:~#
 
 ### Yabs
 
-```
+```shell
 Tue Jun 18 08:50:29 AM CST 2024
 
 Basic System Information:
@@ -165,7 +165,7 @@ YABS completed in 15 min 0 sec
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9454 48-Core Processor (x86_64)
 2 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -194,7 +194,7 @@ Memory Mark:                       1708
 
 ### Geekbench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -225,7 +225,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -310,7 +310,7 @@ System Benchmarks Index Score                                        3539.5
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9454 48-Core Processor
  CPU 核心数        : 2
@@ -592,7 +592,7 @@ Speedtest.net    8131.46 Mbps    7346.21 Mbps    3.69     0.0%
 
 ### Network
 
-```
+```shell
 ---------------------------------------------------------------------------
  Basic System Info
 ---------------------------------------------------------------------------

@@ -42,7 +42,7 @@ tags:
 
 ## YABS
 
-```
+```shell
  CPU Model          : Intel(R) Xeon(R) E-2388G CPU @ 3.20GHz
  CPU Cores          : 4 Core @ 3192.000 MHz
  CPU Cache          : 16384 KB
@@ -66,7 +66,7 @@ tags:
     <img src="https://s3.catcat.blog/images/2023/04/image-20.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
  -> CPU Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread Test:                 2843 Scores
@@ -75,7 +75,7 @@ tags:
 
 ## 内存测试
 
-```
+```shell
  -> Memory Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread - Read Test :         26247.68 MB/s
@@ -84,7 +84,7 @@ tags:
 
 ## 硬盘测试
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
@@ -110,7 +110,7 @@ Total      | 2.36 GB/s     (4.6k) | 2.37 GB/s     (2.3k)
 
 ## Speedtest测试
 
-```
+```shell
  Node Name                Upload Speed      Download Speed    Latency     Result
 Speedtest.net            8204.84 Mbps      5134.43 Mbps      0.70 ms     https://www.speedtest.net/result/c/d114a012-a167-4ac4-8ab0-27d82eb47065
 TW, Chunghwa Mobile      852.71 Mbps       1054.80 Mbps      99.49 ms    https://www.speedtest.net/result/c/69fb2feb-ad85-4b71-a775-336996f4df92
@@ -139,7 +139,7 @@ TR, TurkNet              296.91 Mbps       1531.64 Mbps      269.38 ms   https:/
 
 ## 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
 Dazn:                                  No
 HotStar:                               No
@@ -317,7 +317,7 @@ KOCOWA:                                No
 
 ## 融合怪脚本测试
 
-```
+```shell
 -----------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC Processor
  CPU 核心数        : 4
@@ -485,7 +485,7 @@ Speedtest.net	 938.93 Mbps	 943.66 Mbps	 0.19 ms
 
 ## 总结
 
-```
+```shell
 
 国内tcp ping平均: 电信102ms,联通58ms,移动69ms.
 给的配置高/内存大, 带免费的DDoS防护;

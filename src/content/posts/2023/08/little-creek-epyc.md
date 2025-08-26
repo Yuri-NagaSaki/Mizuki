@@ -19,7 +19,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 9 minutes
@@ -80,7 +80,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2440475
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC Processor (with IBPB)
  CPU 核心数        : 4
@@ -290,7 +290,7 @@ Speedtest.net    530.76 Mbps     571.09 Mbps     13.19    0.0%
 
 ### 流媒体测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               Yes (Region: US)

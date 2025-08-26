@@ -19,7 +19,7 @@ categories:
 
 ## Info
 
-```
+```shell
  CPU Model          : Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz
  CPU Cores          : 1 Core @ 1995.373 MHz
  CPU Cache          : 35840 KB
@@ -63,7 +63,7 @@ categories:
 
 ### IO
 
-```
+```shell
  Test Name              Write Speed                             Read Speed
  10MB-4K Block          13.2 MB/s (3218 IOPS, 0.80s)            12.8 MB/s (3127 IOPS, 0.82s)
  10MB-1M Block          555 MB/s (529 IOPS, 0.02s)              866 MB/s (825 IOPS, 0.01s)
@@ -75,7 +75,7 @@ categories:
 
 ### FIO
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
@@ -95,7 +95,7 @@ Total      | 146.96 MB/s    (286) | 188.89 MB/s    (184)
 
 ### SpeedTest
 
-```
+```shell
 Node Name                  Upload Speed      Download Speed    Latency     Result      
  Speedtest.net              153.78 Mbps       128.08 Mbps       195.85 ms   https://www.speedtest.net/result/c/8dc7c39c-02e2-433b-ad39-9e48c5a4e44a
  CN, Hefei, Anhui CT        0.53 Mbps         3.90 Mbps         328.50 ms   https://www.speedtest.net/result/c/7d1a8db3-b599-4c10-8c8a-b19e331de1df
@@ -130,7 +130,7 @@ Node Name                  Upload Speed      Download Speed    Latency     Resul
 
 #### CN, 北京电信
 
-```
+```shell
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.27 ms  AS151188  China, Hong Kong
  2  103.180.28.33  13.43 ms  AS138997  China, Hong Kong, metroponet.com
@@ -150,7 +150,7 @@ traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
 
 #### CN, 上海电信
 
-```
+```shell
 traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.27 ms  AS151188  China, Hong Kong
  2  103.180.28.33  11.51 ms  AS138997  China, Hong Kong, metroponet.com
@@ -170,7 +170,7 @@ traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
 
 #### CN, 深圳电信
 
-```
+```shell
 traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.29 ms  AS151188  China, Hong Kong
  2  103.180.28.33  14.03 ms  AS138997  China, Hong Kong, metroponet.com
@@ -188,7 +188,7 @@ traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
 
 #### CN, 北京联通
 
-```
+```shell
 traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.37 ms  AS151188  China, Hong Kong
  2  103.180.28.33  22.36 ms  AS138997  China, Hong Kong, metroponet.com
@@ -209,7 +209,7 @@ traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
 
 #### CN, 上海联通
 
-```
+```shell
  traceroute to 210.22.97.1 (210.22.97.1), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.35 ms  AS151188  China, Hong Kong
  2  103.180.28.33  6.66 ms  AS138997  China, Hong Kong, metroponet.com
@@ -231,7 +231,7 @@ traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
 
 #### CN, 深圳联通
 
-```
+```shell
 traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.25 ms  AS151188  China, Hong Kong
  2  103.180.28.33  3.08 ms  AS138997  China, Hong Kong, metroponet.com
@@ -253,7 +253,7 @@ traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
 
 #### CN, 北京移动
 
-```
+```shell
 traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.29 ms  AS151188  China, Hong Kong
  2  103.180.28.33  12.38 ms  AS138997  China, Hong Kong, metroponet.com
@@ -279,7 +279,7 @@ traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
 
 #### CN, 上海移动
 
-```
+```shell
 traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.36 ms  AS151188  China, Hong Kong
  2  103.180.28.33  40.19 ms  AS138997  China, Hong Kong, metroponet.com
@@ -301,7 +301,7 @@ traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
 
 #### CN, 深圳移动
 
-```
+```shell
 traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
  1  hkg1-edge.as151188.simple.taipei (103.244.163.1)  0.27 ms  AS151188  China, Hong Kong
  2  103.180.28.33  31.99 ms  AS138997  China, Hong Kong, metroponet.com
@@ -323,7 +323,7 @@ traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
 
 ## Media
 
-```
+```shell
  ** 正在测试IPv4解锁情况 
 --------------------------------
  ** 您的网络为: 404 Network Information Co. (103.244.*.*) 

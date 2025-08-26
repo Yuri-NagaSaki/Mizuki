@@ -18,7 +18,7 @@ Casbay(AS132841)自2010年成立起，现如今已有十多年历史的服务器
 
 ## Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 4 minutes
@@ -81,7 +81,7 @@ YABS completed in 34 min 44 sec
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS)
  CPU 核心数        : 8
@@ -270,7 +270,7 @@ Speedtest.net    79.85 Mbps      39.67 Mbps      1.56     0.0%
 
 ### bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS)
  CPU Cores          : 8 @ 2599.990 MHz
@@ -316,7 +316,7 @@ Speedtest.net    79.85 Mbps      39.67 Mbps      1.56     0.0%
 
 ### 多线路回程测评
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets

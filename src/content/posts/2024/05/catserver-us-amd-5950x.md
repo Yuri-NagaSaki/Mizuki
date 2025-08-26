@@ -30,7 +30,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -81,7 +81,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 4 minutes
@@ -138,7 +138,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/6253845
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 5950X 16-Core Processor (x86_64)
 4 cores @ 0 MHz  |  5.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -167,7 +167,7 @@ Memory Mark:                       2476
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 5950X 16-Core Processor
  CPU 核心数        : 4
@@ -373,7 +373,7 @@ Speedtest.net    891.63 Mbps     948.83 Mbps     26.70    0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 

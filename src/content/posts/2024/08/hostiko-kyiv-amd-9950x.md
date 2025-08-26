@@ -32,7 +32,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:                       x86_64
 CPU op-mode(s):                     32-bit, 64-bit
@@ -76,7 +76,7 @@ Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep 
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 4 minutes
@@ -150,7 +150,7 @@ YABS completed in 11 min 57 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -181,7 +181,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 9950X 16-Core Processor
  CPU Cores          : 2 @ 4291.920 MHz
@@ -221,7 +221,7 @@ Geekbench 5 测试结果
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 9950X 16-Core Processor (x86_64)
 2 cores @ 4291 MHz  |  7.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -250,7 +250,7 @@ Memory Mark:                       2576
 
 ### UnixBench
 
-```
+```shell
 root@catcat:~/byte-unixbench/UnixBench/results# cat catcat.blog-2024-08-25-01
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -333,7 +333,7 @@ System Benchmarks Index Score                                        6225.0
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 9950X 16-Core Processor
  CPU 核心数        : 2

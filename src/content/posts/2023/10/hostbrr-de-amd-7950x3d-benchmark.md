@@ -30,7 +30,7 @@ categories:
 
 ### Lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -81,7 +81,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 0 minutes
@@ -131,7 +131,7 @@ YABS completed in 5 min 8 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -179,7 +179,7 @@ YABS completed in 5 min 8 sec
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 9
@@ -374,7 +374,7 @@ Speedtest.net    925.12 Mbps     924.90 Mbps     0.67     0.0%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X3D 16-Core Processor (x86_64)
 9 cores @ 0 MHz  |  5.8 GiB RAM
 Number of Processes: 9  |  Test Iterations: 1  |  Test Duration: Medium
@@ -403,7 +403,7 @@ Memory Mark:                       2415
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Thu Oct 05 2023 09:13:19 - 09:41:12
 9 CPUs in system; running 1 parallel copy of tests

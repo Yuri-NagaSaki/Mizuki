@@ -20,7 +20,7 @@ coverImage: "GUeGukGbwAAUDZj.jpg"
 
 ### CPU
 
-```
+```shell
 root@catcat:~/scripts# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -75,7 +75,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 51 minutes
@@ -140,7 +140,7 @@ Total      | 6.08 GB/s    (11.8k) | 7.08 GB/s     (6.9k)
 
 ### 融合怪测试
 
-```
+```shell
 -------------------------------------VPS融合怪测试-------------------------------------
 版本：v0.1.4
 测评频道: https://t.me/vps_reviews
@@ -258,7 +258,7 @@ Sina      ✔     ✔     ✔     ✘     ✔     ✘
 
 ### UnixBench
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run:  1月 04 2025 15:51:44 - 16:20:03
 32 CPUs in system; running 1 parallel copy of tests
@@ -330,7 +330,7 @@ System Benchmarks Index Score                                       49884.3
 
 #### nvme1n1
 
-```
+```shell
 root@catcat:~/scripts# smartctl -a /dev/nvme1n1
 smartctl 7.2 2020-07-07 r5074 [x86_64-linux-6.1.0-27-amd64] (CircleCI)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -399,7 +399,7 @@ No Errors Logged
 
 #### nvme0n1
 
-```
+```shell
 root@catcat:~/scripts# smartctl -a /dev/nvme0n1
 smartctl 7.2 2020-07-07 r5074 [x86_64-linux-6.1.0-27-amd64] (CircleCI)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org

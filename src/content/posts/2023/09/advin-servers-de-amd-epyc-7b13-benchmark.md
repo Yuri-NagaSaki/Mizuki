@@ -26,7 +26,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes
@@ -77,7 +77,7 @@ YABS completed in 8 min 45 sec
 
 ### Benchy
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 7B13 64-Core Processor
  CPU Cores          : 2 @ 2249.998 MHz
@@ -123,7 +123,7 @@ YABS completed in 8 min 45 sec
 
 ### Benchy
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Debian GNU/Linux 12 (bookworm)     Model       : AMD EPYC 7B13 64-Core Processor
@@ -175,7 +175,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7B13 64-Core Processor
  CPU 核心数        : 2
@@ -365,7 +365,7 @@ Speedtest.net    6717.63 Mbps    5905.11 Mbps    11.25    0.0%
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Sat Sep 30 2023 15:01:04 - 15:29:03
 2 CPUs in system; running 1 parallel copy of tests
@@ -437,7 +437,7 @@ System Benchmarks Index Score                                        2523.3
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7B13 64-Core Processor (x86_64)
 2 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -466,7 +466,7 @@ Memory Mark:                       1700
 
 ### SpeedTest
 
-```
+```shell
 root@s9286:~# speedtest
 
    Speedtest by Ookla

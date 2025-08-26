@@ -26,7 +26,7 @@ categories:
 
 > 如果要修改Kubernetes版本，请修改下面脚本的最后一行，当前我们使用的版本是 `1.28.0`, 可以通过命令 `apt list -a kubeadm` 查看可用版本
 
-```
+```shell
 #!/bin/bash
 
 echo "[TASK 1] Disable and turn off SWAP"
@@ -74,7 +74,7 @@ apt install -qq -y kubeadm=1.28.0-00 kubelet=1.28.0-00 kubectl=1.28.0-00 >/dev/n
 
 脚本结束以后，可以检查下kubeadm，kubelet，kubectl的安装情况,如果都能获取到版本号，说明安装成功。
 
-```
+```shell
 kubeadm version
 kubelet --version
 kubectl version
@@ -92,13 +92,13 @@ kubectl version
 
 可以先拉取集群所需要的images（可做可不做）
 
-```
+```shell
 sudo kubeadm config images pull
 ```
 
 如果拉取成功，会看到类似下面的输出：
 
-```
+```shell
 [config/images] Pulled registry.k8s.io/kube-apiserver:v1.28.2
 [config/images] Pulled registry.k8s.io/kube-controller-manager:v1.28.2
 [config/images] Pulled registry.k8s.io/kube-scheduler:v1.28.2
@@ -114,7 +114,7 @@ sudo kubeadm config images pull
 
 - `--pod-network-cidr` pod network 地址空间
 
-```
+```shell
 vagrant@k8s-master:~$ sudo kubeadm init --apiserver-advertise-address=192.168.56.10  --pod-network-cidr=10.244.0.0/16
 ```
 
@@ -126,7 +126,7 @@ vagrant@k8s-master:~$ sudo kubeadm init --apiserver-advertise-address=192.168.56
 
 5. 添加worker节点
 
-```
+```shell
 Your Kubernetes control-plane has initialized successfully!
 
 To start using your cluster, you need to run the following as a regular user:
@@ -151,7 +151,7 @@ kubeadm join ip:6443 --token 75tjpr.mekbas8r3yvimqen \
 
 ### 配置 .kube
 
-```
+```shell
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
@@ -159,14 +159,14 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 ### 检查状态
 
-```
+```shell
 $ kubectl get nodes
 $ kubectl get pods -A
 ```
 
 ### shell 自动补全(Bash)
 
-```
+```shell
 source <(kubectl completion bash)
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 ```
@@ -179,13 +179,13 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 下载文件 [https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml](https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml) ，并进行如下修改：
 
-```
+```shell
 curl -LO https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
 ```
 
 确保network是我们配置的 –pod-network-cidr 10.244.0.0/16
 
-```
+```shell
 net-conf.json: |
   {
     "Network": "10.244.0.0/16",
@@ -197,11 +197,11 @@ net-conf.json: |
 
 在 kube-flannel的容器args里，确保有iface=网卡名 是我们的–apiserver-advertise-address=ip 接口名
 
-```
+```shell
 ip a 
 ```
 
-```
+```shell
 - name: kube-flannel
  #image: flannelcni/flannel:v0.18.0 for ppc64le and mips64le (dockerhub limitations may apply)
   image: rancher/mirrored-flannelcni-flannel:v0.18.0
@@ -215,7 +215,7 @@ ip a
 
 举例：
 
-```
+```shell
 vagrant@k8s-master:~$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -249,14 +249,14 @@ vagrant@k8s-master:~$ ip a
 
 添加worker节点非常简单，直接在worker节点上运行join即可，注意–token
 
-```
+```shell
 sudo kubeadm join 192.168.56.10:6443 --token 0pdoeh.wrqchegv3xm3k1ow \
   --discovery-token-ca-cert-hash sha256:f4e693bde148f5c0ff03b66fb24c51f948e295775763e8c5c4e60d24ff57fe82
 ```
 
 最后在master节点查看node和pod结果。(比如我们有两个worker节点)
 
-```
+```shell
 kubectl get nodes
 ```
 

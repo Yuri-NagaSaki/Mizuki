@@ -30,7 +30,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          48 bits physical, 48 bits virtual
@@ -80,7 +80,7 @@ Vulnerabilities:
 
 ### 硬件检测
 
-```
+```shell
 
   CPU 型号              AMD EPYC 4344P 8-Core Processor
   CPU 核心              合计 8 核心，16 线程
@@ -118,7 +118,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 1 hours, 0 minutes
@@ -179,7 +179,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/11851349
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -210,7 +210,7 @@ Geekbench 5 测试结果
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 4344P 8-Core Processor
  CPU Cores          : 16 @ 3000.000 MHz
@@ -260,7 +260,7 @@ Geekbench 5 测试结果
 
 ### UnixBench
 
-```
+```shell
 root@ams-2-2-22:~/byte-unixbench/UnixBench/results# cat ams-2-2-22-2025-05-07-01
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -371,7 +371,7 @@ System Benchmarks Index Score                                       22659.4
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 4344P 8-Core Processor (x86_64)
 8 cores @ 5388 MHz  |  61.9 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -400,7 +400,7 @@ Memory Mark:                       3636
 
 ### 融合怪Go
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 4344P 8-Core Processor @3000.000 MHz
  CPU 数量            : 16 Physical CPU(s)

@@ -8,7 +8,7 @@ categories:
 
 ## 套餐配置
 
-```
+```shell
 EPYC-PROMO1
 - 2x AMD Milan EPYC vCPU (2.2-2.5 Ghz cores)
 - 50 GB Enterprise U.2 NVMe SSD (PCIe 4.0)
@@ -42,7 +42,7 @@ Pick one of the two options!
 
 ### CPU
 
-```
+```shell
 root@Sakura:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -93,7 +93,7 @@ Vulnerabilities:
 
 ### Memory
 
-```
+```shell
 root@Sakura:~# free -h --total
                total        used        free      shared  buff/cache   available
 Mem:           7.7Gi       365Mi       7.4Gi       552Ki       110Mi       7.4Gi
@@ -103,7 +103,7 @@ Total:         7.7Gi       365Mi       7.4Gi
 
 ### Storage
 
-```
+```shell
 root@Sakura:~# df -hT --total
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  3.9G     0  3.9G   0% /dev
@@ -118,7 +118,7 @@ total          - 20G  2.0G   18G  11% -
 
 ### Yabs
 
-```
+```shell
 root@Sakura:~# curl -sL yabs.sh | bash
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
@@ -202,7 +202,7 @@ YABS completed in 11 min 45 sec
 
 ### Bench 测试
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -250,7 +250,7 @@ YABS completed in 11 min 45 sec
 
 ### benchy测试
 
-```
+```shell
 # # # # # # # # # # # # # # # # # # # # #
 #             Benchy v2.7               #
 #    https://github.com/L1so/benchy     #
@@ -312,7 +312,7 @@ Network Performance Test (Region: Mixed)
 
 ### 流媒体解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: NL)
  HotStar:                               No
@@ -420,7 +420,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本综合测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7B13 64-Core Processor
  CPU 核心数        : 1
@@ -642,7 +642,7 @@ Speedtest.net    997.17 Mbps     951.60 Mbps     2.37     0.0%
 
 ### 多地区回程测试
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
@@ -833,7 +833,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ### UnixBench测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -918,7 +918,7 @@ System Benchmarks Index Score                                        3681.7
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7B13 64-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.7 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium

@@ -11,7 +11,7 @@ categories:
 
 ## 查看本地插件[#](#2590308056)
 
-```
+```shell
 # rabbitmq-plugins list
  Configured: E = explicitly enabled; e = implicitly enabled
  | Status:   * = running on rabbit@7f153b30f57e
@@ -47,7 +47,7 @@ categories:
 
 ## 安装 amqp\_client 插件[#](#658696601)
 
-```
+```shell
 # rabbitmq-plugins enable amqp_client                  
 Plugin configuration unchanged.
 
@@ -56,7 +56,7 @@ Applying plugin configuration to rabbit@7f153b30f57e... nothing to do.
 
 ## 安装 rabbitmq\_delayed\_message\_exchange 插件[#](#2373673857)
 
-```
+```shell
 # rabbitmq-plugins enable rabbitmq_delayed_message_exchange
 Error: The following plugins could not be found:
   rabbitmq_delayed_message_exchange
@@ -68,19 +68,19 @@ Error: The following plugins could not be found:
 
 > 下载地址：[http://www.rabbitmq.com/community-plugins.html](http://www.rabbitmq.com/community-plugins.html)
 
-```
+```shell
 # linux： 
 wget https://dl.bintray.com/rabbitmq/community-plugins/3.6.x/rabbitmq_delayed_message_exchange/rabbitmq_delayed_message_exchange-20171215-3.6.x.zip
 ```
 
-```
+```shell
 # unzip解压到
 /usr/lib/rabbitmq/lib/rabbitmq_server-version/plugins/rabbitmq_delayed_message_exchange-20171201-3.7.x.ez
 ```
 
 ## 重新安装插件[#](#115400139)
 
-```
+```shell
 # rabbitmq-plugins enable rabbitmq_delayed_message_exchange
 Error: The following plugins could not be found:
   rabbitmq_delayed_message_exchange
@@ -88,6 +88,6 @@ Error: The following plugins could not be found:
 
 ## 参考文档
 
-```
+```shell
 链接：https://blog.csdn.net/youjin/article/details/82586888
 ```

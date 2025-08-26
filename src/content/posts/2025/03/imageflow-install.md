@@ -87,7 +87,7 @@ coverImage: "gmonnnuasaahvq3.jpg"
 
 拉取并进入仓库
 
-```
+```shell
 git clone https://github.com/Yuri-NagaSaki/ImageFlow && cd ImageFlow
 ```
 
@@ -99,7 +99,7 @@ git clone https://github.com/Yuri-NagaSaki/ImageFlow && cd ImageFlow
 
 修改.env
 
-```
+```shell
 cp .env.example .env
 vim .env
 ```
@@ -112,7 +112,7 @@ vim .env
 
 根据所选择的部署模式调整 参数，具体 S3 的 下列参数如何获得这里就不再过多赘述了
 
-```
+```shell
 # API Keys
 API_KEY=your_api_key_here  # 这是你的API key 用于身份验证登录
 
@@ -133,7 +133,7 @@ CUSTOM_DOMAIN=   # 这里是S3 一般都会有的自定义域名。
 
 拉取镜像准备部署
 
-```
+```shell
 docker compose up -d
 一般默认监听8686端口，如有必要，自行修改。
 ```
@@ -168,7 +168,7 @@ Ubuntu 24.04 默认即可安装最新版本
 
 默认提供 X86 和ARM的，自行选择
 
-```
+```shell
 git clone https://github.com/Yuri-NagaSaki/ImageFlow && cd ImageFlow
 https://github.com/Yuri-NagaSaki/ImageFlow/releases/download/v1.0/imageflow-x86
 chmod 777 imageflow-x86
@@ -185,7 +185,7 @@ vim .env
 
 创建service
 
-```
+```shell
 [Unit]
 Description=ImageFlow Service
 After=network.target

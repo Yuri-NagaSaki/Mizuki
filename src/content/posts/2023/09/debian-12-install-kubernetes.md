@@ -20,7 +20,7 @@ categories:
 
 更新系统到最新，然后移除不再需要的软件，清理无用的安装包。
 
-```
+```shell
 sudo apt update && sudo apt full-upgrade -y
 sudo apt autoremove
 sudo apt autoclean
@@ -34,7 +34,7 @@ Kubernetes 的机器不能有 swap 分区，所以要卸载 swap 分区。
 
 开启转发等：
 
-```
+```shell
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
 br_netfilter
@@ -62,13 +62,13 @@ sudo sysctl --system
 
 卸载非官方版本 Docker，因为会与官方版本冲突。
 
-```
+```shell
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 
 [官方文档](https://docs.docker.com/engine/install/debian/#install-using-the-repository) 安装
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
@@ -86,7 +86,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 启动 docker 并设置开机自动运行
 
-```
+```shell
 sudo systemctl enable docker --now
 ```
 
@@ -96,7 +96,7 @@ sudo systemctl enable docker --now
 
 [cli-dockerd](https://github.com/Mirantis/cri-dockerd/) 是 Kubernetes 控制 Docker 的中间层。cri: container runtime interface
 
-```
+```shell
 git clone https://github.com/Mirantis/cri-dockerd.git
 cd cri-dockerd
 make cri-dockerd
@@ -117,7 +117,7 @@ sudo systemctl enable --now cri-docker.socket
 
 这部分依旧来自[官方文档](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl) 注意虽然我们在 Debian 11/12 上安装，但是依旧是 xenial（Ubuntu 16.04 LTS） 的源。
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install -y apt-transport-https
 curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-archive-keyring.gpg
@@ -141,7 +141,7 @@ sudo apt-mark hold kubelet kubeadm kubectl # 关闭这三个程序的自动更�
 
 初始化：
 
-```
+```shell
 sudo kubeadm init --pod-network-cidr 192.168.0.0/16 --cri-socket unix:///var/run/cri-dockerd.sock --control-plane-endpoint master-node-01.acytoo.net
 ```
 
@@ -153,7 +153,7 @@ _Token 过期或者忘记，可以使用 `kubeadm token create --print-join-comm
 
 根据提示，下一步操作。
 
-```
+```shell
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
@@ -165,14 +165,14 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 目前版本 3.26.1，请到官网找最新版本 [docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises](https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises#install-calico-with-kubernetes-api-datastore-50-nodes-or-less)
 
-```
+```shell
 curl https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/calico.yaml -O
 kubectl apply -f calico.yaml
 ```
 
 至此，主节点就设置好了，查看状态。
 
-```
+```shell
 kubectl get node
 kubectl get pod
 kubectl get pods --all-namespaces
@@ -184,7 +184,7 @@ kubectl get pods --all-namespaces
 
 使用 `kubeadm join` 命令，在一台已经安装了 `kubeadm` 等程序的服务器上，执行
 
-```
+```shell
 sudo kubeadm join master-node-01.acytoo.net:6443 --token sluqvx.itdsjivbewuiinfx \
         --discovery-token-ca-cert-hash sha256:95669c834aa9e861aed6a08783d1f893223ec327ad2612aba016c2b457afb2345 \
         --cri-socket unix:///var/run/cri-dockerd.sock
@@ -200,7 +200,7 @@ worker 节点也需要安装 calico。
 
 在主节点删除 worker node:
 
-```
+```shell
 kubectl drain [node name] --ignore-daemonsets
 kubectl delete node [node name]
 ```
@@ -209,7 +209,7 @@ kubectl delete node [node name]
 
 回到主节点，查看 node。
 
-```
+```shell
 kubectl get nodes
 ```
 

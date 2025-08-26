@@ -24,7 +24,7 @@ Price : \$29.95 USD + \$4.95 Setup Fee_**
 
 ### Yabs
 
-```
+```shell
 ---------------------------------
 Uptime     : 0 days, 0 hours, 20 minutes
 Processor  : AMD Ryzen 9 7950X 16-Core Processor
@@ -93,7 +93,7 @@ Multi Core      | 9614
 
 ### Bench
 
-```
+```shell
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 6 @ 4499.980 MHz
  CPU Cache          : 512 KB
@@ -134,7 +134,7 @@ Multi Core      | 9614
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 6 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       76446801.9 lps   (10.0 s, 7 samples)
@@ -204,7 +204,7 @@ System Benchmarks Index Score                                        8294.1
 
 ### 全局网络测试
 
-```
+```shell
  ## CDN Speedtest
 
  CacheFly :  84.76 MiB/s |  678.07 Mbps  | ping  27.885ms

@@ -7,7 +7,7 @@ categories:
   - "eu-server"
 ---
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
  CPU 核心数        : 4
@@ -188,7 +188,7 @@ Speedtest.net	 266.05 Mbps	 551.91 Mbps	 108.14	  0.0%
 
 ## Yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-04-23                    #

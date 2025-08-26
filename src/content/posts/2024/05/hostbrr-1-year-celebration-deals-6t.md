@@ -33,7 +33,7 @@ Hosted in Falkenstein, Germany
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -84,7 +84,7 @@ YABS completed in 10 min 37 sec
 
 ### HDD 测试
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/vdb1):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)

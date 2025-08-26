@@ -22,7 +22,7 @@ CAX31 和 CPX31
     <img src="https://s3.catcat.blog/images/2023/05/image-2-1024x64.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 
 ***** Passmark's PerformanceTest *****
 ----------------------------------------------------------------------------
@@ -155,7 +155,7 @@ I/O Speed(average) : 1501.9 MB/s
 ----------------------------------------------------------------------
 ```
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes

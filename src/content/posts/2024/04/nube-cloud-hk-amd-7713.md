@@ -44,7 +44,7 @@ Price : **_\$_** 2.82/ Month_**
 
 ### lscpu
 
-```
+```shell
 root@debian12:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -94,7 +94,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -136,7 +136,7 @@ Total      | 5.84 GB/s    (11.4k) | 7.09 GB/s     (6.9k)
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -180,7 +180,7 @@ Total      | 5.84 GB/s    (11.4k) | 7.09 GB/s     (6.9k)
 
 ### 融合怪测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7713 64-Core Processor
  CPU 核心数        : 1
@@ -379,7 +379,7 @@ Speedtest.net    460.07 Mbps     364.53 Mbps     1.25     48.2%
 
 ### 流媒体解释测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                  原生解锁        Yes (Region: HK)
  TikTok:                原生解锁        Yes (Region: US)
@@ -416,7 +416,7 @@ Speedtest.net    460.07 Mbps     364.53 Mbps     1.25     48.2%
 
 去程：电信绕美，联通走日本ntt，移动走lumen直连。
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.9 2024-03-04T14:32:40Z f96c3e5
@@ -791,7 +791,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -822,7 +822,7 @@ Geekbench 5 测试结果
 
 ### IP 流媒体质量检测
 
-```
+```shell
 ########################################################################
 一、基础信息（Maxmind 数据库）
 自治系统号：            AS138997

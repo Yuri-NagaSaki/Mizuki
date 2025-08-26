@@ -18,7 +18,7 @@ powered by AMD Ryzen 7950X, DDR5 ECC, U.2 PCIe 4.0 NVMe drives, and dual 10G upl
 
 ### offer
 
-```
+```shell
 - 1x Ryzen 7950X vCPU
 - 25 GB Enterprise U.2 NVMe SSD (PCIe 4.0)
 - 2 GB DDR5 ECC 4800 MT/s
@@ -62,7 +62,7 @@ looking glass : [https://lg-nl-dtc.hybula.net/](https://lg-nl-dtc.hybula.net/)
     <img src="https://s3.catcat.blog/images/2023/04/image-155.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 Geekbench 4 Benchmark Test:
 ---------------------------------
 Test            | Value                         
@@ -106,7 +106,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/841083
 
 ### 流媒体解锁测试
 
-```
+```shell
 ----------------Youtube----------------
 [IPv4]
 连接方式: Youtube Video Server
@@ -211,7 +211,7 @@ NF所识别的IP地域信息：荷兰
 
 ## Yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-04-23                    #
@@ -292,7 +292,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/1692070
 
 ## Bench脚本测试
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -341,7 +341,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/1692070
 
 ### 2023年9月21日测试
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 17 days, 2 hours, 15 minutes
@@ -416,7 +416,7 @@ YABS completed in 11 min 15 sec
 
 ### 2023年10月1日测试
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 27 days, 3 hours, 1 minutes
@@ -465,7 +465,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2855061
 
 ### 2023年10月7日测试
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 5 days, 21 hours, 20 minutes
@@ -518,7 +518,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2960473
 
 指定 CPU 线程最大素数为 20000，多进程为4，运行 60s 所得测量值
 
-```
+```shell
 root@catcat:~# sysbench cpu --cpu-max-prime=20000 --threads=4 --time=60 run
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
@@ -553,7 +553,7 @@ Threads fairness:
 
 指定 CPU 线程最大素数为 20000，单进程测试，运行 60s 所得测量值
 
-```
+```shell
 root@catcat:~# sysbench cpu --cpu-max-prime=20000 --threads=1 --time=60 run
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
@@ -592,7 +592,7 @@ Threads fairness:
 
 `sysbench memory --memory-block-size=1K --memory-oper=read --memory-scope=global --memory-total-size=200G --threads=4 --time=30 run`
 
-```
+```shell
 root@catcat:~# sysbench memory --memory-block-size=1K --memory-oper=read --memory-scope=global --memory-total-size=200G --threads=4 --time=30 run
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 

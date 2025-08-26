@@ -10,7 +10,7 @@ categories:
 
 ## 融合怪脚本测试
 
-```
+```shell
 
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 9354P 32-Core Processor
@@ -216,7 +216,7 @@ Speedtest.net	 935.80 Mbps	 770.49 Mbps	 7.41	  NULL
 
 ## Bench脚本测试
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -263,7 +263,7 @@ Speedtest.net	 935.80 Mbps	 770.49 Mbps	 7.41	  NULL
 
 ## Yabs
 
-```
+```shell
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2023-04-23                    #

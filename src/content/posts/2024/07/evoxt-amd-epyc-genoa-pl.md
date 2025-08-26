@@ -37,7 +37,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 4 hours, 33 minutes
@@ -107,7 +107,7 @@ Multi Core      | 5068
 
 ### Bench
 
-```
+```shell
 CPU Model          : AMD EPYC-Genoa Processor
  CPU Cores          : 2 @ 4491.540 MHz
  CPU Cache          : 1024 KB
@@ -148,7 +148,7 @@ CPU Model          : AMD EPYC-Genoa Processor
 
 ### **UnixBench**
 
-```
+```shell
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       78812817.7 lps   (10.0 s, 7 samples)
@@ -217,7 +217,7 @@ System Benchmarks Index Score                                        4273.0
 
 ### 速度测试
 
-```
+```shell
 ## CDN Speedtest
 
  CacheFly : 109.89 MiB/s |  879.12 Mbps  | ping   3.790ms
@@ -265,7 +265,7 @@ System Benchmarks Index Score                                        4273.0
 
 ### 流媒体测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: PL)
  Disney+:                               No

@@ -12,13 +12,13 @@ categories:
 
 ### 创建文件夹
 
-```
+```shell
 mkdir -p /root/docker/beszel 
 ```
 
 ### docker-compose.yaml 文件
 
-```
+```shell
 services:
   beszel:
     image: 'henrygd/beszel'
@@ -32,7 +32,7 @@ services:
 
 ### 运行
 
-```
+```shell
 docker compose up -d
 
 ```
@@ -57,19 +57,19 @@ docker compose up -d
 
 ### 下载 Agent 文件
 
-```
+```shell
 curl -sL "https://github.com/henrygd/beszel/releases/latest/download/beszel-agent_$(uname -s)_$(uname -m | sed 's/x86_64/amd64/' | sed 's/armv7l/arm/' | sed 's/aarch64/arm64/').tar.gz" | tar -xz -O beszel-agent | tee ./beszel-agent >/dev/null && chmod +x beszel-agent && ls beszel-agent
 ```
 
 ### 创建 systemd 进程
 
-```
+```shell
 sudo vim /etc/systemd/system/beszel-agent.service
 ```
 
 ### 服务进程文件编写
 
-```
+```shell
 [Unit]
 Description=Beszel Agent
 After=network.target
@@ -88,7 +88,7 @@ WantedBy=multi-user.target
 
 ### 重新加载 systemd 配置
 
-```
+```shell
 sudo systemctl daemon-reload
 sudo systemctl start beszel-agent
 sudo systemctl enable beszel-agent
@@ -96,7 +96,7 @@ sudo systemctl enable beszel-agent
 
 ### 检查服务运行状态
 
-```
+```shell
 sudo systemctl status beszel-agent
 ```
 

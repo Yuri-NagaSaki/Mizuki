@@ -22,7 +22,7 @@ general（普通设置） 、alerts（警报设置）、Datebase（数据库参�
 
 ### Docker 部署
 
-```
+```shell
 docker pull linuxserver/smokeping
 docker run -d \
 --name=smokeping \
@@ -36,7 +36,7 @@ linuxserver/smokeping
 
 ### 部署推送脚本
 
-```
+```shell
 apt update && apt upgrade
 apt install -y rrdtool
 cd /home/config/smokeping/
@@ -53,11 +53,11 @@ mv idc_ping_monitor-master/smokeping/location/ /home/config/smokeping/
 
 ### 编辑Smokeping 监控配置
 
-```
+```shell
 vim Targets
 ```
 
-```
+```shell
 *** Targets ***
  
 probe = FPing
@@ -74,7 +74,7 @@ remark = Smokeping 网络质量监控系统
 
 ### 更新Smokeping
 
-```
+```shell
 find /home/data/smokeping/ -name "*.rrd"|xargs rm -f
 docker restart 容器 ID
 ```
@@ -89,7 +89,7 @@ docker restart 容器 ID
 
 IP 修改为本机IP
 
-```
+```shell
 root@VM-4-17-debian:/home/config/smokeping# vim /home/config/smokeping/idc_ping_monitor-master/collection_to_prometheus.py
 
 'LOG_FILE' : '/tmp/smoking_pushgateway.log',
@@ -99,7 +99,7 @@ root@VM-4-17-debian:/home/config/smokeping# vim /home/config/smokeping/idc_ping_
 
 ### 设置定时任务
 
-```
+```shell
 crontab -e 
 * * * * * python3 /home/config/smokeping/idc_ping_monitor-master/collection_to_prometheus.py
 ```
@@ -114,14 +114,14 @@ crontab -e
 
 ### 容器部署Promethues
 
-```
+```shell
 root@VM-4-17-debian:~# docker run -d -p 9090:9090 --name prometheus prom/prometheus
 root@VM-4-17-debian:~# docker cp prometheus:/etc/prometheus/prometheus.yml ./
 ```
 
 ### 持久化部署
 
-```
+```shell
 root@VM-4-17-debian:~# docker rm -f prometheus
 prometheus
 root@VM-4-17-debian:~# mkdir /data/prometheus/
@@ -145,7 +145,7 @@ root@VM-4-17-debian:~#
 
 ### Docker部署
 
-```
+```shell
 root@VM-4-17-debian:~# docker run -d --name="prometheus_pushgateway" -p 9091:9091 prom/pushgateway
 ```
 
@@ -157,7 +157,7 @@ root@VM-4-17-debian:~# docker run -d --name="prometheus_pushgateway" -p 9091:909
 
 ### 修改prometheus配置，添加pushgateway
 
-```
+```shell
 root@VM-4-17-debian:~# vim /data/prometheus/prometheus.yml
   - job_name: prometheus_pushgateway
     honor_labels: true                       # 避免收集数据本身的 job 和 instance被pushgateway实例信息覆盖
@@ -190,7 +190,7 @@ root@VM-4-17-debian:~# docker restart prometheus
 
 ### Docker部署
 
-```
+```shell
 [root@VM-4-17-debian ~]# mkdir /data/grafana-storage
 [root@VM-4-17-debian ~]# chmod 777 /data/grafana-storage/
 

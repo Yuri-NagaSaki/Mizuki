@@ -32,7 +32,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          43 bits physical, 48 bits virtual
@@ -86,7 +86,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 4 hours, 40 minutes
@@ -148,7 +148,7 @@ YABS completed in 10 min 4 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -194,7 +194,7 @@ YABS completed in 10 min 4 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -225,7 +225,7 @@ Geekbench 5 测试结果
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7532 32-Core Processor (x86_64)
 32 cores @ 2400 MHz  |  251.6 GiB RAM
 Number of Processes: 64  |  Test Iterations: 1  |  Test Duration: Medium
@@ -254,7 +254,7 @@ Memory Mark:                       2850
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -338,7 +338,7 @@ System Benchmarks Index Score                                       27317.3
 
 ### SysBench 测试
 
-```
+```shell
 root@pve:~/byte-unixbench/UnixBench# sysbench cpu --cpu-max-prime=100000 --time=60 --threads=64 run
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
@@ -373,7 +373,7 @@ Threads fairness:
 
 ### 融合怪脚本测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 7532 32-Core Processor @ 2400.000 MHz
  CPU 数量            : 64 Physical CPU(s)
@@ -606,7 +606,7 @@ Speedtest.net   9131.46 Mbps    6586.19 Mbps    2.56 ms         0.0%
 
 ### 解锁测试
 
-```
+```shell
 ########################################################################
 一、基础信息（Maxmind 数据库）
 自治系统号：            AS138997
@@ -651,7 +651,7 @@ IP地址黑名单数据库：  有效 439   正常 433   已标记 3   黑名单
 
 ### 通电测试
 
-```
+```shell
 
   CPU 型号              AMD EPYC 7532 32-Core Processor
   CPU 核心              合计 32 核心，64 线程

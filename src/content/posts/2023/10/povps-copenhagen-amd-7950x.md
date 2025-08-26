@@ -24,7 +24,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
   Address sizes:         40 bits physical, 48 bits virtual
@@ -54,7 +54,7 @@ Caches (sum of all):
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 29 minutes
@@ -113,7 +113,7 @@ Multi Core      | 5023
 
 ### Bench
 
-```
+```shell
 Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
 ----------------------------------------------------------------------
@@ -160,7 +160,7 @@ Version            : v2023-06-10
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X3D 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -188,7 +188,7 @@ Memory Mark:                       1878
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 Benchmark Run: Thu Oct 05 2023 019:13:19 - 019:41:12
 2 CPUs in system; running 1 parallel copy of tests
 
@@ -257,7 +257,7 @@ System Benchmarks Index Score                                        6285.9
 
 ### SpeedTest
 
-```
+```shell
    Speedtest by Ookla
 
       Server: WebseitenDesigner.com - Hannover (id: 47786)
@@ -277,7 +277,7 @@ Idle Latency:     7.01 ms   (jitter: 0.81ms, low: 6.31ms, high: 7.59ms)
 
 ### Network-Speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU Cores          : 2 @ 4192.104 MHz

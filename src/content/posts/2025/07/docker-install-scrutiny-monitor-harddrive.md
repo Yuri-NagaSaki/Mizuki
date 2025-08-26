@@ -42,7 +42,7 @@ Scrutiny 是一款简单但专注的应用程序，具有以下几个核心功�
 
 ### 创建文件夹
 
-```
+```shell
 请自己找寻合适的位置
 mkdir Scrutiny 
 ```
@@ -53,7 +53,7 @@ mkdir Scrutiny
 
 如果你想在 Docker 中设置监控的频率，可以添加 `COLLECTOR_CRON_SCHEDULE` 这个环境变量，例如设置每 15 分钟监控一次就是 `-e COLLECTOR_CRON_SCHEDULE="*/15 * * * *"` ，这个变量使用的是 Cron 表达式
 
-```
+```shell
 version: '3.5'
 
 services:
@@ -85,7 +85,7 @@ services:
 
 ### 创建启动
 
-```
+```shell
 docker compose up -d
 ```
 
@@ -105,7 +105,7 @@ docker compose up -d
 
 仅需要在 `$PWD/scrutiny` ，下新建一个 `scrutiny.yaml` 文件，并填入以下内容
 
-```
+```shell
 notify:
   urls:
     - "telegram://token@telegram?channels=channel-1[,channel-2,...]"

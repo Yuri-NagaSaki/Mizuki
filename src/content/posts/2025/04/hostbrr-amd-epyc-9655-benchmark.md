@@ -40,7 +40,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@catcat:~/scripts# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -96,7 +96,7 @@ root@catcat:~/scripts#
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 13 minutes
@@ -169,7 +169,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/11569747
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -200,7 +200,7 @@ Geekbench 5 测试结果
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9655 96-Core Processor (x86_64)
 4 cores @ 0 MHz  |  15.6 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -229,7 +229,7 @@ Memory Mark:                       2565
 
 ### UnixBench
 
-```
+```shell
    BYTE UNIX Benchmarks (Version 5.1.3)
 
    System: catcat: GNU/Linux

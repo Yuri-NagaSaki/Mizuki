@@ -8,7 +8,7 @@ categories:
 
 ## 新加坡
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -57,7 +57,7 @@ categories:
 
 ## 东京
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
  CPU 核心数        : 2
@@ -240,7 +240,7 @@ Speedtest.net	 4496.52 Mbps	 4212.04 Mbps	 0.82	  0.0%
 
 ```
 
-```
+```shell
 
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
@@ -290,7 +290,7 @@ Speedtest.net	 4496.52 Mbps	 4212.04 Mbps	 0.82	  0.0%
 ----------------------------------------------------------------------
 ```
 
-```
+```shell
 --------------------- A Bench Script By spiritlhl ----------------------
                    测评频道: https://t.me/vps_reviews                    
 版本：2023.06.27

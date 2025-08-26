@@ -31,7 +31,7 @@ MetaTube 支持的成人影片检索网站挺多的，以后可能还会加别�
 
 > 请确保部署平台已有Docker、Docker-compose环境（会用到8080端口，如果占用，请修改docker-compose.yml文件）
 
-```
+```shell
 mkdir metatube-sdk-go && cd metatube-sdk-go
 curl -sL https://raw.githubusercontent.com/metatube-community/metatube-sdk-go/main/docker-compose.yml -o docker-compose.yml
 docker compose up -d

@@ -50,7 +50,7 @@ Price : £21.50 GBP_**
 
 ### lscpu
 
-```
+```shell
 root@yuri-ly:~# lscpu
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
@@ -98,7 +98,7 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 
 **因为是大陆优化，因此就不错外国的网络测试了。**
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 2 hours, 9 minutes
@@ -148,7 +148,7 @@ YABS completed in 5 min 19 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 9 7950X 16-Core Processor
  CPU Cores          : 2 @ 4491.488 MHz
@@ -194,7 +194,7 @@ YABS completed in 5 min 19 sec
 
 ### GeekBench5 测试
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -225,7 +225,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -310,7 +310,7 @@ System Benchmarks Index Score                                        4566.9
 
 ### Monster 测试
 
-```
+```shell
 ---------------------------------------------------------------------------
  OS           : Debian GNU/Linux 11 (64 Bit)
  Virt/Kernel  : KVM / 5.10.0-20-amd64
@@ -354,7 +354,7 @@ System Benchmarks Index Score                                        4566.9
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2
@@ -573,7 +573,7 @@ Speedtest.net    201.68 Mbps     194.54 Mbps     0.72     0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 4491 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -602,7 +602,7 @@ Memory Mark:                       1932
 
 ### 硬盘读写测试
 
-```
+```shell
 root@yuri-ly:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out
@@ -611,7 +611,7 @@ root@yuri-ly:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 
 ### HyperSpeed 三网测试
 
-```
+```shell
 ——————————————————————————— HyperSpeed —————————————————————————————
          bash <(wget -qO- https://bench.im/hyperspeed)
          项目修改自: https://github.com/zq/superspeed/
@@ -652,7 +652,7 @@ root@yuri-ly:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 
 ### 多地回城测试
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets

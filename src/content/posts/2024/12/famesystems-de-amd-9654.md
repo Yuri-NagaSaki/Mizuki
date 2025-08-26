@@ -32,7 +32,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          52 bits physical, 57 bits virtual
@@ -83,7 +83,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Mon Dec  2 06:55:39 AM CET 2024
 
 Basic System Information:
@@ -160,7 +160,7 @@ YABS completed in 11 min 28 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -191,7 +191,7 @@ Geekbench 5 测试结果
 
 ### UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -282,7 +282,7 @@ System Benchmarks Index Score                                        6799.9
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9654 96-Core Processor (x86_64)
 6 cores @ 0 MHz  |  23.5 GiB RAM
 Number of Processes: 6  |  Test Iterations: 1  |  Test Duration: Medium
@@ -311,7 +311,7 @@ Memory Mark:                       2037
 
 ### 融合怪脚本测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : AMD EPYC 9654 96-Core Processor @ 2400.000 MHz
  CPU 数量            : 6 Virtual CPU(s)

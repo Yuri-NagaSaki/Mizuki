@@ -30,7 +30,7 @@ Price : 48 € per year_** 
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -91,7 +91,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 17 minutes
@@ -166,7 +166,7 @@ YABS completed in 12 min 9 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -216,7 +216,7 @@ YABS completed in 12 min 9 sec
 
 ### Geekbench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -246,7 +246,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -331,7 +331,7 @@ System Benchmarks Index Score                                        4559.1
 
 ### Monster 测试
 
-```
+```shell
 root@catcat:~# curl -sL bench.monster | bash -s 
 ---------------------------------------------------------------------------
  Region: Global  https://bench.monster v1.7.4 2023-12-15 
@@ -379,7 +379,7 @@ root@catcat:~# curl -sL bench.monster | bash -s
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X 16-Core Processor
  CPU 核心数        : 2
@@ -591,7 +591,7 @@ Speedtest.net    2523.63 Mbps    2417.51 Mbps    3.53     0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -620,7 +620,7 @@ Memory Mark:                       2573
 
 ### 硬盘读写测试
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out
@@ -630,7 +630,7 @@ root@catcat:~#
 
 ### 多地回程测试
 
-```
+```shell
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
 NextTrace v1.2.8 2023-12-23T13:30:40Z f76c940

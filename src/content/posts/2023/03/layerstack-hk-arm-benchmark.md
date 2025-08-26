@@ -28,7 +28,7 @@ ARM008 香港，2 核 4G 搭配 50GB SSD ，一个月 8刀
 
 ## 服务器基本信息
 
-```
+```shell
  CPU Model          : CPU model not detected
  CPU Cores          : 2
  AES-NI             : ✓ Enabled
@@ -52,12 +52,12 @@ ARM008 香港，2 核 4G 搭配 50GB SSD ，一个月 8刀
 
 **CPU Events Per Second 跑分(基于sysbench)**
 
-```
+```shell
  1 Thread Test:                 3508 Scores
  2 Threads Test:                7020 Scores
 ```
 
-```
+```shell
  1 Thread - Read Test :         30915.43 MB/s
  1 Thread - Write Test:         14653.77 MB/s
 ```
@@ -66,7 +66,7 @@ ARM008 香港，2 核 4G 搭配 50GB SSD ，一个月 8刀
 
 **DD 硬盘結果：**
 
-```
+```shell
  Test Name              Write Speed                             Read Speed
  10MB-4K Block          96.0 MB/s (0.04 IOPS, 0.11s))           116 MB/s (28243 IOPS, 0.09s)
  10MB-1M Block          3.1 GB/s (2972 IOPS, 0.00s)             2.5 GB/s (2358 IOPS, 0.00s)
@@ -78,7 +78,7 @@ ARM008 香港，2 核 4G 搭配 50GB SSD ，一个月 8刀
 
 **FIO 結果：**
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
@@ -96,7 +96,7 @@ Total      | 6.55 GB/s    (12.7k) | 7.23 GB/s     (7.0k)
 
 ## 网络
 
-```
+```shell
  IP                 : 103.231.254.200
  Organization       : AS133380 Layerstack Limited
  Location           : Hong Kong / HK
@@ -123,7 +123,7 @@ Total      | 6.55 GB/s    (12.7k) | 7.23 GB/s     (7.0k)
 
 ##### Hinet 168.95.1.1
 
-```
+```shell
 traceroute to 168.95.1.1 (168.95.1.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.63 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  ve336.core2.hkg2.he.net (74.82.49.173)  0.64 ms  AS6939  China, Hong Kong, he.net
@@ -141,7 +141,7 @@ traceroute to 168.95.1.1 (168.95.1.1), 30 hops max, 32 byte packets
 
 ##### FENTNet 139.175.1.1
 
-```
+```shell
 traceroute to 139.175.1.1 (139.175.1.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  2.78 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.39 ms  *  LAN Address
@@ -160,7 +160,7 @@ traceroute to 139.175.1.1 (139.175.1.1), 30 hops max, 32 byte packets
 
 ##### APTG 203.79.224.10
 
-```
+```shell
 traceroute to 203.79.224.10 (203.79.224.10), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.33 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.46 ms  *  LAN Address
@@ -178,7 +178,7 @@ traceroute to 203.79.224.10 (203.79.224.10), 30 hops max, 32 byte packets
 
 ##### SoNET 61.64.127.1
 
-```
+```shell
 traceroute to 61.64.127.1 (61.64.127.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.68 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.80 ms  *  LAN Address
@@ -197,7 +197,7 @@ traceroute to 61.64.127.1 (61.64.127.1), 30 hops max, 32 byte packets
 
 ##### TFN 219.87.66.1
 
-```
+```shell
 traceroute to 219.87.66.1 (219.87.66.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.61 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.38 ms  *  LAN Address
@@ -212,7 +212,7 @@ traceroute to 219.87.66.1 (219.87.66.1), 30 hops max, 32 byte packets
 
 ##### TAIFO 103.31.196.1
 
-```
+```shell
 traceroute to 103.31.196.1 (103.31.196.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.40 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.41 ms  *  LAN Address
@@ -234,7 +234,7 @@ traceroute to 103.31.196.1 (103.31.196.1), 30 hops max, 32 byte packets
 
 ##### Kbro 123.195.236.110
 
-```
+```shell
 traceroute to 123.195.236.110 (123.195.236.110), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  8.58 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.35 ms  *  LAN Address
@@ -256,7 +256,7 @@ traceroute to 123.195.236.110 (123.195.236.110), 30 hops max, 32 byte packets
 
 ##### 北京电信 219.141.147.210
 
-```
+```shell
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.29 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -274,7 +274,7 @@ traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
 
 ##### 上海电信 202.96.209.133
 
-```
+```shell
 traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.37 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -293,7 +293,7 @@ traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
 
 ##### 深圳电信 58.60.188.222
 
-```
+```shell
 traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.22 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  ve336.core2.hkg2.he.net (74.82.49.173)  0.63 ms  AS6939  China, Hong Kong, he.net
@@ -313,7 +313,7 @@ traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
 
 ##### 北京联通 202.106.50.1
 
-```
+```shell
 traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.42 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -332,7 +332,7 @@ traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
 
 ##### 上海联通 210.22.97.1
 
-```
+```shell
 traceroute to 210.22.97.1 (210.22.97.1), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.57 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -352,7 +352,7 @@ traceroute to 210.22.97.1 (210.22.97.1), 30 hops max, 32 byte packets
 
 ##### 深圳联通 210.21.196.6
 
-```
+```shell
 traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.39 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -370,7 +370,7 @@ traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
 
 ##### 北京移动 221.179.155.161
 
-```
+```shell
 traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.32 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.32 ms  *  LAN Address
@@ -394,7 +394,7 @@ traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
 
 ##### 上海移动 211.136.112.200
 
-```
+```shell
 traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  21.08 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.53 ms  *  LAN Address
@@ -417,7 +417,7 @@ traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
 
 ##### 深圳移动 120.196.165.24
 
-```
+```shell
 traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  8.18 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  10.40.40.204  0.53 ms  *  LAN Address
@@ -441,7 +441,7 @@ traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
 
 ##### 成都教育网 202.112.14.151
 
-```
+```shell
 traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
  1  103.231.254.23.layerdns.cloud (103.231.254.23)  0.93 ms  AS133380  China, Hong Kong, easyinternethk.com
  2  *
@@ -463,7 +463,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ## 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No

@@ -15,7 +15,7 @@ categories:
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel Core Processor (Broadwell, IBRS)
  CPU 核心数        : 1
@@ -238,7 +238,7 @@ Speedtest.net    996.45 Mbps     921.71 Mbps     1.52     NULL
 
 ### 解锁测试
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                  原生解锁        Yes (Region: GB)
  TikTok:                原生解锁        Yes (Region: GB)

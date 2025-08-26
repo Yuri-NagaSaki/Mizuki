@@ -11,7 +11,7 @@ categories:
 
 ## 语法[#](#3945256341)
 
-```
+```shell
 rabbitmq-plugins [-n node] {command} [command options ...]
 ```
 
@@ -25,7 +25,7 @@ rabbitmq-plugins 用于启用（enable）、禁用（disable）和浏览（brows
 
 ## Commands[#](#3822054227)
 
-```
+```shell
 list [-v] [-m] [-E] [-e] [pattern]
 -v 显示所有插件的详情（详细）
 -m 仅仅只显示插件的名称 (简约)
@@ -37,7 +37,7 @@ pattern 表示用于过滤插件名称的模式
 该命令，显示所有的插件，它们的版本号，依赖关系和描述。显示的每个插件内容的前缀是在 \[\] 内加上两种状态指示符，第一个指示符是 ""，表示该插件没有被启用；"E"的指示符表示该插件被显示启用；"e"的指示符表示该插件被隐式启用； 或者"!" 表示该插件被启用但缺失，因此无法运行。  
 第二个指示符是 ""表示该插件没有运行；"\*" 表示在运行。如果给出了可选模式，则只显示名称匹配模式的插件。
 
-```
+```shell
 rabbitmq-plugins list
 # 显示所有的插件，每一行一个
 
@@ -51,7 +51,7 @@ rabbitmq-plugins list -e rabbit
 # 显示所有显示或者隐式启动的插件
 ```
 
-```
+```shell
 rabbitmq-plugins enable [--offline] [--online] {plugin ...}
 # --offline 仅仅修改启动的插件文件
 # --online 将与正在运行的代理连接失败视为致命错误
@@ -59,7 +59,7 @@ rabbitmq-plugins enable [--offline] [--online] {plugin ...}
 # 该命令将启用指定的插件和他们所有依赖的插件
 ```
 
-```
+```shell
 rabbitmq-plugins disable [--offline] [--online] {plugin ...}
 # --offline 仅仅修改启动的插件文件
 # --online 将与正在运行的代理连接失败视为致命错误
@@ -67,7 +67,7 @@ rabbitmq-plugins disable [--offline] [--online] {plugin ...}
 # 该命令将禁用指定的插件和他们所依赖的插件
 ```
 
-```
+```shell
 rabbitmq-plugin set [--offline] [--online] {plugin ...}
 # --offline 仅仅修改启用的插件文件
 # --online 将与正在运行的代理连接失败视为致命错误

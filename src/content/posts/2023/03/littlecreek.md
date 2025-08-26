@@ -88,7 +88,7 @@ $7.00/Month
 
 ## 13刀版本融合怪测试
 
-```
+```shell
 -----------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel Xeon Processor (Cascadelake)
  CPU 核心数        : 1

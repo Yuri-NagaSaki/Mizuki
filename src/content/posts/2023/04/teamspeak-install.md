@@ -41,13 +41,13 @@ categories:
 
 首先升级系统更新依赖包
 
-```
+```shell
 sudo apt update
 ```
 
 一般来说，我们都是以roo权限登陆的服务器，但是由于teamspeak是不能用这一用户运行的，因此我们需要新建一个用户来运行teamspeak服务端文件：
 
-```
+```shell
 useradd teamspeak -m
 passwd teamspeak
 ```
@@ -56,7 +56,7 @@ passwd teamspeak
 
 接下来，将之前准备好的服务端文件上传至服务器并解压，同时重命名文件夹（我这里是直接上传至根目录）
 
-```
+```shell
 tar -xvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2
 mv teamspeak3-server_linux_amd64 teamspeak3
 ```
@@ -65,20 +65,20 @@ mv teamspeak3-server_linux_amd64 teamspeak3
 
 由于我们是将用teamspeak这一用户来运行服务端文件，因此我们还要把它拷贝给该用户并设置权限：
 
-```
+```shell
 cp -R teamspeak3 /home/teamspeak/
 chown -R teamspeak:teamspeak /home/teamspeak/teamspeak3/
 ```
 
 接下来就是运行服务端文件了，首先切换到我们刚才新建的用户：
 
-```
+```shell
 su - teamspeak
 ```
 
 接下来进入服务端文件所在的目录（也就是我们之前重命名并拷贝过来的那一个）：
 
-```
+```shell
 cd teamspeak3
 ```
 
@@ -86,13 +86,13 @@ cd teamspeak3
 
 1-
 
-```
+```shell
 touch .ts3server_license_accepted
 ```
 
 在授权文件建立好了之后，我们就可以运行服务端了：
 
-```
+```shell
 ./ts3server_startscript.sh start
 ```
 
@@ -112,7 +112,7 @@ touch .ts3server_license_accepted
 
 如果你服务器上还有防火墙程序例如，可以再手动添加端口放行：
 
-```
+```shell
 systemctl start firewalld
 firewall-cmd --zone=public --add-port=9987/udp --permanent
 firewall-cmd --zone=public --add-port=10011/tcp --permanent
@@ -124,19 +124,19 @@ firewall-cmd --reload
 
 首先还是先切换回root用户(会要求输入root用户密码)：
 
-```
+```shell
 su -
 ```
 
 然后我们来新建一个自定义服务文件ts3.service（这里编辑器你用vim也行）：
 
-```
+```shell
 vim /lib/systemd/system/ts3.service
 ```
 
 该配置文件内容如下：
 
-```
+```shell
 [Unit]
 Description=Teamspeak server
 After=network.target
@@ -162,25 +162,25 @@ WantedBy=multi-user.target
 
 启动服务端
 
-```
+```shell
 systemctl start ts3
 ```
 
 关闭服务端
 
-```
+```shell
 systemctl stop ts3
 ```
 
 开机自启
 
-```
+```shell
 systemctl enable ts3
 ```
 
 查看服务端运行信息
 
-```
+```shell
 systemctl status ts3
 ```
 
@@ -198,7 +198,7 @@ systemctl status ts3
 
 这时候我们还是先停止服务器运行，并重启服务器：
 
-```
+```shell
 systemctl disable ts3
 systemctl stop ts3
 reboot
@@ -206,7 +206,7 @@ reboot
 
 接下来切到teamspeak用户，进入TS服务器目录，然后运行这条指令：
 
-```
+```shell
 su - teamspeak
 cd teamspeak3
 ./ts3server_minimal_runscript.sh createinifile=1
@@ -222,7 +222,7 @@ cd teamspeak3
 
 此时CTRL+C退出，并重新回到root，再次赋予开机启动并开启服务器，查看状态应该可以看到如下信息
 
-```
+```shell
 su -
 systemctl enable ts3
 systemctl start ts3

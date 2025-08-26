@@ -31,7 +31,7 @@ Thanos 是一套基于 Prometheus 的服务监控方案，它为 Prometheus 扩�
 
 ### 修改镜像源
 
-```
+```shell
 # 查找
 grep -rn 'quay.io' *
 # 批量替换
@@ -43,7 +43,7 @@ grep -rn 'image: ' *
 
 ### 修改 prometheus 的 service
 
-```
+```shell
 # 设置对外访问端口，增加如下两行，完整配置也贴出来了。
 # type: NodePort
 # nodePort: 30090
@@ -83,7 +83,7 @@ spec:
 
 ### 修改 grafana 的 service
 
-```
+```shell
 # 设置对外访问端口，增加如下两行，完整配置也贴出来了。
 # type: NodePort
 # nodePort: 30300
@@ -114,7 +114,7 @@ spec:
 
 ### 修改 alertmanager 的 service
 
-```
+```shell
 apiVersion: v1
 kind: Service
 metadata:
@@ -146,14 +146,14 @@ spec:
 
 为了降低成本，使用自建的 MinIO 代替 S3 / OSS 服务作为对象存储。这边不在赘述 Minio 部署
 
-```
+```shell
 git clone https://github.com/Yuri-NagaSaki/Prometheus-Operator-Thanos.git
 cd Prometheus-Operator-Thanos
 ```
 
 ### CRD 创建
 
-```
+```shell
 kubectl create -f setup/
 ```
 
@@ -179,20 +179,20 @@ kubectl apply -f .
 
 ### 更新prometheus配置
 
-```
+```shell
 kubectl create -f thanos/
 ```
 
 ### 创建 Thanos 模块（选择你要使用的 Thanos 模式）
 
-```
+```shell
 kubectl create -f thanos/thanos-sidecar
 kubectl create -f thanos/thanos-receive
 ```
 
 ### 根据需要创建 Rules
 
-```
+```shell
 kubectl create -f thanos/rules
 ```
 

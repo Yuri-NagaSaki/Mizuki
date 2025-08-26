@@ -30,7 +30,7 @@ categories:
 
 ### 多地回程测试
 
-```
+```shell
 
 No:1/9 Traceroute to 中国 深圳 电信 (TCP Mode, Max 30 Hop, IPv4)
 ===================================================================
@@ -437,7 +437,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes payload
 
 #### 上海电信测试
 
-```
+```shell
 IP Geo Data Provider: LeoMoeAPI
 traceroute to 157.254.53.82, 30 hops max, 52 bytes packets
 1   *
@@ -474,7 +474,7 @@ traceroute to 157.254.53.82, 30 hops max, 52 bytes packets
 
 #### 无锡移动测试
 
-```
+```shell
 6   111.24.6.97     AS9808   [CMNET]          中国 江苏 南京市  chinamobileltd.com  移动
                                               7.86 ms / 6.85 ms / 7.30 ms
 7   111.24.5.57     AS9808   [CMNET]          中国 广东 广州  chinamobileltd.com  移动
@@ -500,7 +500,7 @@ traceroute to 157.254.53.82, 30 hops max, 52 bytes packets
 
 #### 无锡联通测试
 
-```
+```shell
 14  59.43.139.133   *        [CN2-BackBone]   中国 上海   chinatelecom.cn  电信
                                               14.20 ms / 15.94 ms / 18.90 ms
 15  59.43.138.46    *        [CN2-BackBone]   中国 上海  C-I chinatelecom.cn  电信
@@ -531,7 +531,7 @@ traceroute to 157.254.53.82, 30 hops max, 52 bytes packets
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
  CPU 核心数        : 1

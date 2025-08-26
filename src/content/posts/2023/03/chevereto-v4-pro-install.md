@@ -30,7 +30,7 @@ PHP 版本要求 8.0 及以上，MySQL 版本支持 5.x 及 8.0， fileinfo、im
 
 ### 配置nginx伪静态
 
-```
+```shell
 location ~* /(importing|app|content|lib)/.*\.(po|php|lock|sql)$ {
     deny all;
 }
@@ -115,14 +115,14 @@ location / {
 
 ## Docker一键安装
 
-```
+```shell
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
 ## 克隆 chevereto/docker
 
-```
+```shell
 git clone https://github.com/chevereto/docker.git
 cd docker
 ```
@@ -131,7 +131,7 @@ cd docker
 
 此过程创建一个 Cron 文件，`/etc/cron.d/chevereto`该文件将为服务器中的所有 Chevereto 实例运行后台作业。
 
-```
+```shell
 make cron
 ```
 
@@ -141,7 +141,7 @@ make cron
 
 在`EMAIL_HTTPS`选项中传递您的电子邮件。
 
-```
+```shell
 make proxy EMAIL_HTTPS=mail@yourdomain.tld
 ```
 
@@ -149,7 +149,7 @@ make proxy EMAIL_HTTPS=mail@yourdomain.tld
 
 此过程为 Chevereto 应用程序构建容器。
 
-```
+```shell
 make image
 ```
 
@@ -159,7 +159,7 @@ make image
 
 为vps创建`**example**`命名空间`**img.chevereto.dev**`（需要替换成你要部署的域名）：
 
-```
+```shell
 make namespace NAMESPACE=example HOSTNAME=img.chevereto.dev
 ```
 
@@ -167,7 +167,7 @@ make namespace NAMESPACE=example HOSTNAME=img.chevereto.dev
 
 `make spawn`通过传递 NAMESPACE 选择项来创建实例运行命令。
 
-```
+```shell
 make spawn NAMESPACE=example
 ```
 

@@ -22,7 +22,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 15 minutes
@@ -82,7 +82,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2566741
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -132,7 +132,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2566741
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7950X3D 16-Core Processor
  CPU 核心数        : 2
@@ -298,7 +298,7 @@ Speedtest.net    775.09 Mbps     911.45 Mbps     163.98   0.0%
 
 ### SpeedTest
 
-```
+```shell
 
    Speedtest by Ookla
 

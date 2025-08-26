@@ -20,7 +20,7 @@ categories:
 
 ### yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 4 minutes
@@ -87,7 +87,7 @@ Biznet          | Jakarta, ID (10G)         | busy            | busy            
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD Ryzen 9 7900 12-Core Processor
  CPU 核心数        : 1
@@ -297,7 +297,7 @@ Speedtest.net    112.03 Mbps     1169.61 Mbps    54.48    0.7%
 
 ### speedtest
 
-```
+```shell
 root@catcat:~/Geekbench-6.0.1-Linux# speedtest
 
    Speedtest by Ookla
@@ -315,7 +315,7 @@ Idle Latency:    54.27 ms   (jitter: 0.07ms, low: 54.21ms, high: 54.32ms)
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -360,7 +360,7 @@ Idle Latency:    54.27 ms   (jitter: 0.07ms, low: 54.21ms, high: 54.32ms)
 
 ### 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  Yes (Region: US)
  HotStar:                               No

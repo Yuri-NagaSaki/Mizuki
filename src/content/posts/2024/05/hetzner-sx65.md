@@ -19,7 +19,7 @@ Hetzner 前几天推出了三款新型经济型专用存储服务器，性价比
 
 ### lscpu
 
-```
+```shell
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          43 bits physical, 48 bits virtual
@@ -73,7 +73,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 9 hours, 22 minutes
@@ -121,7 +121,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/5991815
 
 ### GeekBench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -152,7 +152,7 @@ Geekbench 5 测试结果
 
 ### 通电测试
 
-```
+```shell
 
   CPU 型号              AMD Ryzen 7 3700X 8-Core Processor
   CPU 核心              合计 8 核心，16 线程
@@ -194,7 +194,7 @@ Geekbench 5 测试结果
 
 ### 机械硬盘 raid0 测试
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/md127):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)

@@ -32,7 +32,7 @@ Price : €7.44/M_** 
 
 ### lscpu
 
-```
+```shell
 root@catcat:~# lscpu
 Architecture:           aarch64
   CPU op-mode(s):       32-bit, 64-bit
@@ -73,7 +73,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes
@@ -123,7 +123,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4355687
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -171,7 +171,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/4355687
 
 ### GeekBench 5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -197,7 +197,7 @@ Geekbench 5 测试结果
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 
@@ -244,7 +244,7 @@ System Benchmarks Index Score                                        1327.7
 
 ### 融合怪 测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Neoverse-N1 BIOS virt-6.2 CPU @ 2.0GHz
  CPU 核心数        : 1
@@ -470,7 +470,7 @@ Speedtest.net    98.30 Mbps      2346.50 Mbps    1.30     0.0%
 
 ### 硬盘
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=256 bs=64K count=4K oflag=dsync
 4096+0 records in
 4096+0 records out

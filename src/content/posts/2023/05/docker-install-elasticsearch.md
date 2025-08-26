@@ -10,7 +10,7 @@ categories:
 
 - 使用 `elasticsearch:7.10.1` 镜像
 
-```
+```shell
 - 挂载了主配置文件（主配置文件中启用了xpack认证）
 - 挂载了 data 数据目录
 - 挂载了 log 日志文件
@@ -20,7 +20,7 @@ categories:
 
 - 可根据实际情况修改参数
 
-```
+```shell
 docker run -d --restart=always --user=root \
     --privileged=true \
     --name elasticsearch \
@@ -39,7 +39,7 @@ docker run -d --restart=always --user=root \
 
 ### 目录信息[#](#531924179)
 
-```
+```shell
 # tree /data/elasticsearch/ -L 1
 /data/elasticsearch/
 ├── data # 数据目录
@@ -53,7 +53,7 @@ docker run -d --restart=always --user=root \
 
 ### 配置信息[#](#1832956682)
 
-```
+```shell
 # vim /data/elasticsearch/elasticsearch.yml
 cluster.name: "test_evescn"
 network.host: 0.0.0.0
@@ -67,7 +67,7 @@ xpack.security.transport.ssl.enabled: true
 
 - 可根据实际情况修改参数
 
-```
+```shell
 docker run -d --restart=always --user=root \
     --privileged=true \
     --name elasticsearch \
@@ -84,7 +84,7 @@ docker run -d --restart=always --user=root \
 
 ## 启动 xpack 认证[#](#1823197683)
 
-```
+```shell
 # docker exec -it elasticsearch bash
 # elasticsearch-setup-passwords interactive
 

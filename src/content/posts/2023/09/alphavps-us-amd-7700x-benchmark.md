@@ -22,7 +22,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
 Byte Order:                      Little Endian
@@ -51,7 +51,7 @@ L3 cache:                        32 MiB
 
 ### 硬盘
 
-```
+```shell
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  947M     0  947M   0% /dev
 tmpfs          tmpfs     199M  952K  198M   1% /run
@@ -66,7 +66,7 @@ total          - 33G  3.8G   27G  13% -
 
 ### 内存
 
-```
+```shell
               total        used        free      shared  buff/cache   available
 Mem:          1.9Gi       136Mi       1.5Gi       2.0Mi       288Mi       1.7Gi
 Swap:         1.0Gi          0B       1.0Gi
@@ -75,7 +75,7 @@ Total:        2.9Gi       136Mi       2.5Gi
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 52 minutes
@@ -147,7 +147,7 @@ Multi Core      | 5001
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD Ryzen 7 7700X 8-Core Processor
  CPU Cores          : 2 @ 4491.540 MHz
@@ -191,7 +191,7 @@ Multi Core      | 5001
 
 ### Benchy
 
-```
+```shell
 Server Insight                                  Hardware Information
 --------------------- ---------------------
 OS         : Ubuntu 20.04.6 LTS                 Model       : AMD Ryzen 7 7700X 8-Core Processor
@@ -236,7 +236,7 @@ Ookla Network Speedtest (Region: North America)
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ------------------------------------------------------------------------
 2 CPUs in system; running 1 parallel copy of tests
 
@@ -304,7 +304,7 @@ System Benchmarks Index Score                                        7534.8
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 2 cores @ 4491 MHz  |  1.9 GiB RAM
 Number of Processes: 2  |  Test Iterations: 2  |  Test Duration: Very Long
@@ -333,7 +333,7 @@ Memory Mark:                       1902
 
 ### Speedtest
 
-```
+```shell
       Server: Hivelocity - Los Angeles, CA (id: 19230)
          ISP: WebNX
 Idle Latency:     0.86 ms   (jitter: 0.04ms, low: 0.76ms, high: 0.87ms)
@@ -352,7 +352,7 @@ Idle Latency:     0.86 ms   (jitter: 0.04ms, low: 0.76ms, high: 0.87ms)
 
 ### Network-Speed.xyz
 
-```
+```shell
 ---------------------------------------------------------------------------
  Basic System Info
 ---------------------------------------------------------------------------

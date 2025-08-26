@@ -49,7 +49,7 @@ RustDesk 的设计理念是“开箱即用”。无论是远程控制电脑还�
 
 直接给出docker-compose.yaml
 
-```
+```shell
 networks:
   dozzle_default:
     external: true
@@ -90,7 +90,7 @@ services:
     restart: unless-stopped
 ```
 
-```
+```shell
 docker compose up -d  启动
 ```
 

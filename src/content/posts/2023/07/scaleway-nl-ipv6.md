@@ -8,7 +8,7 @@ categories:
 
 ## Yabs
 
-```
+```shell
 
 Sun Jul  9 03:47:59 UTC 2023
 
@@ -60,7 +60,7 @@ YABS completed in 7 min 52 sec
 
 ## 融合怪脚本测试
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 7281 16-Core Processor
  CPU 核心数        : 1

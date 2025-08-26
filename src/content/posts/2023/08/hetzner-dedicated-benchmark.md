@@ -18,7 +18,7 @@ Optimize your workload with AMD Milan Epyc™ 7003 and AMD Genoa Epyc™ 9654 pr
 
 ## Yabs
 
-```
+```shell
 Wed Aug 23 08:38:40 AM UTC 2023
 
 Basic System Information:
@@ -93,7 +93,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2359162
 
 ## lscpu
 
-```
+```shell
 root@debian-8gb-hil-1:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -141,7 +141,7 @@ Vulnerabilities:
 
 ## LemonBench
 
-```
+```shell
 -> System Information
 
  CPU Model Name:                AMD EPYC Processor
@@ -199,7 +199,7 @@ Vulnerabilities:
 
 ## PassMark PerformanceTest
 
-```
+```shell
 AMD EPYC Processor (x86_64)
 1 cores @ 0 MHz  |  7.6 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -228,7 +228,7 @@ Memory Mark:                       1968
 
 ## 融合怪脚本测试
 
-```
+```shell
 --------------------- A Bench Script By spiritlhl ----------------------
                    测评频道: https://t.me/vps_reviews                    
 版本：2023.08.20
@@ -459,7 +459,7 @@ Speedtest.net    949.10 Mbps     949.59 Mbps     1.06     NULL
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 1 minutes

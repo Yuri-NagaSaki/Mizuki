@@ -44,7 +44,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 12 minutes
@@ -101,7 +101,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/13293079
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD Ryzen 9 9950X 16-Core Processor (x86_64)
 2 cores @ 0 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -130,7 +130,7 @@ Memory Mark:                       2058
 
 ### UnixBench
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 6.0.0)
 
@@ -215,7 +215,7 @@ System Benchmarks Index Score                                        7398.1
 
 相比7763的版本，差了挺多。
 
-```
+```shell
 root@catcat:~# dd if=/dev/zero of=testfile bs=1M count=10240
 10240+0 records in
 10240+0 records out

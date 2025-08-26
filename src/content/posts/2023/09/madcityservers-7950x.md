@@ -20,7 +20,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 7 minutes
@@ -93,7 +93,7 @@ Multi Core      | 8281
 
 ### Benchmark
 
-```
+```shell
 Dhrystone 2 using register variables       78754641.2 lps   (10.0 s, 7 samples)
 Double-Precision Whetstone                    13316.1 MWIPS (10.0 s, 7 samples)
 Execl Throughput                               8987.0 lps   (29.9 s, 2 samples)
@@ -158,7 +158,7 @@ System Benchmarks Index Score                                       12018.2
 
 ### PassMark
 
-```
+```shell
 AMD Ryzen 9 7950X 16-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Very Long

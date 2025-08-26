@@ -37,7 +37,7 @@ tags:
 
 ## 基本配置
 
-```
+```shell
  CPU Model          : AMD EPYC 7763 64-Core Processor
  CPU Cores          : 2 Core @ 2449.998 MHz
  CPU Cache          : 512 KB
@@ -70,7 +70,7 @@ tags:
 
 **CPU Events Per Second 跑分 (基于 sysbench)**
 
-```
+```shell
  -> CPU Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread Test:                 3501 Scores
@@ -79,7 +79,7 @@ tags:
 
 ## 内存性能测试
 
-```
+```shell
  -> Memory Performance Test (Standard Mode, 3-Pass @ 30sec)
 
  1 Thread - Read Test :         41902.19 MB/s
@@ -90,7 +90,7 @@ tags:
 
 **DD 硬盘测试：**
 
-```
+```shell
   Test Name              Write Speed                             Read Speed
  10MB-4K Block          69.8 MB/s (0.06 IOPS, 0.15s))           81.4 MB/s (19864 IOPS, 0.13s)
  10MB-1M Block          2.3 GB/s (2218 IOPS, 0.00s)             961 MB/s (916 IOPS, 0.01s)
@@ -102,7 +102,7 @@ tags:
 
 **FIO 硬盘测试：**
 
-```
+```shell
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
@@ -120,7 +120,7 @@ Total      | 16.51 GB/s   (32.2k) | 17.26 GB/s   (16.8k)
 
 ## 网络基本信息
 
-```
+```shell
  IP                 : 5.255.107.155
  Organization       : AS60404 Liteserver
  Location           : Alkmaar / NL
@@ -149,7 +149,7 @@ Total      | 16.51 GB/s   (32.2k) | 17.26 GB/s   (16.8k)
 
 ### SpeedTest.net
 
-```
+```shell
  Node Name                Upload Speed      Download Speed    Latency     Result      
  Speedtest.net            347.77 Mbps       941.79 Mbps       90.85 ms    https://www.speedtest.net/result/c/8b4d3935-fdf6-412a-9908-5db63e2b05d3
  TW, Chunghwa Mobile      244.71 Mbps       703.53 Mbps       138.44 ms   https://www.speedtest.net/result/c/24a18272-06bb-4c6f-894c-7927afd7c016
@@ -180,7 +180,7 @@ Total      | 16.51 GB/s   (32.2k) | 17.26 GB/s   (16.8k)
 
 ### iperf3
 
-```
+```shell
  Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping           
 ----- | ----- | ---- | ---- | ---- 
 Clouvider       | London, UK (10G)          | busy            | 834 Mbits/sec   | 8.30 ms        
@@ -194,7 +194,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 452 Mbits/sec   | 228 Mbits/sec   
 
 ### Traceroute
 
-```
+```shell
 **  TW, Hinet ( 168.95.1.1) **
 
 traceroute to 168.95.1.1 (168.95.1.1), 30 hops max, 32 byte packets
@@ -230,7 +230,7 @@ traceroute to 168.95.1.1 (168.95.1.1), 30 hops max, 32 byte packets
     dns.hinet.net (168.95.1.1)  205.90 ms  AS3462  China, Taiwan, cht.com.tw
 ```
 
-```
+```shell
 **  TW, FETNet ( 139.175.1.1) **
 
 traceroute to 139.175.1.1 (139.175.1.1), 30 hops max, 32 byte packets
@@ -278,7 +278,7 @@ traceroute to 139.175.1.1 (139.175.1.1), 30 hops max, 32 byte packets
     frd01.seed.net.tw (139.175.1.1)  226.33 ms  AS4780  China, Taiwan, Taipei City, fetnet.net
 ```
 
-```
+```shell
 **  TW, APTG ( 203.79.224.10) **
 
 traceroute to 203.79.224.10 (203.79.224.10), 30 hops max, 32 byte packets
@@ -335,7 +335,7 @@ traceroute to 203.79.224.10 (203.79.224.10), 30 hops max, 32 byte packets
     dns.octor.com (203.79.224.10)  298.43 ms  AS9311  China, Taiwan, Taipei City, aptg.com.tw
 ```
 
-```
+```shell
 **  TW, SoNET ( 61.64.127.1) **
 
 traceroute to 61.64.127.1 (61.64.127.1), 30 hops max, 32 byte packets
@@ -386,7 +386,7 @@ traceroute to 61.64.127.1 (61.64.127.1), 30 hops max, 32 byte packets
     ns1.so-net.net.tw (61.64.127.1)  199.42 ms  AS18182  China, Taiwan, Taipei City, so-net.net.tw
 ```
 
-```
+```shell
 **  TW, TFN ( 219.87.66.1) **
 
 traceroute to 219.87.66.1 (219.87.66.1), 30 hops max, 32 byte packets
@@ -425,7 +425,7 @@ traceroute to 219.87.66.1 (219.87.66.1), 30 hops max, 32 byte packets
     219-87-66-1.static.tfn.net.tw (219.87.66.1)  217.06 ms  AS9924  China, Taiwan, Taipei City, twmbroadband.com
 ```
 
-```
+```shell
 **  TW,TAIFO ( 103.31.196.1) **
 
 traceroute to 103.31.196.1 (103.31.196.1), 30 hops max, 32 byte packets
@@ -473,7 +473,7 @@ traceroute to 103.31.196.1 (103.31.196.1), 30 hops max, 32 byte packets
     103.31.196.1  228.14 ms  AS131584  China, Taiwan, Taipei City, taifo.com.tw
 ```
 
-```
+```shell
 **  北京电信 ( 219.141.147.210) **
 
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
@@ -518,7 +518,7 @@ traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets
     bj141-147-210.bjtelecom.net (219.141.147.210)  218.78 ms  AS4847  China, Beijing, ChinaTelecom
 ```
 
-```
+```shell
 **  上海电信 ( 202.96.209.133) **
 
 traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
@@ -563,7 +563,7 @@ traceroute to 202.96.209.133 (202.96.209.133), 30 hops max, 32 byte packets
     ns-pd.online.sh.cn (202.96.209.133)  223.55 ms  AS4812  China, Shanghai, ChinaTelecom
 ```
 
-```
+```shell
 **  深圳电信 ( 58.60.188.222) **
 
 traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
@@ -608,7 +608,7 @@ traceroute to 58.60.188.222 (58.60.188.222), 30 hops max, 32 byte packets
     58.60.188.222  234.70 ms  AS4134  China, Guangdong, Shenzhen, ChinaTelecom
 ```
 
-```
+```shell
 **  北京联通 ( 202.106.50.1) **
 
 traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
@@ -653,7 +653,7 @@ traceroute to 202.106.50.1 (202.106.50.1), 30 hops max, 32 byte packets
     202.106.50.1  149.87 ms  AS4808  China, Beijing, ChinaUnicom
 ```
 
-```
+```shell
 **  上海联通 ( 210.22.97.1) **
 
 traceroute to 210.22.97.1 (210.22.97.1), 30 hops max, 32 byte packets
@@ -710,7 +710,7 @@ traceroute to 210.22.97.1 (210.22.97.1), 30 hops max, 32 byte packets
     210.22.97.1  176.91 ms  AS17621  China, Shanghai, ChinaUnicom
 ```
 
-```
+```shell
 **  深圳联通 ( 210.21.196.6) **
 
 traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
@@ -755,7 +755,7 @@ traceroute to 210.21.196.6 (210.21.196.6), 30 hops max, 32 byte packets
     dns2-ftcg.gdsz.cncnet.net (210.21.196.6)  190.39 ms  AS17623  China, Guangdong, Shenzhen, ChinaUnicom
 ```
 
-```
+```shell
 **  北京移动 ( 221.179.155.161) **
 
 traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
@@ -806,7 +806,7 @@ traceroute to 221.179.155.161 (221.179.155.161), 30 hops max, 32 byte packets
     *
 ```
 
-```
+```shell
 **  上海移动 ( 211.136.112.200) **
 
 traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
@@ -866,7 +866,7 @@ traceroute to 211.136.112.200 (211.136.112.200), 30 hops max, 32 byte packets
     211.136.112.200  244.13 ms  AS24400  China, Shanghai, ChinaMobile
 ```
 
-```
+```shell
 **  深圳移动 ( 120.196.165.24) **
 
 traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
@@ -941,7 +941,7 @@ traceroute to 120.196.165.24 (120.196.165.24), 30 hops max, 32 byte packets
     ns6.gd.cnmobile.net (120.196.165.24)  300.72 ms  AS56040  China, Guangdong, Shenzhen, ChinaMobile
 ```
 
-```
+```shell
 **  成都教育网 ( 202.112.14.151) **
 
 traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
@@ -1024,7 +1024,7 @@ traceroute to 202.112.14.151 (202.112.14.151), 30 hops max, 32 byte packets
 
 ## 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No

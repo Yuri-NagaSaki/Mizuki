@@ -42,7 +42,7 @@ categories:
 
 ### CPU Info
 
-```
+```shell
 root@Soyorin:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -91,7 +91,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 13 minutes
@@ -164,7 +164,7 @@ Total      | 301.66 MB/s    (588) | 299.84 MB/s    (292)
 
 ### 融合怪测试
 
-```
+```shell
 --------------------------------------系统基础信息--------------------------------------
  CPU 型号            : Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS) @ 1699.999 MHz
  CPU 数量            : 2 Virtual CPU(s)

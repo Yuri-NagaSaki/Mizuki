@@ -12,7 +12,7 @@ categories:
 
 ## Netcup G11
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 15 days, 6 hours, 0 minutes
@@ -63,7 +63,7 @@ YABS completed in 5 min 24 sec
 
 ## NaranjaTech 黑五 年付 65欧
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -115,7 +115,7 @@ YABS completed in 2 min 35 sec
 
 ## AdvinServers-9554 黑五 德国 年付 24欧
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 39 days, 2 hours, 6 minutes
@@ -166,7 +166,7 @@ YABS completed in 3 min 20 sec
 
 ## Entrywan 月付3刀
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 13 days, 21 hours, 17 minutes
@@ -217,7 +217,7 @@ YABS completed in 2 min 15 sec
 
 ## [ShockHosting](https://catcat.blog/shockhosting-sg-amd-9354p.html) 月付19.99刀
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 4 days, 6 hours, 8 minutes
@@ -268,7 +268,7 @@ YABS completed in 2 min 7 sec
 
 ## Hybula 季付27欧
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 38 days, 9 hours, 56 minutes

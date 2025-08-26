@@ -35,14 +35,14 @@ WebP 是由 Google 开发的一种高效的图片压缩方案（ Google WebP ）
 
 由于 WebP-Server 需要 libaom 组件，并且需要 libc6>2.34 ，博主建议使用 CentOS 8 / Debian 11 及以上的系统。尽管较早的系统可以通过编译来对 libc6 版本进行升级，但这是一个十分危险的操作，很可能会导致系统关键组件出现问题。因此对于较早的系统，博主更加推荐直接使用 docker 进行部署（官方文档），支持 ARMv7 （ 32bit ）、ARM64 （ Aarch64 ）和 AMD64 （ x86-64 ），可以在 DockerHub 上查看（点击前往）。
 
-```
+```shell
 #  [/path/to/pics ] 指的是图片路径， [/opt/pics ] 指的是生成的 WebP 缓存路径
 docker run -d -p 3333:3333 -v /path/to/pics:/opt/pics --name webp-server webpsh/webp-server-go
 ```
 
 手动安装的话，必要的组件就是 libaom3 ，这个组件略微有点坑，预编译包会默认读取 libaom.so.3 [这个.so](http://xn--ciq341n.so/) ，安装好之后如果还是提示找不到 libaom3 ，可以试试通过 ln -s 做一个软连接。
 
-```
+```shell
 # 安装 libaom 库
 apt install libaom-dev
 yum install libaom-devel
@@ -54,7 +54,7 @@ ln -s /usr/lib/x86_64-linux-gnu/libaom.so.0 /usr/lib64/libaom.so.3
 
 预编译包可以从 GitHub 下载（点击前往），配置文件请按你的实际需要选择模式并修改参数，以下各项参数的解释已写在注释里面，修改完成后可以保存为 config.json 文件。
 
-```
+```shell
 #代理模式
 {
   "HOST": "127.0.0.1", //监听本地主机，使用 0.0.0.0 可监听全部
@@ -78,7 +78,7 @@ ln -s /usr/lib/x86_64-linux-gnu/libaom.so.0 /usr/lib64/libaom.so.3
 
 直接安装的话建议使用 systemd 启动服务，以下是一个一键写入 webp.service 的示例，修改好 webp-server 二进制文件和 config.json 文件的路径，直接粘贴进 ssh 窗口即可。
 
-```
+```shell
 cat > /etc/systemd/system/webp.service <<EOF
 [Unit]
 Description=WebP Server
@@ -112,7 +112,7 @@ EOF
     <img src="https://s3.catcat.blog/images/2023/04/image-148.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 # 将 jpg|jpeg|gif|png|bmp 请求转发至本地 3333 端口
 location ~* \.(?:jpg|jpeg|gif|png|bmp)$ {
     proxy_pass http://127.0.0.1:3333;
@@ -127,7 +127,7 @@ location ~* \.(?:jpg|jpeg|gif|png|bmp)$ {
 
 在撰写文章的过程中，有朋友提醒说目前该程序存在内存泄漏的情况（点击前往），作者建议使用 Docker 通过限制内存使用来避免这个问题。这个问题是在多人同时访问单个媒体资源时 WebP Server 会对同个文件启动多个压缩进程，进而导致异常的内存占用。如果直接安装同时为了更好的体验，缓存预热是一个非常明智的选择。
 
-```
+```shell
 # 启用 4 进程对配置目录进行缓存预热
 ./webp-server -prefetch -jobs=4 --config /[程序目录]/webp-server/config.json
 ```

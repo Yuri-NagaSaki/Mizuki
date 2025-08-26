@@ -46,7 +46,7 @@ categories:
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 8 hours, 52 minutes
@@ -95,7 +95,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/23679852
 
 ### PassMark PerformanceTest Linux
 
-```
+```shell
 AMD EPYC 7K62 48-Core Processor (x86_64)
 16 cores @ 2595 MHz  |  31.4 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -160,7 +160,7 @@ Memory Mark:                       2671
 
 ### NWS
 
-```
+```shell
  Basic System Info
 ---------------------------------------------------------------------------
  CPU Model          : AMD EPYC 7K62 48-Core Processor

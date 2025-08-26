@@ -29,7 +29,7 @@ naranjatech（官方宣称从2003年就开始搞这行生意），在Low上的�
 
 ### lscpu
 
-```
+```shell
 root@naranja:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -79,7 +79,7 @@ Vulnerabilities:
 
 ### yabs
 
-```
+```shell
 Sat Nov 25 04:58:46 AM EST 2023
 
 Basic System Information:
@@ -132,7 +132,7 @@ YABS completed in 7 min 31 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -181,7 +181,7 @@ YABS completed in 7 min 31 sec
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 9554P 64-Core Processor (x86_64)
 1 cores @ 0 MHz  |  1.9 GiB RAM
 Number of Processes: 1  |  Test Iterations: 1  |  Test Duration: Medium
@@ -210,7 +210,7 @@ Memory Mark:                       1487
 
 ### 促销65欧
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 9 minutes
@@ -261,7 +261,7 @@ YABS completed in 5 min 43 sec
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)

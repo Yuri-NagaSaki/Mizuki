@@ -64,7 +64,7 @@ categories:
 
 这里作者提供了三种方式，根据自己的喜好吧。
 
-```
+```shell
 # Option A: Automated LXC Container (Easiest)
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pulse.sh)"
 
@@ -77,7 +77,7 @@ curl -fsSL https://raw.githubusercontent.com/rcourtman/Pulse/main/install.sh | s
 
 ### Docker部署
 
-```
+```shell
 root@docker:~/docker_yaml/Pulse# cat docker-compose.yml 
 version: "3.8"
  
@@ -95,7 +95,7 @@ services:
 
 ### 启动
 
-```
+```shell
 docker compose up -d 
 ```
 

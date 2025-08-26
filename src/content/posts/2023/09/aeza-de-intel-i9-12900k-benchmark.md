@@ -20,7 +20,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 12th Gen Intel Core i9-12900K (x86_64)
 2 cores @ 3187 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium
@@ -51,7 +51,7 @@ Memory Mark:                       1535
 
 ### Yabs
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 3 minutes
@@ -124,7 +124,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2790396
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -162,7 +162,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/2790396
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : 12th Gen Intel(R) Core(TM) i9-12900K
  CPU 核心数        : 2
@@ -354,7 +354,7 @@ Speedtest.net    781.46 Mbps     683.37 Mbps     11.57    4.5%
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 12th Gen Intel Core i9-12900K (x86_64)
 2 cores @ 3187 MHz  |  3.8 GiB RAM
 Number of Processes: 2  |  Test Iterations: 1  |  Test Duration: Medium

@@ -27,7 +27,7 @@ The first weekend of the summer is officially starting, and HostBrr has finally 
 
 ## 融合怪脚本测试
 
-```
+```shell
 ------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) W-2145 CPU @ 3.70GHz
  CPU 核心数        : 2
@@ -238,7 +238,7 @@ Speedtest.net	 320.65 Mbps	 485.57 Mbps	 5.60	  0.0%
 
 ## 挂载hdd
 
-```
+```shell
 mkdir  /mnt/hdd
 
 mount /dev/vdb1 /mnt/hdd

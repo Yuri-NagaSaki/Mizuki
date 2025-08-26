@@ -17,7 +17,7 @@ categories:
 
 ### CPU
 
-```
+```shell
 root@Azusa:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -66,7 +66,7 @@ Vulnerabilities:
 
 ### YABS
 
-```
+```shell
 Basic System Information:
 ---------------------------------
 Uptime     : 0 days, 0 hours, 2 minutes
@@ -141,7 +141,7 @@ YABS completed in 12 min 43 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-06-10
  Usage              : wget -qO- bench.sh | bash
@@ -189,7 +189,7 @@ YABS completed in 12 min 43 sec
 
 ### benchy
 
-```
+```shell
 root@Azusa:~# wget -qO- benchy.pw | sh
 # # # # # # # # # # # # # # # # # # # # #
 #             Benchy v2.7               #
@@ -252,7 +252,7 @@ Network Performance Test (Region: Mixed)
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7402 24-Core Processor
  CPU 核心数        : 16
@@ -477,7 +477,7 @@ Speedtest.net    3013.89 Mbps    6233.02 Mbps    5.21     0.0%
 
 ### UnixBench测试
 
-```
+```shell
 ------------------------------------------------------------------------
 Benchmark Run: Tue Jul 18 2023 17:27:09 - 17:55:09
 16 CPUs in system; running 1 parallel copy of tests
@@ -549,7 +549,7 @@ System Benchmarks Index Score                                        5507.1
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
 
-```
+```shell
 AMD EPYC 7402 24-Core Processor (x86_64)
 16 cores @ 0 MHz  |  127.7 GiB RAM
 Number of Processes: 16  |  Test Iterations: 1  |  Test Duration: Medium
@@ -578,7 +578,7 @@ Memory Mark:                       1738
 
 ### 四网回程测试
 
-```
+```shell
 ----------------------------------------------------------------------
 北京电信
 traceroute to 219.141.147.210 (219.141.147.210), 30 hops max, 32 byte packets

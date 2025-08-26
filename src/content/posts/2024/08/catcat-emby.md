@@ -32,7 +32,7 @@ coverImage: "emby.webp"
     <img src="https://s3.catcat.blog/images/2024/08/45e38df26f528e3768ce19a0909ad507.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 做这个媒体库初衷是：给朋友分享一些BDRIP方便观看，不会因此影响画质，后来经过大佬的介绍，学习了很多相关的知识。
 ```
 
@@ -138,7 +138,7 @@ coverImage: "emby.webp"
 
 如果假设你已经进入了Emby服，恭喜你，可以直接注册了。
 
-```
+```shell
 /start
 ```
 
@@ -180,12 +180,12 @@ mac和ios用户建议使用**Infuse和SenPlayer**进行播放。
     <img src="https://s3.catcat.blog/images/2024/08/image-17.jpg" alt="文件夹和文件目录视图，包含插件和HTML文件。" loading="lazy">
 </picture>
 
-```
+```shell
 // <script src="ede.js" charset="utf-8" defer></script>
 <script src="ede.js" charset="utf-8"></script>
 ```
 
-```
+```shell
 ## 旧方案
 <script type="text/javascript" src="https://danmaku.movie.kg/ext.js"></script>
 <link rel="stylesheet" href="https://danmaku.movie.kg/ext.css"/>

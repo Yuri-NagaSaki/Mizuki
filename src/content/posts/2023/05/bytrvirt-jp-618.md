@@ -17,7 +17,7 @@ categories:
     <img src="https://s3.catcat.blog/images/2023/05/image-8-1024x570.jpg" alt="" loading="lazy">
 </picture>
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : AMD EPYC 7402P 24-Core Processor
  CPU 核心数        : 1

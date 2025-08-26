@@ -19,7 +19,7 @@ categories:
 
 ### 存储机
 
-```
+```shell
 -------------------感谢teddysun和superbench和yabs开源-------------------
  CPU 型号          : Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz
  CPU 核心数        : 2
@@ -230,7 +230,7 @@ Speedtest.net	 3323.98 Mbps	 3094.11 Mbps	 0.38	  0.0%
 
 ### VIRTUAL SERVERS
 
-```
+```shell
 Wed May 24 12:49:24 UTC 2023
 
 Basic System Information:

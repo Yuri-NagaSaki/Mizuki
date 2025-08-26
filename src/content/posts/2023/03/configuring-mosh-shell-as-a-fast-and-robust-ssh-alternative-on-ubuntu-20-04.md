@@ -47,17 +47,17 @@ _让我们在下面回顾一下**使用 Mosh 而不是 SSH 的**最重要原因�
 
 要在你的 Ubuntu 20.04 系统上安装 Mosh 包，你只需要运行以下命令：
 
-```
+```shell
 apt-get update -y
 ```
 
-```
+```shell
 apt-get install mosh -y
 ```
 
 **_注意_：**如果您正在运行[防火墙](https://blog.eldernode.com/setup-firewall-ufw-ubuntu-20/)与 iptables 一样，使用以下命令手动打开这些端口：
 
-```
+```shell
 sudo iptables -I INPUT 1 -p udp --dport 60000:61000 -j ACCEPT
 ```
 
@@ -65,18 +65,18 @@ sudo iptables -I INPUT 1 -p udp --dport 60000:61000 -j ACCEPT
 
 安装 Mosh shell 后，您就可以**开始**使用它了。因此，运行以下命令连接到您的远程系统：
 
-```
+```shell
 mosh root@Your_IP_Address
 ```
 
 然后，您应该能够连接到您的远程系统。此外，您可以通过运行以下命令来检查已安装的 Mosh 的**版本：**
 
-```
+```shell
 mosh--version
 ```
 
 Mosh 支持很多选项，要查看所有选项，请输入：
 
-```
+```shell
 mosh--help
 ```

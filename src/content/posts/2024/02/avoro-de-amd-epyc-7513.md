@@ -24,7 +24,7 @@ categories:
 
 ### lscpu
 
-```
+```shell
 root@v1709013788:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -76,7 +76,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -140,7 +140,7 @@ YABS completed in 10 min 44 sec
 
 ### Bench
 
-```
+```shell
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 7513 32-Core Processor
  CPU Cores          : 4 @ 2595.124 MHz
@@ -187,7 +187,7 @@ YABS completed in 10 min 44 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -218,7 +218,7 @@ Geekbench 5 测试结果
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 7513 32-Core Processor
  CPU 核心数        : 4
@@ -401,7 +401,7 @@ Speedtest.net    7846.93 Mbps    7244.41 Mbps    0.16     0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD EPYC 7513 32-Core Processor (x86_64)
 4 cores @ 0 MHz  |  7.8 GiB RAM
 Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
@@ -430,7 +430,7 @@ Memory Mark:                       2152
 
 ### Speedtest
 
-```
+```shell
 root@v1709013788:~# speedtest
 
    Speedtest by Ookla

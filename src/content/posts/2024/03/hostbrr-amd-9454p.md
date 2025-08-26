@@ -42,7 +42,7 @@ categories:
 
 ### Lscpu
 
-```
+```shell
 root@HostBrr:~# lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -92,7 +92,7 @@ Vulnerabilities:
 
 ### Yabs
 
-```
+```shell
 
 Basic System Information:
 ---------------------------------
@@ -156,7 +156,7 @@ YABS completed in 8 min 53 sec
 
 ### Bench
 
-```
+```shell
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2023-10-15
  Usage              : wget -qO- bench.sh | bash
@@ -199,7 +199,7 @@ YABS completed in 8 min 53 sec
 
 ### GeekBench5
 
-```
+```shell
 Geekbench 5 测试结果
 
 系统信息
@@ -230,7 +230,7 @@ Geekbench 5 测试结果
 
 ### 融合怪脚本测试
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : AMD EPYC 9454P 48-Core Processor
  CPU 核心数        : 6
@@ -416,7 +416,7 @@ Speedtest.net    940.72 Mbps     944.97 Mbps     3.82     0.0%
 
 ### PassMark PerformanceTest Linux 测试
 
-```
+```shell
 AMD EPYC 9454P 48-Core Processor (x86_64)
 6 cores @ 0 MHz  |  19.5 GiB RAM
 Number of Processes: 6  |  Test Iterations: 1  |  Test Duration: Medium
@@ -445,7 +445,7 @@ Memory Mark:                       2764
 
 ### byte-unixbench 性能测试
 
-```
+```shell
 ========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)
 

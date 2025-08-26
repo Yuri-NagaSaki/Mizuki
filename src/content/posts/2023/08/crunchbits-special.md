@@ -19,7 +19,7 @@ categories:
 
 ### 流媒体解锁
 
-```
+```shell
 ============[ Multination ]============
  Dazn:                                  No
  HotStar:                               No
@@ -140,7 +140,7 @@ categories:
 
 ### 融合怪脚本
 
-```
+```shell
 ---------------------基础信息查询--感谢所有开源项目---------------------
  CPU 型号          : Intel(R) Xeon(R) CPU E5-2696 v4 @ 2.20GHz
  CPU 核心数        : 2
